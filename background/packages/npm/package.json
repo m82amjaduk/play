@@ -1,0 +1,16 @@
+{
+  "author"        : {"name": "Kevin Malakoff", "url": "https://github.com/kmalakoff"},
+  "name"          : "background",
+  "description"   : "Background.js provides a background job queue and list with array iterators for Javascript applications.",
+  "keywords"      : ["background", "backgroundjs", "jobs", "workers", "tasks", "javascript", "coffeescript"],
+
+  "url"           : "http://kmalakoff.github.com/background/",
+  "homepage"      : "http://kmalakoff.github.com/background/",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kmalakoff/background.git"
+  },
+
+  "main"          : "background.js",
+  "version"       : "0.3.3"
+}
