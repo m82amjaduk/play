@@ -23,29 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery-cookie/index.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="72" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module-loader.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.49675325" vertical-offset="0" max-vertical-offset="308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.cookie.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery-cookie/jquery_cookie/jquery.cookie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="49" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2091">
-              <folding />
+            <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.4822695" vertical-offset="0" max-vertical-offset="1054">
+              <folding>
+                <element signature="e#3#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +51,8 @@
         <option value="$PROJECT_DIR$/jquery-cookie/index.html" />
         <option value="$PROJECT_DIR$/TEMP.php" />
         <option value="$PROJECT_DIR$/jquery-cookie/index.php" />
+        <option value="$PROJECT_DIR$/jquery-cookie/Sample/index.php" />
+        <option value="$PROJECT_DIR$/jQueryCookie/Sample/index.php" />
       </list>
     </option>
   </component>
@@ -122,6 +108,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQueryCookie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQueryCookie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQueryCookie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -138,6 +192,7 @@
       <recent name="C:\Zend\Apache2\htdocs\play\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\jquery-cookie\Sample" />
       <recent name="C:\Zend\Apache2\htdocs\play\jquery-cookie" />
       <recent name="C:\Zend\Apache2\htdocs\play\jquery-cookie\jquery_cookie" />
       <recent name="C:\Zend\Apache2\htdocs\play" />
@@ -205,11 +260,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -229,9 +284,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/index.php">
+    <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+        <state line="16" column="12" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -243,37 +298,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/jquery_cookie/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/jquery_cookie/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
@@ -358,39 +385,45 @@
         <state line="8" column="20" selection-start="111" selection-end="111" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="44" selection-end="317" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookie/save_array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TEMP.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="17" selection-start="335" selection-end="335" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/jquery_cookie/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-cookie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.49675325" vertical-offset="0" max-vertical-offset="308">
+        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.33442622" vertical-offset="0" max-vertical-offset="610">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie/save_array.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.24113475" vertical-offset="153" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="783" selection-end="783" vertical-scroll-proportion="0.52397263" vertical-offset="170" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/js/dsf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="6" selection-end="90" vertical-scroll-proportion="0.120567374" vertical-offset="0" max-vertical-offset="282">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.4822695" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="e#3#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

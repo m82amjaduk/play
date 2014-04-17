@@ -17,3 +17,4 @@
 [Wed Apr 16 18:22:36 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/background/examples/build, referer: http://learning7.lc/background/examples/example_queue.html
 [Wed Apr 16 18:22:50 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/background/examples/build, referer: http://learning7.lc/background/examples/example_list.html
 [Wed Apr 16 18:23:00 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/background/examples/build, referer: http://learning7.lc/background/examples/example_list.html
+[Thu Apr 17 16:17:10 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
