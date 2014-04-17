@@ -13,3 +13,7 @@
 [Wed Apr 16 10:14:27 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jquery-cookie/jquery_cookie/jquery.cookie.js, referer: http://learning7.lc/jquery-cookie/
 [Wed Apr 16 10:14:28 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jquery-cookie/jquery_cookie/jquery.cookie.js, referer: http://learning7.lc/jquery-cookie/
 [Wed Apr 16 10:14:48 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jquery-cookie/jquery_cookie/jquery.cookie.js, referer: http://learning7.lc/jquery-cookie/index.php
+[Wed Apr 16 18:22:24 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Apr 16 18:22:36 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/background/examples/build, referer: http://learning7.lc/background/examples/example_queue.html
+[Wed Apr 16 18:22:50 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/background/examples/build, referer: http://learning7.lc/background/examples/example_list.html
+[Wed Apr 16 18:23:00 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/background/examples/build, referer: http://learning7.lc/background/examples/example_list.html
