@@ -1,0 +1,12 @@
+<records>
+ <person>
+  <name>XYZ</name>
+  <age>28</age>
+  <gender>Male</gender>
+ </person>
+ <person>
+  <name>ABC</name>
+  <age>25</age>
+  <gender>Male</gender>
+ </person>
+</records>
