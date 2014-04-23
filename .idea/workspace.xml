@@ -23,12 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/index.php">
+      <file leaf-file-name="wait.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pleaseWait/wait.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.4822695" vertical-offset="0" max-vertical-offset="1054">
+            <state line="16" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="-5.4444447" vertical-offset="189" max-vertical-offset="882">
               <folding>
-                <element signature="e#3#81#0" expanded="true" />
+                <element signature="e#6#89#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pleaseWait/load.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="27" selection-start="138" selection-end="138" vertical-scroll-proportion="0.40710825" vertical-offset="0" max-vertical-offset="619">
+              <folding>
+                <element signature="e#6#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,15 +65,15 @@
         <option value="$PROJECT_DIR$/jquery-cookie/index.php" />
         <option value="$PROJECT_DIR$/jquery-cookie/Sample/index.php" />
         <option value="$PROJECT_DIR$/jQueryCookie/Sample/index.php" />
+        <option value="$PROJECT_DIR$/pleaseWait/wait.php" />
+        <option value="$PROJECT_DIR$/pleaseWait/load.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -77,7 +89,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ColorIdeProjectViewPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -89,6 +101,40 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ColorIdeProjectViewPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pleaseWait" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -118,47 +164,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jQueryCookie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQueryCookie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jQueryCookie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WorkerQueue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,6 +189,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../magento-enterprise-rd" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,6 +222,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SqlCodeAssistantSettings">
+    <option name="dbBrowserSelectedConnection" value="play" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="485bdb5f-7f60-48db-94db-698c7c039800" name="Default" comment="" />
@@ -244,17 +254,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47484276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4732143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16163142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16163142" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -281,28 +292,42 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
+    <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306">
-          <folding />
+        <state line="11" column="6" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1302">
+          <folding>
+            <element signature="e#3#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1302">
+          <folding>
+            <element signature="e#3#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="16" column="12" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logfiles/errorApache.log">
@@ -392,37 +417,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/background/src/module-loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.33442622" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
+        <state line="16" column="14" selection-start="483" selection-end="483" vertical-scroll-proportion="0.33442622" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookie/save_array.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.24113475" vertical-offset="153" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.24113475" vertical-offset="153" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookie/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="783" selection-end="783" vertical-scroll-proportion="0.52397263" vertical-offset="170" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/js/dsf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="6" selection-end="90" vertical-scroll-proportion="0.120567374" vertical-offset="0" max-vertical-offset="282">
-          <folding />
-        </state>
+        <state line="28" column="25" selection-start="783" selection-end="783" vertical-scroll-proportion="0.52397263" vertical-offset="170" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryCookie/Sample/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.4822695" vertical-offset="0" max-vertical-offset="1054">
+        <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.2714055" vertical-offset="0" max-vertical-offset="1302">
           <folding>
             <element signature="e#3#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/obj2xml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="56" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.44103393" vertical-offset="1008" max-vertical-offset="2016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pleaseWait/wait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="-5.4444447" vertical-offset="189" max-vertical-offset="882">
+          <folding>
+            <element signature="e#6#89#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pleaseWait/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="138" selection-end="138" vertical-scroll-proportion="0.40710825" vertical-offset="0" max-vertical-offset="619">
+          <folding>
+            <element signature="e#6#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
