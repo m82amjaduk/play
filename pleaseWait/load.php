@@ -9,6 +9,7 @@
 <style>
     .back{
         background : #<?=mt_rand(1,999999)?>;
+        width: <?=mt_rand(100,500)?>px;
         color: #fff;
     }
 </style>

@@ -6,6 +6,11 @@
  * Time: 11:31
  */
 
+/*
+ *  Covert from Obj to xml
+ *  Prints value with &gt; & &lt;
+ */
+
 class ObjectAndXML {
     private static $xml;
 
@@ -13,7 +18,7 @@ class ObjectAndXML {
     public function __construct() {
         $this->xml = new XmlWriter();
         $this->xml->openMemory();
-//        $this->xml->startDocument('1.0');
+        $this->xml->startDocument('1.0');
         $this->xml->setIndent(true);
     }
 
