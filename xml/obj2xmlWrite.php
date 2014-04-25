@@ -95,7 +95,10 @@ $objData1->records->person[1]->gender = 'Male';
 
 
 
+echo $recordsXML =  json_encode($objData1);
+$dir = 'C:\Zend\Apache2\htdocs\play\xml\test\writejSON.xml';
+file_put_contents($dir, $recordsXML);
 
-echo $recordsXML = $obj->objToXML($objData1);
-$dir = 'C:\Zend\Apache2\htdocs\play\xml\test\test.xml';
+$recordsXML = $obj->objToXML($objData1);
+$dir = 'C:\Zend\Apache2\htdocs\play\xml\test\write.xml';
 file_put_contents($dir, $recordsXML);

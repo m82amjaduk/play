@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/xml/obj2xmlChild.php" line="30" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="485bdb5f-7f60-48db-94db-698c7c039800" name="Default" comment="" />
     <ignored path="play.iws" />
@@ -23,13 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="obj2xml.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/obj2xml.php">
+      <file leaf-file-name="obj2xmlWrite.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xml/obj2xmlWrite.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="-28.777779" vertical-offset="0" max-vertical-offset="2226">
-              <folding>
-                <element signature="e#6#89#0" expanded="true" />
-              </folding>
+            <state line="41" column="41" selection-start="971" selection-end="971" vertical-scroll-proportion="0.36021507" vertical-offset="555" max-vertical-offset="2205">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,16 +38,16 @@
       <file leaf-file-name="load.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pleaseWait/load.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="567">
+            <state line="12" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="obj2xmlChild.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="obj2xmlChild.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xml/obj2xmlChild.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.9067164" vertical-offset="1563" max-vertical-offset="2247">
+            <state line="12" column="0" selection-start="160" selection-end="267" vertical-scroll-proportion="-2.8269231" vertical-offset="0" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -55,7 +56,7 @@
       <file leaf-file-name="child.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xml/test/child.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
+            <state line="2" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
               <folding />
             </state>
           </provider>
@@ -85,6 +86,7 @@
         <option value="$PROJECT_DIR$/xml/obj2xml.php" />
         <option value="$PROJECT_DIR$/logfiles/errorApache.log" />
         <option value="$PROJECT_DIR$/xml/test/child.xml" />
+        <option value="$PROJECT_DIR$/xml/obj2xmlWrite.php" />
         <option value="$PROJECT_DIR$/xml/obj2xmlChild.php" />
       </list>
     </option>
@@ -320,12 +322,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47463176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32733223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47463176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -340,8 +342,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -363,11 +365,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pleaseWait/wait.php">
+    <entry file="file://$PROJECT_DIR$/xml/obj2xmlWrite.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="882">
+        <state line="42" column="51" selection-start="1023" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2226">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pleaseWait/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/obj2xmlChild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="20" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/test/child.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pleaseWait/wait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pleaseWait/load.php">
@@ -492,46 +520,49 @@
         <state line="8" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.2714055" vertical-offset="0" max-vertical-offset="1302" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/test/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.46666667" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pleaseWait/wait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="0.26344085" vertical-offset="84" max-vertical-offset="777">
-          <folding />
-        </state>
+        <state line="16" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="0.26344085" vertical-offset="84" max-vertical-offset="777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pleaseWait/load.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="567">
+        <state line="12" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/obj2xml.php">
+    <entry file="file://$PROJECT_DIR$/xml/test/write.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="-28.777779" vertical-offset="0" max-vertical-offset="2226">
-          <folding>
-            <element signature="e#6#89#0" expanded="true" />
-          </folding>
+        <state line="11" column="10" selection-start="191" selection-end="191" vertical-scroll-proportion="0.3935264" vertical-offset="0" max-vertical-offset="587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/test/writejSON.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml/test/child.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
+        <state line="2" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml/obj2xmlChild.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.9067164" vertical-offset="1563" max-vertical-offset="2247">
+        <state line="12" column="0" selection-start="160" selection-end="267" vertical-scroll-proportion="-2.8269231" vertical-offset="0" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/obj2xmlWrite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="41" selection-start="971" selection-end="971" vertical-scroll-proportion="0.36021507" vertical-offset="555" max-vertical-offset="2205">
           <folding />
         </state>
       </provider>

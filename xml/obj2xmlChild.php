@@ -15,11 +15,11 @@ ini_set('memory_limit', '512M');
 ini_set('error_log','var/log/errorPhp.log');
 
 class ObjectAndXML {
-//    private static $xml;
+    private static $xml;
 
     // Constructor
     public function __construct() {
-//        $this->xml =  new SimpleXMLElement('<root/>');
+        $this->xml =  new SimpleXMLElement('<root/>');
 //        $this->xml->startDocument('1.0');
     }
 
@@ -35,19 +35,17 @@ class ObjectAndXML {
     // Method to convert Object into XML string
     public function getObject2XML($data, $xml) {
         foreach($data as $key => $value){
-            echo '<br />This is a Key >> ',$key;
-            $keyChild =  (is_numeric($key))? $key :  'test';
-
-            if (is_array($value)){
-                $newXml = $xml->addChild('yesms');
-                $this->getArray2XML($value, $newXml);
+            if(is_object($value)){
+                $xml->startElement($key);
+                $xml->addChild(get_class($key));
+                $this->getObject2XML($value, $xml);
+                $xml->endElement();
             }
-            else if(is_object($value)){
-                $newXml = $xml->addChild('yesms');
-                $this->getObject2XML($value, $newXml);
+            else if (is_array($value)){
+                $this->getArray2XML($value, $xml);
             }
             else
-                $xml->addChild( $key, $value);
+                $xml->addChild($key, $value);
         }
         return $xml;
     }
@@ -55,16 +53,14 @@ class ObjectAndXML {
     // Method to convert Object into XML string
     public function getArray2XML($data, $xml) {
         foreach($data as $key => $value){
-            $keyChild =  (is_numeric($key))? $key :  'test';
 
-            if (is_array($value)){
-                $newXml = $xml->addChild('yesms');
-                $this->getArray2XML($value, $newXml);
+            if(is_object($value)){
+                $this->getObject2XML($value, $xml);
             }
-            else if(is_object($value)){
-                $newXml = $xml->addChild('yesms');
-                $this->getObject2XML($value, $newXml);
-            }else
+            else if (is_array($value)){
+                $this->getArray2XML($value, $xml->addChild($key));
+            }
+            else
                 $xml->addChild($key, $value);
         }
         return $xml;
@@ -99,9 +95,8 @@ $objData1->records->person[1]->friend = $friend;
 
 $xml = "<root/>";
 
-echo $recordsXML = $obj->objToXML($objData1, $xml, TRUE);
+$recordsXML = $obj->objToXML($objData1, $xml, TRUE);
 $dir = 'C:\Zend\Apache2\htdocs\play\xml\test\child.xml';
 file_put_contents($dir, $recordsXML);
 
-echo '<pre>';
-var_dump ($objData1);
+echo json_encode ($objData1);
