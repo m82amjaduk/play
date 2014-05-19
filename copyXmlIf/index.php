@@ -6,13 +6,18 @@
  * Time: 13:15
  */
 
+// copy  copyXmlIf\new\*  copyXmlIf\xmls\
+
 $dir = 'xmls/';
+$newDir = 'new/';
+date_default_timezone_set('UTC');
 $movedFiles = $remainingFiles = array();
+
 $dirArray = getFileList ($dir);
 
 foreach ($dirArray as $file){
     $state = checkStatus($dir.$file);
-    $deleted = moveFile($file, $dir, 'new/', $state );
+    $deleted = moveFile($file, $dir, $newDir, $state );
     if ($deleted) $movedFiles[] = $file;
     else $remainingFiles [] = $file;
 }
@@ -22,7 +27,6 @@ print_r($remainingFiles);
 
 function checkStatus($fileName){
     $xml=simplexml_load_file($fileName);
-    date_default_timezone_set('UTC');
 
     $updated = strtotime($xml->updated_at);
     $dueToMove = time() - (40*60);
