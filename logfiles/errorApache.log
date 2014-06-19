@@ -39,3 +39,41 @@
 [Wed May 07 16:36:14 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Fri May 16 11:51:17 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Mon May 19 12:21:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue May 27 12:17:43 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Jun 04 16:04:01 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Jun 04 16:39:35 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Fri Jun 06 12:57:32 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Jun 17 15:58:46 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Jun 18 17:22:20 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF
+[Wed Jun 18 17:22:20 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Jun 18 17:22:46 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF-master/example
+[Wed Jun 18 17:23:28 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs/base64.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:29 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:29 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:29 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:29 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:31 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:52 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:54 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:54 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:54 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:24:54 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:25:53 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:25:53 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:25:53 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:25:53 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:26:23 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs/base64.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:26:23 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/jspdf.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:30:51 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/libs/base64.js, referer: http://learning7.lc/jsPDF/examples/downloadify.html
+[Wed Jun 18 17:54:37 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jsPDF/examplesSimple

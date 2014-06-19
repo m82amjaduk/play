@@ -7,3 +7,4 @@
  */
 
 echo "this is Root";
+phpinfo();

@@ -1,0 +1,23 @@
+<!doctype>
+<html>
+<head>
+	<title>jsPDF</title>
+	<script type="text/javascript" src="jspdf.debug.js"></script>
+    <script>
+        function demoLandscape() {
+            var doc = new jsPDF('landscape');
+            doc.text(20, 20, 'Hello landscape world!');
+
+            // Save the PDF
+            doc.save('Test3.pdf');
+        }
+    </script>
+
+</head>
+
+<body>
+<pre>
+doc.save('Test.pdf');</pre>
+<a href="javascript:demoLandscape()" class="button">Run Code</a></p></div>
+</body>
+</html>

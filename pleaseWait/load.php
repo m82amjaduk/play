@@ -15,6 +15,7 @@
 </style>
 <div class="back">
 <?
+usleep(900000);
     echo(mt_rand() . "<br>");
     echo(mt_rand() . "<br>");
     echo(mt_rand(10,100));
