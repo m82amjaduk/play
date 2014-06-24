@@ -6878,7 +6878,7 @@ var Deflater = (function(obj) {
 					} // literal or match pair ?
 
 					// Check that the overlay between pending_buf and d_buf+l_buf is
-					// ok:
+					// ok;
 				} while (lx < last_lit);
 			}
 
