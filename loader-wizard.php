@@ -3133,7 +3133,7 @@ function server_selection_form()
     <form method=GET action=$self>
         <input type="hidden" name="page" value="default">
         <input type="hidden" name="timeout" value="$timeout">
-        <input type=radio id=shared name=stype value=s onclick="document.getElementById('hostinginfo').style.display = 'block';"><label for=shared>Shared <small>(for example, server with FTP access only and no access to php.ini)</small></label><br>
+        <input type=radio id=shared name=stype value=s onclick="document.getElementById('hostinginfo').style.display = 'block';"><label for=shared>Shared <small>(for basic, server with FTP access only and no access to php.ini)</small></label><br>
         <input type=radio id=dedi name=stype value=d onclick="document.getElementById('hostinginfo').style.display = 'block';"><label for=dedi>Dedicated or VPS <small>(server with full root ssh access)</small></label><br>
         <div id="hostinginfo" style="display: none">If you are on a shared or dedicated server, please give your hosting provider and their URL:
             <table>

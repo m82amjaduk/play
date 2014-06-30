@@ -197,7 +197,7 @@ jasmine.isDomNode = function(obj) {
 /**
  * Returns a matchable 'generic' object of the class type.  For use in expecations of type when values don't matter.
  *
- * @example
+ * @basic
  * // don't care about which function is passed in, as long as it's a function
  * expect(mySpy).toHaveBeenCalledWith(jasmine.any(Function));
  *
@@ -212,7 +212,7 @@ jasmine.any = function(clazz) {
  * Returns a matchable subset of a JSON object. For use in expectations when you don't care about all of the
  * attributes on the object.
  *
- * @example
+ * @basic
  * // don't care about any other attributes than foo.
  * expect(mySpy).toHaveBeenCalledWith(jasmine.objectContaining({foo: "bar"});
  *
@@ -235,11 +235,11 @@ jasmine.objectContaining = function (sample) {
  *
  * Note: Do <b>not</b> call new jasmine.Spy() directly - a spy must be created using spyOn, jasmine.createSpy or jasmine.createSpyObj.
  *
- * @example
+ * @basic
  * // a stub
  * var myStub = jasmine.createSpy('myStub');  // can be used anywhere
  *
- * // spy example
+ * // spy basic
  * var foo = {
  *   not: function(bool) { return !bool; }
  * }
@@ -250,7 +250,7 @@ jasmine.objectContaining = function (sample) {
  // foo.not spied upon, execution will continue to implementation
  * spyOn(foo, 'not').andCallThrough();
  *
- * // fake example
+ * // fake basic
  * var foo = {
  *   not: function(bool) { return !bool; }
  * }
@@ -258,7 +258,7 @@ jasmine.objectContaining = function (sample) {
  * // foo.not(val) will return val
  * spyOn(foo, 'not').andCallFake(function(value) {return value;});
  *
- * // mock example
+ * // mock basic
  * foo.not(7 == 7);
  * expect(foo.not).toHaveBeenCalled();
  * expect(foo.not).toHaveBeenCalledWith(true);
@@ -283,7 +283,7 @@ jasmine.Spy = function(name) {
   };
   /**
    * Tracking of the most recent call to the spy.
-   * @example
+   * @basic
    * var mySpy = jasmine.createSpy('foo');
    * mySpy(1, 2);
    * mySpy.mostRecentCall.args = [1, 2];
@@ -292,7 +292,7 @@ jasmine.Spy = function(name) {
 
   /**
    * Holds arguments for each call to the spy, indexed by call count
-   * @example
+   * @basic
    * var mySpy = jasmine.createSpy('foo');
    * mySpy(1, 2);
    * mySpy(7, 8);
@@ -307,7 +307,7 @@ jasmine.Spy = function(name) {
 /**
  * Tells a spy to call through to the actual implemenatation.
  *
- * @example
+ * @basic
  * var foo = {
  *   bar: function() { // do some stuff }
  * }
@@ -323,7 +323,7 @@ jasmine.Spy.prototype.andCallThrough = function() {
 /**
  * For setting the return value of a spy.
  *
- * @example
+ * @basic
  * // defining a spy from scratch: foo() returns 'baz'
  * var foo = jasmine.createSpy('spy on foo').andReturn('baz');
  *
@@ -342,7 +342,7 @@ jasmine.Spy.prototype.andReturn = function(value) {
 /**
  * For throwing an exception when a spy is called.
  *
- * @example
+ * @basic
  * // defining a spy from scratch: foo() throws an exception w/ message 'ouch'
  * var foo = jasmine.createSpy('spy on foo').andThrow('baz');
  *
@@ -361,7 +361,7 @@ jasmine.Spy.prototype.andThrow = function(exceptionMsg) {
 /**
  * Calls an alternate implementation when a spy is called.
  *
- * @example
+ * @basic
  * var baz = function() {
  *   // do some stuff, return something
  * }
@@ -381,7 +381,7 @@ jasmine.Spy.prototype.andCallFake = function(fakeFunc) {
 /**
  * Resets all of a spy's the tracking variables so that it can be used again.
  *
- * @example
+ * @basic
  * spyOn(foo, 'bar');
  *
  * foo.bar();
@@ -465,8 +465,8 @@ jasmine.log = function() {
 /**
  * Function that installs a spy on an existing object's method name.  Used within a Spec to create a spy.
  *
- * @example
- * // spy example
+ * @basic
+ * // spy basic
  * var foo = {
  *   not: function(bool) { return !bool; }
  * }
@@ -487,7 +487,7 @@ if (isCommonJS) exports.spyOn = spyOn;
  *
  * // TODO: pending tests
  *
- * @example
+ * @basic
  * it('should be true', function() {
  *   expect(true).toEqual(true);
  * });
@@ -591,7 +591,7 @@ if (isCommonJS) exports.afterEach = afterEach;
  * are accessible by calls to beforeEach, it, and afterEach. Describe blocks can be nested, allowing for specialization
  * of setup in some tests.
  *
- * @example
+ * @basic
  * // TODO: a simple suite
  *
  * // TODO: a simple suite with a nested describe block
@@ -1401,7 +1401,7 @@ jasmine.Matchers.prototype.wasNotCalled = function() {
 /**
  * Matcher that checks to see if the actual, a Jasmine spy, was called with a set of parameters.
  *
- * @example
+ * @basic
  *
  */
 jasmine.Matchers.prototype.toHaveBeenCalledWith = function() {

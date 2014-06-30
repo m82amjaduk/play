@@ -1016,7 +1016,7 @@ var jsPDF = (function(global) {
 		 * For lines you only need to specify [x2, y2] - (ending point) vector against x1, y1 starting point.
 		 * For bezier curves you need to specify [x2,y2,x3,y3,x4,y4] - vectors to control points 1, 2, ending point. All vectors are against the start of the curve - x1,y1.
 		 *
-		 * @example .lines([[2,2],[-2,2],[1,1,2,2,3,3],[2,1]], 212,110, 10) // line, line, bezier curve, line
+		 * @basic .lines([[2,2],[-2,2],[1,1,2,2,3,3],[2,1]], 212,110, 10) // line, line, bezier curve, line
 		 * @param {Array} lines Array of *vector* shifts as pairs (lines) or sextets (cubic bezier curves).
 		 * @param {Number} x Coordinate (in units declared at inception of PDF document) against left edge of the page
 		 * @param {Number} y Coordinate (in units declared at inception of PDF document) against upper edge of the page
@@ -1515,7 +1515,7 @@ var jsPDF = (function(global) {
 		 * If only one, first argument is given,
 		 * treats the value as gray-scale color value.
 		 *
-		 * @param {Number} r Red channel color value in range 0-255 or {String} r color value in hexadecimal, example: '#FFFFFF'
+		 * @param {Number} r Red channel color value in range 0-255 or {String} r color value in hexadecimal, basic: '#FFFFFF'
 		 * @param {Number} g Green channel color value in range 0-255
 		 * @param {Number} b Blue channel color value in range 0-255
 		 * @function
@@ -1686,7 +1686,7 @@ var jsPDF = (function(global) {
 	 * @memberOf jsPDF
 	 * @name API
 	 *
-	 * @example
+	 * @basic
 	 * jsPDF.API.mymethod = function(){
 	 *   // 'this' will be ref to internal API object. see jsPDF source
 	 *   // , so you can refer to built-in methods like so:
@@ -2192,7 +2192,7 @@ var jsPDF = (function(global) {
 	 *
 	 * Also of note from Mozilla,
 	 *
-	 * "However, this is slow and error-prone, due to the need for multiple conversions (especially if the binary data is not actually byte-format data, but, for example, 32-bit integers or floats)."
+	 * "However, this is slow and error-prone, due to the need for multiple conversions (especially if the binary data is not actually byte-format data, but, for basic, 32-bit integers or floats)."
 	 *
 	 * https://developer.mozilla.org/en-US/Add-ons/Code_snippets/StringView
 	 *
@@ -4684,7 +4684,7 @@ var splitParagraphIntoLines = function(text, maxlen, options){
 
 		if (line_length + separator_length + current_word_length > maxlen || force) {
 			if (current_word_length > maxlen) {
-				// this happens when you have space-less long URLs for example.
+				// this happens when you have space-less long URLs for basic.
 				// we just chop these to size. We do NOT insert hiphens
 				tmp = splitLongWord(word, widths_array, maxlen - (line_length + separator_length), maxlen)
 				// first line we add to existing line object
@@ -5081,7 +5081,7 @@ var uncompress = function(data){
 // this means that you can give Win cp1252 encoded strings to jsPDF for rendering directly
 // as well as give strings with some (supported by these fonts) Unicode characters and 
 // these will be mapped to win cp1252 
-// for example, you can send char code (cp1252) 0x80 or (unicode) 0x20AC, getting "Euro" glyph displayed in both cases.
+// for basic, you can send char code (cp1252) 0x80 or (unicode) 0x20AC, getting "Euro" glyph displayed in both cases.
 
 var encodingBlock = {
 	'codePages': ['WinAnsiEncoding']
@@ -6024,7 +6024,7 @@ var Deflater = (function(obj) {
 			if (overflow === 0)
 				return;
 
-			// This happens for example on obj2 and pic of the Calgary corpus
+			// This happens for basic on obj2 and pic of the Calgary corpus
 			// Find the first bit length which could increase:
 			do {
 				bits = max_length - 1;
@@ -6446,7 +6446,7 @@ var Deflater = (function(obj) {
 		// This is applicable only for zip (not gzip or zlib).
 		// - creating new Huffman trees less frequently may not provide fast
 		// adaptation to changes in the input data statistics. (Take for
-		// example a binary file with poorly compressible code followed by
+		// basic a binary file with poorly compressible code followed by
 		// a highly compressible string table.) Smaller buffer sizes give
 		// fast adaptation but have of course the overhead of transmitting
 		// trees more frequently.
@@ -8866,7 +8866,7 @@ var FlateStream = (function() {
 			// improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
 			// improved by: Rafal Kukawski (http://kukawski.pl)
 			// bugfixed by: Pellentesque Malesuada
-			//   example 1: base64_encode('Kevin van Zonneveld');
+			//   basic 1: base64_encode('Kevin van Zonneveld');
 			//   returns 1: 'S2V2aW4gdmFuIFpvbm5ldmVsZA=='
 
 			var o1,o2,o3,h1,h2,h3,h4,bits,i = 0,ac = 0,enc = '',tmp_arr = [];
@@ -8911,7 +8911,7 @@ var FlateStream = (function() {
 			// bugfixed by: Onno Marsman
 			// bugfixed by: Pellentesque Malesuada
 			// bugfixed by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
-			//   example 1: base64_decode('S2V2aW4gdmFuIFpvbm5ldmVsZA==');
+			//   basic 1: base64_decode('S2V2aW4gdmFuIFpvbm5ldmVsZA==');
 			//   returns 1: 'Kevin van Zonneveld'
 
 			var o1,o2,o3,h1,h2,h3,h4,bits,i = 0,ac = 0,dec = '',tmp_arr = [];

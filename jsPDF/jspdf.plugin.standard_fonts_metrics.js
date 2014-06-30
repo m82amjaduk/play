@@ -258,7 +258,7 @@ var uncompress = function(data){
 // this means that you can give Win cp1252 encoded strings to jsPDF for rendering directly
 // as well as give strings with some (supported by these fonts) Unicode characters and 
 // these will be mapped to win cp1252 
-// for example, you can send char code (cp1252) 0x80 or (unicode) 0x20AC, getting "Euro" glyph displayed in both cases.
+// for basic, you can send char code (cp1252) 0x80 or (unicode) 0x20AC, getting "Euro" glyph displayed in both cases.
 
 var encodingBlock = {
 	'codePages': ['WinAnsiEncoding']

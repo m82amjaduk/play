@@ -307,7 +307,7 @@ var QUnit = {
 
 	/**
 	 * Asserts true.
-	 * @example ok( "asdfasdf".length > 5, "There must be at least 5 chars" );
+	 * @basic ok( "asdfasdf".length > 5, "There must be at least 5 chars" );
 	 */
 	ok: function(a, msg) {
 		if (!config.current) {
@@ -332,7 +332,7 @@ var QUnit = {
 	 *
 	 * Prefered to ok( actual == expected, message )
 	 *
-	 * @example equal( format("Received {0} bytes.", 2), "Received 2 bytes." );
+	 * @basic equal( format("Received {0} bytes.", 2), "Received 2 bytes." );
 	 *
 	 * @param Object actual
 	 * @param Object expected
@@ -595,7 +595,7 @@ extend(QUnit, {
 	/**
 	 * Trigger an event on an element.
 	 *
-	 * @example triggerEvent( document.body, "click" );
+	 * @basic triggerEvent( document.body, "click" );
 	 *
 	 * @param DOMElement elem
 	 * @param String type

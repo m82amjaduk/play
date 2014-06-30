@@ -1016,7 +1016,7 @@ var jsPDF = (function(global) {
 		 * For lines you only need to specify [x2, y2] - (ending point) vector against x1, y1 starting point.
 		 * For bezier curves you need to specify [x2,y2,x3,y3,x4,y4] - vectors to control points 1, 2, ending point. All vectors are against the start of the curve - x1,y1.
 		 *
-		 * @example .lines([[2,2],[-2,2],[1,1,2,2,3,3],[2,1]], 212,110, 10) // line, line, bezier curve, line
+		 * @basic .lines([[2,2],[-2,2],[1,1,2,2,3,3],[2,1]], 212,110, 10) // line, line, bezier curve, line
 		 * @param {Array} lines Array of *vector* shifts as pairs (lines) or sextets (cubic bezier curves).
 		 * @param {Number} x Coordinate (in units declared at inception of PDF document) against left edge of the page
 		 * @param {Number} y Coordinate (in units declared at inception of PDF document) against upper edge of the page
@@ -1515,7 +1515,7 @@ var jsPDF = (function(global) {
 		 * If only one, first argument is given,
 		 * treats the value as gray-scale color value.
 		 *
-		 * @param {Number} r Red channel color value in range 0-255 or {String} r color value in hexadecimal, example: '#FFFFFF'
+		 * @param {Number} r Red channel color value in range 0-255 or {String} r color value in hexadecimal, basic: '#FFFFFF'
 		 * @param {Number} g Green channel color value in range 0-255
 		 * @param {Number} b Blue channel color value in range 0-255
 		 * @function
@@ -1686,7 +1686,7 @@ var jsPDF = (function(global) {
 	 * @memberOf jsPDF
 	 * @name API
 	 *
-	 * @example
+	 * @basic
 	 * jsPDF.API.mymethod = function(){
 	 *   // 'this' will be ref to internal API object. see jsPDF source
 	 *   // , so you can refer to built-in methods like so:

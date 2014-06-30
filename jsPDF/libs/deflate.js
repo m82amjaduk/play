@@ -166,7 +166,7 @@ var Deflater = (function(obj) {
 			if (overflow === 0)
 				return;
 
-			// This happens for example on obj2 and pic of the Calgary corpus
+			// This happens for basic on obj2 and pic of the Calgary corpus
 			// Find the first bit length which could increase:
 			do {
 				bits = max_length - 1;
@@ -588,7 +588,7 @@ var Deflater = (function(obj) {
 		// This is applicable only for zip (not gzip or zlib).
 		// - creating new Huffman trees less frequently may not provide fast
 		// adaptation to changes in the input data statistics. (Take for
-		// example a binary file with poorly compressible code followed by
+		// basic a binary file with poorly compressible code followed by
 		// a highly compressible string table.) Smaller buffer sizes give
 		// fast adaptation but have of course the overhead of transmitting
 		// trees more frequently.

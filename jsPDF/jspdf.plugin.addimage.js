@@ -366,7 +366,7 @@
 	 *
 	 * Also of note from Mozilla,
 	 *
-	 * "However, this is slow and error-prone, due to the need for multiple conversions (especially if the binary data is not actually byte-format data, but, for example, 32-bit integers or floats)."
+	 * "However, this is slow and error-prone, due to the need for multiple conversions (especially if the binary data is not actually byte-format data, but, for basic, 32-bit integers or floats)."
 	 *
 	 * https://developer.mozilla.org/en-US/Add-ons/Code_snippets/StringView
 	 *

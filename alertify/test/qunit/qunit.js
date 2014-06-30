@@ -405,7 +405,7 @@ QUnit.assert = {
 	 * Asserts rough true-ish result.
 	 * @name ok
 	 * @function
-	 * @example ok( "asdfasdf".length > 5, "There must be at least 5 chars" );
+	 * @basic ok( "asdfasdf".length > 5, "There must be at least 5 chars" );
 	 */
 	ok: function( result, msg ) {
 		if ( !config.current ) {
@@ -441,7 +441,7 @@ QUnit.assert = {
 	 * Prints out both actual and expected values.
 	 * @name equal
 	 * @function
-	 * @example equal( format( "Received {0} bytes.", 2), "Received 2 bytes.", "format() replaces {0} with next argument" );
+	 * @basic equal( format( "Received {0} bytes.", 2), "Received 2 bytes.", "format() replaces {0} with next argument" );
 	 */
 	equal: function( actual, expected, message ) {
 		QUnit.push( expected == actual, actual, expected, message );
@@ -725,7 +725,7 @@ extend( QUnit, {
 	},
 
 	// Trigger an event on an element.
-	// @example triggerEvent( document.body, "click" );
+	// @basic triggerEvent( document.body, "click" );
 	triggerEvent: function( elem, type, event ) {
 		if ( document.createEvent ) {
 			event = document.createEvent( "MouseEvents" );

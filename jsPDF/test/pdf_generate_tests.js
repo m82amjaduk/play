@@ -18,7 +18,7 @@ if (typeof atob === 'undefined') {
     // +      input by: Brett Zamir (http://brett-zamir.me)
     // +   bugfixed by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
     // -    depends on: utf8_decode
-    // *     example 1: base64_decode('S2V2aW4gdmFuIFpvbm5ldmVsZA==');
+    // *     basic 1: base64_decode('S2V2aW4gdmFuIFpvbm5ldmVsZA==');
     // *     returns 1: 'Kevin van Zonneveld'
 
 	var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";

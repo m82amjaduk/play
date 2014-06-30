@@ -186,7 +186,7 @@ var splitParagraphIntoLines = function(text, maxlen, options){
 
 		if (line_length + separator_length + current_word_length > maxlen || force) {
 			if (current_word_length > maxlen) {
-				// this happens when you have space-less long URLs for example.
+				// this happens when you have space-less long URLs for basic.
 				// we just chop these to size. We do NOT insert hiphens
 				tmp = splitLongWord(word, widths_array, maxlen - (line_length + separator_length), maxlen)
 				// first line we add to existing line object
