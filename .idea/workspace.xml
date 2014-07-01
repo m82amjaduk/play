@@ -23,47 +23,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="store_locator.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/store_locator.sql">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="3780">
+            <state line="25" column="67" selection-start="4470" selection-end="4470" vertical-scroll-proportion="0.35154393" vertical-offset="1216" max-vertical-offset="2751">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1404234206142" expanded="true" signature="4128:4181" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/delete">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store_details.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/store_details.php">
+      <file leaf-file-name="map.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="24" selection-start="6092" selection-end="6092" vertical-scroll-proportion="-25.666666" vertical-offset="1155" max-vertical-offset="2352">
+            <state line="23" column="43" selection-start="682" selection-end="696" vertical-scroll-proportion="-6.5925927" vertical-offset="305" max-vertical-offset="1827">
               <folding>
                 <element signature="e#6#89#0" expanded="true" />
-                <element signature="n#get_rows#0;n#!!top" expanded="false" />
-                <element signature="tag#style#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#1;tag#div#2;tag#div#0" expanded="false" />
-                <element signature="e#4924#5167#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#0" expanded="false" />
-                <element signature="e#5304#5556#0" expanded="false" />
-                <element signature="e#5574#6090#0" expanded="false" />
-                <marker date="1404147270455" expanded="true" signature="317:377" placeholder="SELECT * FRO..storelocator_branch_details..." />
-                <marker date="1404147270455" expanded="true" signature="800:914" placeholder="SELECT day, ..." />
-                <marker date="1404147270455" expanded="true" signature="947:1054" placeholder="SELECT id, s..storelocator_services_store_details..." />
-                <marker date="1404147270455" expanded="true" signature="1086:1206" placeholder="SELECT holid..storelocator_hours_holiday..." />
-                <marker date="1404147270455" expanded="true" signature="1238:1347" placeholder="SELECT branc..storelocator_near_by_details..." />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/index.php">
+      <file leaf-file-name="map2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/map2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="11" selection-start="5934" selection-end="5934" vertical-scroll-proportion="0.25458997" vertical-offset="2102" max-vertical-offset="2919">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3682#5683#0" expanded="false" />
-                <marker date="1404208879949" expanded="true" signature="3577:3612" placeholder="SELECT * FRO..storelocator_branches..." />
-              </folding>
+            <state line="6" column="0" selection-start="199" selection-end="466" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1953">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,9 +83,13 @@
         <option value="$PROJECT_DIR$/logfiles/errorApache.log" />
         <option value="$PROJECT_DIR$/logfiles/access.log" />
         <option value="$PROJECT_DIR$/ryman_stores/dbCon.php" />
-        <option value="$PROJECT_DIR$/ryman_stores/store_locator.sql" />
         <option value="$PROJECT_DIR$/ryman_stores/phpsqlajax_genxml.php" />
         <option value="$PROJECT_DIR$/ryman_stores/store_details.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/map.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/map2.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/coba.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/delete" />
+        <option value="$PROJECT_DIR$/ryman_stores/store_locator.sql" />
         <option value="$PROJECT_DIR$/ryman_stores/index.php" />
       </list>
     </option>
@@ -209,22 +210,22 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33516484" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33516484" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18864469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18864469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -287,29 +288,29 @@
             <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#0" expanded="false" />
             <element signature="e#5304#5556#0" expanded="false" />
             <element signature="e#5574#6090#0" expanded="false" />
-            <marker date="1404147270455" expanded="true" signature="317:377" placeholder="SELECT * FRO..storelocator_branch_details..." />
-            <marker date="1404147270455" expanded="true" signature="800:914" placeholder="SELECT day, ..." />
-            <marker date="1404147270455" expanded="true" signature="947:1054" placeholder="SELECT id, s..storelocator_services_store_details..." />
-            <marker date="1404147270455" expanded="true" signature="1086:1206" placeholder="SELECT holid..storelocator_hours_holiday..." />
-            <marker date="1404147270455" expanded="true" signature="1238:1347" placeholder="SELECT branc..storelocator_near_by_details..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storelocator_branch_details..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT day, ..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT id, s..storelocator_services_store_details..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT holid..storelocator_hours_holiday..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT branc..storelocator_near_by_details..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/index.php">
+    <entry file="file://$PROJECT_DIR$/ryman_stores/indexOri.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="59" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2268">
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3682#5683#0" expanded="false" />
-            <marker date="1404208879949" expanded="true" signature="3577:3612" placeholder="SELECT * FRO..storelocator_branches..." />
+            <marker date="1404224056874" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storelocator_branches..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1071" />
+        <state line="12" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1071">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci/system/database/DB_utility.php">
@@ -328,7 +329,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ci/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="0.029691212" vertical-offset="227" max-vertical-offset="1071" />
+        <state line="12" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="0.029691212" vertical-offset="227" max-vertical-offset="1071">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logfiles/errorPhp.log">
@@ -338,7 +341,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logfiles/access.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="60" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="856" />
+        <state line="0" column="60" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="856">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/__mysql.php">
@@ -349,11 +354,6 @@
     <entry file="file://$PROJECT_DIR$/ryman_stores/__database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="1" selection-start="644" selection-end="644" vertical-scroll-proportion="0.5985748" vertical-offset="0" max-vertical-offset="842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/basic/markers.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="488" selection-end="488" vertical-scroll-proportion="0.47274882" vertical-offset="0" max-vertical-offset="1176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/basic/dbConf.php">
@@ -406,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/store_locator.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="3780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/store_details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="202" column="24" selection-start="6092" selection-end="6092" vertical-scroll-proportion="-25.666666" vertical-offset="1155" max-vertical-offset="2352">
@@ -425,22 +418,75 @@
             <element signature="tag#div#2;tag#div#1;tag#div#2;tag#div#0" expanded="false" />
             <element signature="e#5304#5556#0" expanded="false" />
             <element signature="e#5574#6090#0" expanded="false" />
-            <marker date="1404147270455" expanded="true" signature="317:377" placeholder="SELECT * FRO..storelocator_branch_details..." />
-            <marker date="1404147270455" expanded="true" signature="800:914" placeholder="SELECT day, ..." />
-            <marker date="1404147270455" expanded="true" signature="947:1054" placeholder="SELECT id, s..storelocator_services_store_details..." />
-            <marker date="1404147270455" expanded="true" signature="1086:1206" placeholder="SELECT holid..storelocator_hours_holiday..." />
-            <marker date="1404147270455" expanded="true" signature="1238:1347" placeholder="SELECT branc..storelocator_near_by_details..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storelocator_branch_details..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT day, ..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT id, s..storelocator_services_store_details..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT holid..storelocator_hours_holiday..." />
+            <marker date="1404147270455" expanded="true" signature="-1:-1" placeholder="SELECT branc..storelocator_near_by_details..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/map2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="199" selection-end="466" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/basic/markers.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="488" selection-end="488" vertical-scroll-proportion="0.4801444" vertical-offset="0" max-vertical-offset="1176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/ryman_stores.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="2" selection-start="21320" selection-end="21320" vertical-scroll-proportion="0.52251184" vertical-offset="8001" max-vertical-offset="12033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/delete">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="43" selection-start="682" selection-end="696" vertical-scroll-proportion="-6.5925927" vertical-offset="305" max-vertical-offset="1827">
+          <folding>
+            <element signature="e#6#89#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/store_locator.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="56" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.34345794" vertical-offset="315" max-vertical-offset="3822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/indexOri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="40" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.63432837" vertical-offset="729" max-vertical-offset="1533">
+          <folding>
+            <marker date="1404224056874" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storelocator_branches..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="11" selection-start="5934" selection-end="5934" vertical-scroll-proportion="0.25458997" vertical-offset="2102" max-vertical-offset="2919">
+        <state line="25" column="67" selection-start="4470" selection-end="4470" vertical-scroll-proportion="0.35154393" vertical-offset="1216" max-vertical-offset="2751">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3682#5683#0" expanded="false" />
-            <marker date="1404208879949" expanded="true" signature="3577:3612" placeholder="SELECT * FRO..storelocator_branches..." />
+            <marker date="1404234206142" expanded="true" signature="4128:4181" placeholder="..." />
           </folding>
         </state>
       </provider>

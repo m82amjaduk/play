@@ -24,6 +24,8 @@ CREATE TABLE `storelocator_branches` (
   `web_url` text NOT NULL ,
   `lat`varchar(256) NOT NULL,
   `lng`varchar(256) NOT NULL,
+  `map_zoom` int(11),
+  `map_branch_img`varchar(256) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 

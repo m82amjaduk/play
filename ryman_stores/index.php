@@ -1,156 +1,77 @@
-<style>
-    .viewOnMap{
-        background-color: #000000;
-        color: #D2E0E6;
-    }
-</style>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <title>Ryman Store Locator</title>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"
-            type="text/javascript"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        //<![CDATA[
-
-        var customIcons = {
-            restaurant: {
-                icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png',
-                shadow: 'http://labs.google.com/ridefinder/images/mm_20_shadow.png'
-            },
-            bar: {
-                icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
-                shadow: 'http://labs.google.com/ridefinder/images/mm_20_shadow.png'
-            }
-        };
-
-        function load() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                center: new google.maps.LatLng(51.677, -0.606),
-                zoom: 13,
-                mapTypeId: 'roadmap'
-            });
-            var infoWindow = new google.maps.InfoWindow;
-
-            // Change this depending on the name of your PHP file
-            downloadUrl("phpsqlajax_genxml.php", function(data) {
-                var xml = data.responseXML;
-                var markers = xml.documentElement.getElementsByTagName("marker");
-                for (var i = 0; i < markers.length; i++) {
-                    var id = markers[i].getAttribute("id");
-                    var name = markers[i].getAttribute("name");
-                    var address = markers[i].getAttribute("address");
-                    var type = markers[i].getAttribute("type");
-                    var point = new google.maps.LatLng(
-                        parseFloat(markers[i].getAttribute("lat")),
-                        parseFloat(markers[i].getAttribute("lng")));
-                    var html = "<b>" + name + "</b> <br/>" + address + "<a href='store_details.php?store=" + id +"'> View Details </a>";
-                    var icon = customIcons[type] || {};
-                    var marker = new google.maps.Marker({
-                        map: map,
-                        position: point,
-                        icon: icon.icon,
-                        shadow: icon.shadow
-                    });
-                    bindInfoWindow(marker, map, infoWindow, html);
-                }
-            });
-        }
-
-        function bindInfoWindow(marker, map, infoWindow, html) {
-            google.maps.event.addListener(marker, 'click', function() {
-                infoWindow.setContent(html);
-                infoWindow.open(map, marker);
-            });
-        }
-
-        function downloadUrl(url, callback) {
-            var request = window.ActiveXObject ?
-                new ActiveXObject('Microsoft.XMLHTTP') :
-                new XMLHttpRequest;
-
-            request.onreadystatechange = function() {
-                if (request.readyState == 4) {
-                    request.onreadystatechange = doNothing;
-                    callback(request, request.status);
-                }
-            };
-
-            request.open('GET', url, true);
-            request.send(null);
-        }
-
-        function doNothing() {}
-        //]]>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBl-XFi-PrFDZgDYRRD3PDtY4-xcRt6lkA&sensor=false">
     </script>
+
 </head>
 
-<body onload="load()">
-<div id="map" style="width: 900px; height: 500px"></div>
-
+<body>
 <?
-require("dbCon.php");
-try{
-    $result = mysqli_query($con,"SELECT * FROM storelocator_branches");
-}catch(Exception $e) {
-    echo 'Message: ' .$e->getMessage();
-}
 
-while($row = mysqli_fetch_array($result)) { $store_id = $row['id'];
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    //// Delete From here
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    echo $row['branch_name']."<a href='store_details.php?store=".$store_id."'> View Details </a> ".
-        " <a href='#' store_id='$store_id' class='viewOnMap' > View On Map </a>"."<hr>";
-    //Upto here
-}
+$res = unserialize('a:4:{i:0;a:44:{i:0;s:1:"1";s:2:"id";s:1:"1";i:1;s:19:"2014-06-27 16:31:15";s:7:"updated";s:19:"2014-06-27 16:31:15";i:2;s:1:"0";s:6:"active";s:1:"0";i:3;s:1:"1";s:10:"store_code";s:1:"1";i:4;s:7:"AAA1786";s:11:"branch_code";s:7:"AAA1786";i:5;s:8:"Amersham";s:11:"branch_name";s:8:"Amersham";i:6;s:8:"Amersham";s:11:"unique_name";s:8:"Amersham";i:7;s:26:"114@store.robertdyas.co.uk";s:6:"email1";s:26:"114@store.robertdyas.co.uk";i:8;s:11:"02031292066";s:10:"telephone1";s:11:"02031292066";i:9;N;s:10:"telephone2";N;i:10;N;s:3:"fax";N;i:11;s:19:"82-86 Sycamore Road";s:8:"address1";s:19:"82-86 Sycamore Road";i:12;N;s:8:"address2";N;i:13;N;s:4:"town";N;i:14;s:8:"Amersham";s:4:"city";s:8:"Amersham";i:15;s:15:"Buckinghamshire";s:6:"county";s:15:"Buckinghamshire";i:16;N;s:7:"country";N;i:17;s:7:"HP6 5DR";s:8:"postcode";s:7:"HP6 5DR";i:18;N;s:9:"direction";N;i:19;s:0:"";s:7:"web_url";s:0:"";i:20;s:6:"51.677";s:3:"lat";s:6:"51.677";i:21;s:6:"-0.606";s:3:"lng";s:6:"-0.606";}i:1;a:44:{i:0;s:1:"2";s:2:"id";s:1:"2";i:1;s:19:"2014-06-30 13:21:33";s:7:"updated";s:19:"2014-06-30 13:21:33";i:2;s:1:"0";s:6:"active";s:1:"0";i:3;s:1:"1";s:10:"store_code";s:1:"1";i:4;s:7:"AAA1787";s:11:"branch_code";s:7:"AAA1787";i:5;s:9:"Amersham2";s:11:"branch_name";s:9:"Amersham2";i:6;s:9:"Amersham2";s:11:"unique_name";s:9:"Amersham2";i:7;s:26:"114@store.robertdyas.co.uk";s:6:"email1";s:26:"114@store.robertdyas.co.uk";i:8;s:11:"02031292066";s:10:"telephone1";s:11:"02031292066";i:9;N;s:10:"telephone2";N;i:10;N;s:3:"fax";N;i:11;s:19:"82-86 Sycamore Road";s:8:"address1";s:19:"82-86 Sycamore Road";i:12;N;s:8:"address2";N;i:13;N;s:4:"town";N;i:14;s:8:"Amersham";s:4:"city";s:8:"Amersham";i:15;s:15:"Buckinghamshire";s:6:"county";s:15:"Buckinghamshire";i:16;N;s:7:"country";N;i:17;s:7:"HP6 5DR";s:8:"postcode";s:7:"HP6 5DR";i:18;N;s:9:"direction";N;i:19;s:0:"";s:7:"web_url";s:0:"";i:20;s:9:"51.679792";s:3:"lat";s:9:"51.679792";i:21;s:9:"-0.602283";s:3:"lng";s:9:"-0.602283";}i:2;a:44:{i:0;s:1:"3";s:2:"id";s:1:"3";i:1;s:19:"2014-06-30 13:21:55";s:7:"updated";s:19:"2014-06-30 13:21:55";i:2;s:1:"0";s:6:"active";s:1:"0";i:3;s:1:"1";s:10:"store_code";s:1:"1";i:4;s:7:"AAA1788";s:11:"branch_code";s:7:"AAA1788";i:5;s:8:"Amersham";s:11:"branch_name";s:8:"Amersham";i:6;s:9:"Amersham3";s:11:"unique_name";s:9:"Amersham3";i:7;s:26:"114@store.robertdyas.co.uk";s:6:"email1";s:26:"114@store.robertdyas.co.uk";i:8;s:11:"02031292066";s:10:"telephone1";s:11:"02031292066";i:9;N;s:10:"telephone2";N;i:10;N;s:3:"fax";N;i:11;s:19:"82-86 Sycamore Road";s:8:"address1";s:19:"82-86 Sycamore Road";i:12;N;s:8:"address2";N;i:13;N;s:4:"town";N;i:14;s:8:"Amersham";s:4:"city";s:8:"Amersham";i:15;s:15:"Buckinghamshire";s:6:"county";s:15:"Buckinghamshire";i:16;N;s:7:"country";N;i:17;s:7:"HP6 5DR";s:8:"postcode";s:7:"HP6 5DR";i:18;N;s:9:"direction";N;i:19;s:0:"";s:7:"web_url";s:0:"";i:20;s:9:"51.678036";s:3:"lat";s:9:"51.678036";i:21;s:9:"-0.612947";s:3:"lng";s:9:"-0.612947";}i:3;a:44:{i:0;s:1:"4";s:2:"id";s:1:"4";i:1;s:19:"2014-07-01 16:43:35";s:7:"updated";s:19:"2014-07-01 16:43:35";i:2;s:1:"0";s:6:"active";s:1:"0";i:3;s:1:"1";s:10:"store_code";s:1:"1";i:4;s:7:"AAA1789";s:11:"branch_code";s:7:"AAA1789";i:5;s:9:"Amersham2";s:11:"branch_name";s:9:"Amersham2";i:6;s:9:"Amersham4";s:11:"unique_name";s:9:"Amersham4";i:7;s:26:"114@store.robertdyas.co.uk";s:6:"email1";s:26:"114@store.robertdyas.co.uk";i:8;s:11:"02031292066";s:10:"telephone1";s:11:"02031292066";i:9;N;s:10:"telephone2";N;i:10;N;s:3:"fax";N;i:11;s:19:"82-86 Sycamore Road";s:8:"address1";s:19:"82-86 Sycamore Road";i:12;N;s:8:"address2";N;i:13;N;s:4:"town";N;i:14;s:8:"Amersham";s:4:"city";s:8:"Amersham";i:15;s:15:"Buckinghamshire";s:6:"county";s:15:"Buckinghamshire";i:16;N;s:7:"country";N;i:17;s:7:"HP6 5DR";s:8:"postcode";s:7:"HP6 5DR";i:18;N;s:9:"direction";N;i:19;s:0:"";s:7:"web_url";s:0:"";i:20;s:9:"51.668036";s:3:"lat";s:9:"51.668036";i:21;s:9:"-0.622947";s:3:"lng";s:9:"-0.622947";}}');
+
 ?>
-</body>
-</html>
-
 
 <script>
-    $( ".viewOnMap" ).click(function() {
-        var store_id = $(this).attr("store_id");
-        alert( "Handler for .click() called." + store_id );
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        ///
-
-
-//        var map = new google.maps.Map(document.getElementById("map"), {
-//            center: new google.maps.LatLng(51.677, -0.606),
-//            zoom: 13,
-//            mapTypeId: 'roadmap'
-//        });
-//        var infoWindow = new google.maps.InfoWindow;
-//        var point = new google.maps.LatLng(
-//            parseFloat(51.677),
-//            parseFloat( -0.606);
-//        var html = "<b>" + name + "</b> <br/>"  + "<a href='store_details.php?store=" +"'> View Details </a>";
-////        var icon = customIcons[type] || {};
-//        var marker = new google.maps.Marker({
-//            map: map,
-//            position: point,
-//            icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
-//            shadow: 'http://labs.google.com/ridefinder/images/mm_20_shadow.png'
-//        });
-//        bindInfoWindow(marker, map, infoWindow, html);
+    <?
+       foreach ( $res as $row){ $name = $row['unique_name'] ?>
+    var <?=$name?> = new google.maps.LatLng(<?=$row['lat']?>, <?=$row['lng']?>);
+    var <?=$name?> = new google.maps.Marker({
+        position:<?=$name?>,
     });
+<?}?>
+    function initialize()
+    {
+
+        var mapCenter = new google.maps.LatLng(53.089362, -4.852386);
+        var infowindow = null;
+
+        var mapProp = {
+            center:mapCenter,
+            zoom:6,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap")
+            ,mapProp);
+
+        <?
+         foreach ( $res as $row){ $name = $row['unique_name'] ?>
+        google.maps.event.addListener(<?=$name?>,'click',function() {
+            map.setZoom(15);
+            map.setCenter(<?=$name?>.getPosition());
+            if (infowindow) {
+                infowindow.close();
+            }
+            infowindow = new google.maps.InfoWindow();
+            infowindow.setContent('<img src="http://www.retail-week.com/pictures/636xAny/8/6/4/1259864_Ryman_2.jpg" width="300px"/> <br />this store is ' + '<?=$name?>');
+            infowindow.open(map,<?=$name?>);
+        });
+        <?=$name?>.setMap(map);
+        <?}?>
+    }
+
+    function showMarker(marker){
+        var gMarker = marker;
+        var center = marker;
+
+        google.maps.event.trigger(gMarker, 'click', {
+            latLng: center
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+
 </script>
+
+
+<?
+foreach ( $res as $row){ $name = $row['unique_name']?>
+<?=$name?> <button type="button" onclick="showMarker(<?=$name?>)">Show On Map</button> <br>
+<?}?>
+
+
+
+<div id="googleMap" style="width:100%;height:800px;"></div>
+</body>
+</html>
