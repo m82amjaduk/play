@@ -1,3 +1,7 @@
+<!--https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=sql+search+within+10+mile+radius+longlat&spell=1-->
+<!--http://stackoverflow.com/questions/8994718/mysql-longitude-and-latitude-query-for-other-rows-within-x-mile-radius-->
+<!--http://gis.stackexchange.com/questions/31628/find-points-within-a-distance-using-mysql-->
+
 <html>
 <head>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBl-XFi-PrFDZgDYRRD3PDtY4-xcRt6lkA&sensor=false">

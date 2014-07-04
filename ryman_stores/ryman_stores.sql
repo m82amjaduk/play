@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 01, 2014 at 02:47 PM
+-- Generation Time: Jul 02, 2014 at 11:20 AM
 -- Server version: 5.1.50
 -- PHP Version: 5.3.14
 
@@ -52,39 +52,6 @@ INSERT INTO `markers` (`id`, `name`, `address`, `lat`, `lng`, `type`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `storelocator_about`
---
-
-CREATE TABLE IF NOT EXISTS `storelocator_about` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `active` tinyint(4) NOT NULL DEFAULT '0',
-  `branch_id` int(11) NOT NULL,
-  `banner` text,
-  `branch_title` varchar(256) DEFAULT NULL,
-  `branch_description` text,
-  `location_title` varchar(256) DEFAULT NULL,
-  `location_description` text,
-  `near_us_title` varchar(256) DEFAULT NULL,
-  `near_us_description` text,
-  `aside_img` text,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `branch_id` (`branch_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
-
---
--- Dumping data for table `storelocator_about`
---
-
-INSERT INTO `storelocator_about` (`id`, `updated`, `active`, `branch_id`, `banner`, `branch_title`, `branch_description`, `location_title`, `location_description`, `near_us_title`, `near_us_description`, `aside_img`) VALUES
-(1, '2014-06-30 13:24:32', 1, 1, 'http://85.113.84.102/stores/images/large/1018.jpg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What''s Near Us', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg'),
-(2, '2014-06-27 16:50:03', 1, 2, 'http://www.swindontowncentre.co.uk/images/content/shop_units/Ryman/img_0500.jpg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What''s Near Us', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg'),
-(3, '2014-06-30 13:25:38', 1, 3, 'http://gb.fotolibra.com/images/previews/936340-ryman-stationery-shop.jpeg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What''s Near Us', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg'),
-(7, '2014-06-30 13:26:00', 1, 4, 'http://2.bp.blogspot.com/-A-Cb1aRM7i8/T0Kp8ffcKMI/AAAAAAAAD2c/ZEaX8iBvTes/s1600/P1130437.JPG', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What''s Near Us', '                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `storelocator_branches`
 --
 
@@ -108,9 +75,19 @@ CREATE TABLE IF NOT EXISTS `storelocator_branches` (
   `country` varchar(256) DEFAULT NULL,
   `postcode` varchar(256) NOT NULL,
   `direction` text,
-  `web_url` text NOT NULL,
   `lat` varchar(256) NOT NULL,
   `lng` varchar(256) NOT NULL,
+  `map_zoom_list_page` int(11) DEFAULT '16',
+  `map_zoom_branch_page` int(11) DEFAULT '16',
+  `map_branch_img` varchar(256) DEFAULT NULL,
+  `banner` text,
+  `branch_title` varchar(256) DEFAULT NULL,
+  `branch_description` text,
+  `location_title` varchar(256) DEFAULT NULL,
+  `location_description` text,
+  `near_us_title` varchar(256) DEFAULT NULL,
+  `near_us_description` text,
+  `aside_img` text,
   PRIMARY KEY (`id`),
   UNIQUE KEY `branch_code` (`branch_code`),
   UNIQUE KEY `unique_name` (`unique_name`)
@@ -120,48 +97,30 @@ CREATE TABLE IF NOT EXISTS `storelocator_branches` (
 -- Dumping data for table `storelocator_branches`
 --
 
-INSERT INTO `storelocator_branches` (`id`, `updated`, `active`, `store_code`, `branch_code`, `branch_name`, `unique_name`, `email1`, `telephone1`, `telephone2`, `fax`, `address1`, `address2`, `town`, `city`, `county`, `country`, `postcode`, `direction`, `web_url`, `lat`, `lng`) VALUES
-(1, '2014-06-27 16:31:15', 0, '1', 'AAA1786', 'Amersham', 'Amersham', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.677', '-0.606'),
-(2, '2014-06-30 13:21:33', 0, '1', 'AAA1787', 'Amersham2', 'Amersham2', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.679792', '-0.602283'),
-(3, '2014-06-30 13:21:55', 0, '1', 'AAA1788', 'Amersham', 'Amersham3', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.678036', '-0.612947'),
-(4, '2014-06-30 13:22:11', 0, '1', 'AAA1789', 'Amersham2', 'Amersham4', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.678036', '-0.612947');
+INSERT INTO `storelocator_branches` (`id`, `updated`, `active`, `store_code`, `branch_code`, `branch_name`, `unique_name`, `email1`, `telephone1`, `telephone2`, `fax`, `address1`, `address2`, `town`, `city`, `county`, `country`, `postcode`, `direction`, `lat`, `lng`, `map_zoom_list_page`, `map_zoom_branch_page`, `map_branch_img`, `banner`, `branch_title`, `branch_description`, `location_title`, `location_description`, `near_us_title`, `near_us_description`, `aside_img`) VALUES
+(1, '2014-07-02 11:11:43', 0, '1', 'AAA1786', 'Amersham', 'Amersham', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '51.677', '-0.606', 16, 16, NULL, 'http://www.swindontowncentre.co.uk/images/content/shop_units/Ryman/img_0500.jpg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What`s Near Us ?', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg'),
+(2, '2014-07-02 11:11:43', 0, '1', 'AAA1787', 'Amersham2', 'Amersham2', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '51.677', '-0.606', 16, 16, NULL, 'http://www.swindontowncentre.co.uk/images/content/shop_units/Ryman/img_0500.jpg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What`s Near Us ?', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg'),
+(3, '2014-07-02 11:11:43', 0, '1', 'AAA1788', 'Amersham', 'Amersham3', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '51.677', '-0.606', 16, 16, NULL, 'http://www.swindontowncentre.co.uk/images/content/shop_units/Ryman/img_0500.jpg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What`s Near Us ?', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg'),
+(4, '2014-07-02 11:11:43', 0, '1', 'AAA1789', 'Amersham2', 'Amersham4', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '51.677', '-0.606', 16, 16, NULL, 'http://www.swindontowncentre.co.uk/images/content/shop_units/Ryman/img_0500.jpg', 'About Robert Dyas Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon.To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p> To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'About  Amersham', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'What`s Near Us ?', '<p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n                       <p>To find your nearest Ryman Store enter either a postcode or location name, such as a suburb, town or city. Your nearest stores will be displayed on an interactive map. To find out more information simply click the Store icon. </p>\r\n', 'http://www.parikiaki.com/wp-content/uploads/theo-paphitis4.jpg');
 
 -- --------------------------------------------------------
 
 --
--- Stand-in structure for view `storelocator_branch_details`
+-- Stand-in structure for view `storelocator_branch_list`
 --
-CREATE TABLE IF NOT EXISTS `storelocator_branch_details` (
+CREATE TABLE IF NOT EXISTS `storelocator_branch_list` (
 `id` int(11)
-,`updated` timestamp
-,`active` tinyint(4)
-,`store_code` varchar(256)
-,`branch_code` varchar(256)
 ,`branch_name` varchar(256)
 ,`unique_name` varchar(256)
-,`email1` varchar(256)
-,`telephone1` varchar(32)
-,`telephone2` varchar(32)
-,`fax` varchar(32)
 ,`address1` varchar(256)
 ,`address2` varchar(256)
 ,`town` varchar(256)
 ,`city` varchar(256)
 ,`county` varchar(256)
-,`country` varchar(256)
-,`postcode` varchar(256)
-,`direction` text
-,`web_url` text
 ,`lat` varchar(256)
 ,`lng` varchar(256)
-,`banner` text
-,`branch_title` varchar(256)
-,`branch_description` text
-,`location_title` varchar(256)
-,`location_description` text
-,`near_us_title` varchar(256)
-,`near_us_description` text
-,`aside_img` text
+,`map_zoom_list_page` int(11)
+,`map_branch_img` varchar(256)
 );
 -- --------------------------------------------------------
 
@@ -189,6 +148,37 @@ CREATE TABLE IF NOT EXISTS `storelocator_hours_holiday` (
 INSERT INTO `storelocator_hours_holiday` (`id`, `updated`, `active`, `branch_id`, `from_`, `to_`, `holiday_date`, `holiday_name`) VALUES
 (1, '2014-06-30 11:43:40', 1, 1, 400, 1200, '2014-07-09', 'Ryman Open Day'),
 (2, '2014-06-30 11:44:31', 1, 1, 400, 1200, '2014-07-17', 'Robert Dyas Open Day');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `storelocator_hours_opening`
+--
+
+CREATE TABLE IF NOT EXISTS `storelocator_hours_opening` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `active` tinyint(4) NOT NULL DEFAULT '0',
+  `branch_id` int(11) NOT NULL,
+  `sn` bigint(20) DEFAULT '1',
+  `from_` bigint(20) DEFAULT NULL,
+  `to_` bigint(20) DEFAULT NULL,
+  `day` varchar(3) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Dumping data for table `storelocator_hours_opening`
+--
+
+INSERT INTO `storelocator_hours_opening` (`id`, `updated`, `active`, `branch_id`, `sn`, `from_`, `to_`, `day`) VALUES
+(1, '2014-06-30 11:27:10', 1, 1, 1, 750, 650, 'Mon'),
+(2, '2014-06-30 11:26:17', 1, 1, 2, 750, 650, 'Wed'),
+(3, '2014-06-30 11:26:35', 1, 1, 4, 750, 650, 'Thu'),
+(4, '2014-06-30 11:26:43', 1, 1, 5, 750, 650, 'Fri'),
+(5, '2014-06-30 11:26:52', 1, 1, 6, 750, 650, 'Sat'),
+(6, '2014-06-30 11:27:01', 1, 1, 7, 750, 650, 'Sun');
 
 -- --------------------------------------------------------
 
@@ -334,11 +324,11 @@ CREATE TABLE IF NOT EXISTS `storelocator_services_store_details` (
 -- --------------------------------------------------------
 
 --
--- Structure for view `storelocator_branch_details`
+-- Structure for view `storelocator_branch_list`
 --
-DROP TABLE IF EXISTS `storelocator_branch_details`;
+DROP TABLE IF EXISTS `storelocator_branch_list`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `storelocator_branch_details` AS select `storelocator_branches`.`id` AS `id`,`storelocator_branches`.`updated` AS `updated`,`storelocator_branches`.`active` AS `active`,`storelocator_branches`.`store_code` AS `store_code`,`storelocator_branches`.`branch_code` AS `branch_code`,`storelocator_branches`.`branch_name` AS `branch_name`,`storelocator_branches`.`unique_name` AS `unique_name`,`storelocator_branches`.`email1` AS `email1`,`storelocator_branches`.`telephone1` AS `telephone1`,`storelocator_branches`.`telephone2` AS `telephone2`,`storelocator_branches`.`fax` AS `fax`,`storelocator_branches`.`address1` AS `address1`,`storelocator_branches`.`address2` AS `address2`,`storelocator_branches`.`town` AS `town`,`storelocator_branches`.`city` AS `city`,`storelocator_branches`.`county` AS `county`,`storelocator_branches`.`country` AS `country`,`storelocator_branches`.`postcode` AS `postcode`,`storelocator_branches`.`direction` AS `direction`,`storelocator_branches`.`web_url` AS `web_url`,`storelocator_branches`.`lat` AS `lat`,`storelocator_branches`.`lng` AS `lng`,`storelocator_about`.`banner` AS `banner`,`storelocator_about`.`branch_title` AS `branch_title`,`storelocator_about`.`branch_description` AS `branch_description`,`storelocator_about`.`location_title` AS `location_title`,`storelocator_about`.`location_description` AS `location_description`,`storelocator_about`.`near_us_title` AS `near_us_title`,`storelocator_about`.`near_us_description` AS `near_us_description`,`storelocator_about`.`aside_img` AS `aside_img` from (`storelocator_about` left join `storelocator_branches` on((`storelocator_branches`.`id` = `storelocator_about`.`branch_id`))) order by `storelocator_branches`.`id`;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `storelocator_branch_list` AS select `storelocator_branches`.`id` AS `id`,`storelocator_branches`.`branch_name` AS `branch_name`,`storelocator_branches`.`unique_name` AS `unique_name`,`storelocator_branches`.`address1` AS `address1`,`storelocator_branches`.`address2` AS `address2`,`storelocator_branches`.`town` AS `town`,`storelocator_branches`.`city` AS `city`,`storelocator_branches`.`county` AS `county`,`storelocator_branches`.`lat` AS `lat`,`storelocator_branches`.`lng` AS `lng`,`storelocator_branches`.`map_zoom_list_page` AS `map_zoom_list_page`,`storelocator_branches`.`map_branch_img` AS `map_branch_img` from `storelocator_branches` where (`storelocator_branches`.`active` = 1) order by `storelocator_branches`.`id`;
 
 -- --------------------------------------------------------
 

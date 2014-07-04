@@ -21,38 +21,12 @@ CREATE TABLE `storelocator_branches` (
   `country`varchar(256) ,
   `postcode`varchar(256) NOT NULL,
   `direction` text,
-  `web_url` text NOT NULL ,
   `lat`varchar(256) NOT NULL,
   `lng`varchar(256) NOT NULL,
-  `map_zoom` int(11),
-  `map_branch_img`varchar(256) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+  `map_zoom_list_page` int(11) DEFAULT '16',
+  `map_zoom_branch_page` int(11) DEFAULT '16',
+  `map_branch_img`varchar(256) ,
 
-
-DROP VIEW IF EXISTS `storelocator_branch_details`;
-CREATE VIEW storelocator_branch_details AS
- SELECT
- storelocator_branches.*,
- storelocator_about.banner,
- storelocator_about.branch_title,
- storelocator_about.branch_description,
- storelocator_about.location_title,
- storelocator_about.location_description,
- storelocator_about.near_us_title,
- storelocator_about.near_us_description,
- storelocator_about.aside_img
- FROM storelocator_branches
-RIGHT JOIN storelocator_about  ON storelocator_branches.id  =  storelocator_about.branch_id
-ORDER BY  storelocator_branches.id ASC;
-
-
-DROP TABLE IF EXISTS `storelocator_about`;
-CREATE TABLE`storelocator_about` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `active` tinyint(4) NOT NULL DEFAULT '0',
-  `branch_id` int(11) NOT NULL UNIQUE,
   `banner` text,
   `branch_title`varchar(256) ,
   `branch_description` text,
@@ -65,9 +39,29 @@ CREATE TABLE`storelocator_about` (
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 
 
+DROP VIEW IF EXISTS `storelocator_branch_list`;
+CREATE VIEW storelocator_branch_list AS
+  SELECT
+    storelocator_branches.id,
+    storelocator_branches.branch_name,
+    storelocator_branches.unique_name,
+    storelocator_branches.address1,
+    storelocator_branches.address2,
+    storelocator_branches.town,
+    storelocator_branches.city,
+    storelocator_branches.county,
+    storelocator_branches.lat,
+    storelocator_branches.lng,
+    storelocator_branches.map_zoom_list_page,
+    storelocator_branches.map_branch_img
+  FROM storelocator_branches
+    WHERE storelocator_branches.active = 1
+  ORDER BY  storelocator_branches.id ASC;
+
+
 
 DROP TABLE IF EXISTS `storelocator_hours_opening`;
-CREATE TABLE `storelocator_opening_hours` (
+CREATE TABLE `storelocator_hours_opening` (
   `id` int(11) NOT NULL AUTO_INCREMENT UNIQUE ,
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `active` tinyint(4) NOT NULL DEFAULT '0',
@@ -79,7 +73,7 @@ CREATE TABLE `storelocator_opening_hours` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 
-DROP TABLE IF EXISTS `storelocator_holiday_hours`;
+DROP TABLE IF EXISTS `storelocator_hours_holiday`;
 CREATE TABLE `storelocator_hours_holiday` (
   `id` int(11) NOT NULL AUTO_INCREMENT UNIQUE ,
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -156,16 +150,16 @@ ORDER BY  storelocator_near_by.sn ASC;
 
 
 
+UPDATE storelocator_branches SET banner = 'http://www.swindontowncentre.co.uk/images/content/shop_units/Ryman/img_0500.jpg';;
 
 
 
 
-
-INSERT INTO `storelocator_branches` (`id`, `updated`, `active`, `store_code`, `branch_code`, `branch_name`, `unique_name`, `email1`, `telephone1`, `telephone2`, `fax`, `address1`, `address2`, `town`, `city`, `county`, `country`, `postcode`, `direction`, `web_url`, `lat`, `lng`) VALUES
-(1, '2014-06-27 16:31:15', 0, '1', 'AAA1786', 'Amersham', 'Amersham', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.677', '-0.606'),
-(2, '2014-06-27 16:31:15', 0, '1', 'AAA1787', 'Amersham2', 'Amersham2', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.677', '-0.606'),
-(3, '2014-06-27 16:31:15', 0, '1', 'AAA1788', 'Amersham', 'Amersham3', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.677', '-0.606'),
-(4, '2014-06-27 16:31:15', 0, '1', 'AAA1789', 'Amersham2', 'Amersham4', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '', '51.677', '-0.606');
+INSERT INTO `storelocator_branches` (`id`, `updated`, `active`, `store_code`, `branch_code`, `branch_name`, `unique_name`, `email1`, `telephone1`, `telephone2`, `fax`, `address1`, `address2`, `town`, `city`, `county`, `country`, `postcode`, `direction`,  `lat`, `lng`) VALUES
+(1, '2014-06-27 16:31:15', 0, '1', 'AAA1786', 'Amersham', 'Amersham', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '51.677', '-0.606'),
+(2, '2014-06-27 16:31:15', 0, '1', 'AAA1787', 'Amersham2', 'Amersham2', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL, '51.677', '-0.606'),
+(3, '2014-06-27 16:31:15', 0, '1', 'AAA1788', 'Amersham', 'Amersham3', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL,  '51.677', '-0.606'),
+(4, '2014-06-27 16:31:15', 0, '1', 'AAA1789', 'Amersham2', 'Amersham4', '114@store.robertdyas.co.uk', '02031292066', NULL, NULL, '82-86 Sycamore Road', NULL, NULL, 'Amersham', 'Buckinghamshire', NULL, 'HP6 5DR', NULL,  '51.677', '-0.606');
 
 
 

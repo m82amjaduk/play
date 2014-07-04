@@ -11,11 +11,13 @@
 require("dbCon.php");
 
 try{
-    $result = mysqli_query($con,"SELECT * FROM storelocator_branch_details WHERE id=$store_id");
+    $result = mysqli_query($con,"SELECT * FROM storelocator_branches WHERE id=$store_id");
 }catch(Exception $e) {
     echo 'Message: ' .$e->getMessage();
 }
 $store_details = mysqli_fetch_array($result);
+
+//print_r($store_details);
 
 
 function get_rows($con, $SQL){
@@ -30,7 +32,7 @@ function get_rows($con, $SQL){
     }
     return $result;
 }
-$hours = get_rows( $con, "SELECT day, from_, to_ FROM  storelocator_opening_hours WHERE (branch_id= $store_id AND active=1) ORDER BY  sn ASC");
+$hours = get_rows( $con, "SELECT day, from_, to_ FROM  storelocator_hours_opening WHERE (branch_id= $store_id AND active=1) ORDER BY  sn ASC");
 $services = get_rows( $con, "SELECT id, service_name FROM  storelocator_services_store_details WHERE (branch_id= $store_id AND active=1)");
 $holiday = get_rows( $con, "SELECT holiday_date, holiday_name, from_, to_ FROM  storelocator_hours_holiday WHERE (branch_id= $store_id AND active=1)");
 $near_by = get_rows( $con, "SELECT branch_name, unique_name FROM   storelocator_near_by_details WHERE (branch_id= $store_id AND active=1)");
@@ -204,7 +206,7 @@ $near_by = get_rows( $con, "SELECT branch_name, unique_name FROM   storelocator_
         </div>
     </div>
     <div class="clear"></div>
-    window.scrollTo(x-coord, y-coord);
+<!--    window.scrollTo(x-coord, y-coord);-->
 </div>
 
 <?

@@ -6,6 +6,8 @@ class Welcome extends CI_Controller {
         $this->load->view('welcome');
     }
 
+
+    // http://learning7.lc/ci/welcome/download_process
     public function download_process()
     {
         $this->load->helper('download');
@@ -40,7 +42,6 @@ class Welcome extends CI_Controller {
     }
 
 
+    /* End of file welcome.php */
+    /* Location: ./application/controllers/welcome.php */
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
