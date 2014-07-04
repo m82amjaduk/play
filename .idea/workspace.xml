@@ -32,15 +32,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="27" selection-start="7217" selection-end="7217" vertical-scroll-proportion="-13.222222" vertical-offset="4158" max-vertical-offset="7728">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="data.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ci/application/controllers/data.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +62,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paypal/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="517" selection-end="517" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="294">
+            <state line="8" column="2" selection-start="550" selection-end="550" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="294">
               <folding />
             </state>
           </provider>
@@ -86,21 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paypal.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="paypal.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paypal/paypal.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="80" selection-start="760" selection-end="760" vertical-scroll-proportion="-14.777778" vertical-offset="0" max-vertical-offset="1344">
+            <state line="19" column="80" selection-start="760" selection-end="760" vertical-scroll-proportion="0.4842233" vertical-offset="0" max-vertical-offset="1344">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="process.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paypal/process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="1" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.025893958" vertical-offset="2394" max-vertical-offset="5397">
+            <state line="199" column="59" selection-start="10189" selection-end="10199" vertical-scroll-proportion="-22.25926" vertical-offset="3578" max-vertical-offset="5397">
               <folding>
-                <marker date="1404485250357" expanded="false" signature="9439:9450" placeholder="..." />
+                <marker date="1404490774748" expanded="true" signature="9439:9452" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -148,6 +139,8 @@
         <option value="$PROJECT_DIR$/ci/application/controllers/data.php" />
         <option value="$PROJECT_DIR$/ryman_stores/orders.sql" />
         <option value="$PROJECT_DIR$/ci/application/models/aboutm.php" />
+        <option value="$PROJECT_DIR$/paypal/config.php" />
+        <option value="$PROJECT_DIR$/paypal/process.php" />
       </list>
     </option>
   </component>
@@ -317,7 +310,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34798536" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34753087" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -327,7 +320,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18950617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18950617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -654,20 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="33" selection-start="3205" selection-end="3220" vertical-scroll-proportion="-26.518518" vertical-offset="712" max-vertical-offset="1554">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="27" selection-start="7217" selection-end="7217" vertical-scroll-proportion="-13.222222" vertical-offset="4158" max-vertical-offset="7728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ci/application/controllers/data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="396" selection-end="396" vertical-scroll-proportion="-10.111111" vertical-offset="0" max-vertical-offset="567">
@@ -696,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paypal/paypal.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="80" selection-start="760" selection-end="760" vertical-scroll-proportion="-14.777778" vertical-offset="0" max-vertical-offset="1344">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paypal/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="10" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-18.592592" vertical-offset="2" max-vertical-offset="1050">
@@ -710,19 +682,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ci/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="27" selection-start="7217" selection-end="7217" vertical-scroll-proportion="0.43325242" vertical-offset="4158" max-vertical-offset="7728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="33" selection-start="3205" selection-end="3220" vertical-scroll-proportion="-26.518518" vertical-offset="712" max-vertical-offset="1554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/paypal/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="517" selection-end="517" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="294">
+        <state line="8" column="2" selection-start="550" selection-end="550" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="294">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paypal/process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="1" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.025893958" vertical-offset="2394" max-vertical-offset="5397">
+        <state line="199" column="59" selection-start="10189" selection-end="10199" vertical-scroll-proportion="-22.25926" vertical-offset="3578" max-vertical-offset="5397">
           <folding>
-            <marker date="1404485250357" expanded="false" signature="9439:9450" placeholder="..." />
+            <marker date="1404490774748" expanded="true" signature="9439:9452" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paypal/paypal.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="80" selection-start="760" selection-end="760" vertical-scroll-proportion="0.4842233" vertical-offset="0" max-vertical-offset="1344">
+          <folding />
         </state>
       </provider>
     </entry>

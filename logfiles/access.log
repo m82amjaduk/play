@@ -6642,3 +6642,13 @@
 127.0.0.1 - - [04/Jul/2014:15:57:05 +0100] "POST /paypal/process.php HTTP/1.1" 200 410
 127.0.0.1 - - [04/Jul/2014:16:37:44 +0100] "POST /paypal/process.php HTTP/1.1" 200 410
 127.0.0.1 - - [04/Jul/2014:16:38:09 +0100] "POST /paypal/process.php HTTP/1.1" 200 410
+127.0.0.1 - - [04/Jul/2014:16:49:46 +0100] "GET /paypal/ HTTP/1.1" 200 2252
+127.0.0.1 - - [04/Jul/2014:16:49:49 +0100] "POST /paypal/process.php HTTP/1.1" 302 -
+127.0.0.1 - - [04/Jul/2014:16:53:00 +0100] "GET /paypal/ HTTP/1.1" 200 2252
+127.0.0.1 - - [04/Jul/2014:16:53:26 +0100] "POST /paypal/process.php HTTP/1.1" 302 -
+127.0.0.1 - - [04/Jul/2014:16:53:53 +0100] "GET /paypal/process.php?token=EC-2HY62192YA9032010&PayerID=APMMR7M3QSNQE HTTP/1.1" 200 3513
+127.0.0.1 - - [04/Jul/2014:17:04:41 +0100] "GET /ryman_stores/ HTTP/1.1" 200 4506
+127.0.0.1 - - [04/Jul/2014:17:04:44 +0100] "GET /paypal/ HTTP/1.1" 200 2252
+127.0.0.1 - - [04/Jul/2014:17:04:45 +0100] "POST /paypal/process.php HTTP/1.1" 302 -
+127.0.0.1 - - [04/Jul/2014:17:04:47 +0100] "POST /paypal/process.php HTTP/1.1" 302 -
+127.0.0.1 - - [04/Jul/2014:17:05:23 +0100] "GET /paypal/process.php?token=EC-8WC69280JF327214F&PayerID=APMMR7M3QSNQE HTTP/1.1" 200 3512

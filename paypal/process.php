@@ -185,7 +185,7 @@ if(isset($_GET["token"]) && isset($_GET["PayerID"]))
 				
 				if('Completed' == $httpParsedResponseAr["PAYMENTINFO_0_PAYMENTSTATUS"])
 				{
-					echo '<div style="color:green">Payment Received! Your product will be sent to you very soon!</div>';
+					echo '<div style="color:#2f8013">Payment Received! Your product will be sent to you very soon!</div>';
 				}
 				elseif('Pending' == $httpParsedResponseAr["PAYMENTINFO_0_PAYMENTSTATUS"])
 				{
