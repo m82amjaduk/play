@@ -64,8 +64,6 @@ $res = unserialize('a:4:{i:0;a:44:{i:0;s:1:"1";s:2:"id";s:1:"1";i:1;s:19:"2014-0
         });
     }
     google.maps.event.addDomListener(window, 'load', initialize);
-
-
 </script>
 
 
