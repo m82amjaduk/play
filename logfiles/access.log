@@ -21908,3 +21908,10 @@
 127.0.0.1 - - [17/Jul/2014:12:54:54 +0100] "GET /ryman_stores/search.php HTTP/1.1" 200 1147
 127.0.0.1 - - [17/Jul/2014:14:05:39 +0100] "GET /ryman_stores/search.php HTTP/1.1" 200 1147
 127.0.0.1 - - [17/Jul/2014:14:05:47 +0100] "GET /ryman_stores/search.php HTTP/1.1" 200 1147
+127.0.0.1 - - [17/Jul/2014:14:43:13 +0100] "GET /ryman_stores/search.php HTTP/1.1" 500 541
+127.0.0.1 - - [17/Jul/2014:14:43:25 +0100] "GET /ryman_stores/search.php HTTP/1.1" 200 2145
+127.0.0.1 - - [18/Jul/2014:11:01:05 +0100] "GET /ryman_stores/ HTTP/1.1" 200 4502
+127.0.0.1 - - [18/Jul/2014:11:01:05 +0100] "GET /ryman_stores/ HTTP/1.1" 200 4502
+127.0.0.1 - - [18/Jul/2014:12:48:42 +0100] "GET /ryman_stores/search.php HTTP/1.1" 200 2145
+127.0.0.1 - - [18/Jul/2014:12:48:43 +0100] "GET /favicon.ico HTTP/1.1" 404 209
+127.0.0.1 - - [18/Jul/2014:12:48:43 +0100] "GET /favicon.ico HTTP/1.1" 404 209

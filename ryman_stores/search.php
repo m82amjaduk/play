@@ -14,13 +14,13 @@ $radius = ($mile) ? 3959 : 6371;
 $centerLat = 47.608940;
 $centerLng = -122.340141;
 
-$query = "SELECT *, ( $radius * acos( cos( radians($centerLat) )
+$query = "SELECT *, ( $radius * acos(
+cos( radians($centerLat) )
 * cos( radians( lat ) )
-* cos( radians( lng )
-- radians($centerLng) )
+* cos( radians( lng ) - radians($centerLng) )
 + sin( radians($centerLat) )
 * sin( radians( lat ) ) ) ) AS distance FROM
-markers HAVING distance < $withIn ORDER BY distance LIMIT 0 , 2";
+markers HAVING distance < $withIn ORDER BY distance LIMIT 0 , 4";
 
 //$query  = "SELECT * FROM storelocator_branches";
 
