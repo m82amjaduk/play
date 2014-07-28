@@ -9,12 +9,11 @@
 $username = "root";
 $password = "";
 $database = "ryman_stores";
-/*
-// Create connection
-$con=mysqli_connect("localhost", $username, $password,$database);
 
+$con=mysqli_connect("localhost",$username,$password,$database);
 // Check connection
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}*/
+}
+
 ?>

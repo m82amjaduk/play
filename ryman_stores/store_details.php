@@ -8,7 +8,7 @@
 <!--http://stackoverflow.com/questions/7075912/how-to-convert-postcode-to-geolocationlatitude-longitutde-using-google-maps-->
 <? $store_id = $_REQUEST['store'] ;
 
-require("dbCon.php");
+require("dbConf.php");
 
 try{
     $result = mysqli_query($con,"SELECT * FROM storelocator_branches WHERE id=$store_id");

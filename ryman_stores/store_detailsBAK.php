@@ -8,7 +8,7 @@
 
 <? $store_id = $_REQUEST['store'] ;
 
-require("dbCon.php");
+require("dbConf.php");
 
 try{
     $result = mysqli_query($con,"SELECT * FROM markers WHERE id= $store_id");

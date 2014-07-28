@@ -84,8 +84,7 @@
 <div id="map" style="width: 900px; height: 500px"></div>
 
 <?
-
-require("dbCon.php");
+require("dbConf.php");
 
 try{
     $result = mysqli_query($con,"SELECT * FROM markers");
@@ -97,7 +96,5 @@ while($row = mysqli_fetch_array($result)) {
     echo $row['name']." <a href='store_details.php?store=".$row['id']."'> View Details </a>"."<hr>";
 }
 ?>
-
-
 </body>
 </html>
