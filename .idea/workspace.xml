@@ -23,41 +23,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="data.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="-17.88889" vertical-offset="0" max-vertical-offset="630">
+              <folding>
+                <element signature="e#6#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/index.php">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMap/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="94" selection-end="182" vertical-scroll-proportion="35.0" vertical-offset="1134" max-vertical-offset="2016">
-              <folding>
-                <element signature="e#6#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loadMap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/loadMap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="41" selection-start="933" selection-end="933" vertical-scroll-proportion="-8.076923" vertical-offset="441" max-vertical-offset="1659">
-              <folding>
-                <element signature="e#6#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/test2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="606" selection-end="606" vertical-scroll-proportion="0.4915254" vertical-offset="35" max-vertical-offset="945">
+            <state line="16" column="43" selection-start="568" selection-end="590" vertical-scroll-proportion="-12.444445" vertical-offset="0" max-vertical-offset="672">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/test.js">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="59" selection-start="188" selection-end="198" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="504">
+            <state line="73" column="43" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.77553445" vertical-offset="880" max-vertical-offset="2037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadMap2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/loadMap2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="85" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-16.407408" vertical-offset="1846" max-vertical-offset="5271">
               <folding />
             </state>
           </provider>
@@ -66,10 +64,17 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ryman_stores/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="71" selection-start="586" selection-end="586" vertical-scroll-proportion="3.1111112" vertical-offset="378" max-vertical-offset="1764">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="35" column="0" selection-start="4987" selection-end="4987" vertical-scroll-proportion="-24.481482" vertical-offset="74" max-vertical-offset="1722">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ryman_stores/map.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="39" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-13.962963" vertical-offset="505" max-vertical-offset="1722">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,13 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ryman_stores/mysql.php" />
-        <option value="$PROJECT_DIR$/ryman_stores/database.php" />
-        <option value="$PROJECT_DIR$/logfiles/errorApache.log" />
-        <option value="$PROJECT_DIR$/logfiles/access.log" />
-        <option value="$PROJECT_DIR$/ryman_stores/dbCon.php" />
-        <option value="$PROJECT_DIR$/ryman_stores/phpsqlajax_genxml.php" />
-        <option value="$PROJECT_DIR$/ryman_stores/map2.php" />
         <option value="$PROJECT_DIR$/ryman_stores/coba.php" />
         <option value="$PROJECT_DIR$/ryman_stores/delete" />
         <option value="$PROJECT_DIR$/distance_calculator/index.php" />
@@ -126,21 +124,31 @@
         <option value="$PROJECT_DIR$/ryman_stores/store_detailsBAK.php" />
         <option value="$PROJECT_DIR$/ryman_stores/basic/index.php" />
         <option value="$PROJECT_DIR$/ryman_stores/map.php" />
-        <option value="$PROJECT_DIR$/ryman_stores/search.php" />
         <option value="$PROJECT_DIR$/ryman_stores/clickNcollect/jquery.bpopup.min.js" />
-        <option value="$PROJECT_DIR$/ryman_stores/index.php" />
         <option value="$PROJECT_DIR$/ryman_stores/clickNcollect/index.php" />
         <option value="$PROJECT_DIR$/ryman_stores/clickNcollect/test.php" />
         <option value="$PROJECT_DIR$/ryman_stores/clickNcollect/test.js" />
         <option value="$PROJECT_DIR$/ryman_stores/clickNcollect/test2.php" />
         <option value="$PROJECT_DIR$/ryman_stores/clickNcollect/loadMap.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/search.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapOnPopUp/data.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapOnPopUp/index.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapOnPopUp/loadMap2.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapOnPopUp/loadMap3.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapOnPopUp/loadMap4.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/observeClickOnMap/index.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/index.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/data.php" />
+        <option value="$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1010" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -228,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clickNcollect" />
+              <option name="myItemId" value="LoadMapWithMarker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
+              <option name="myItemId" value="LoadMap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,18 +282,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores" />
+      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\LoadMap" />
+      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\LoadMapOnPopUp" />
+      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\observeClickOnMap" />
       <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\clickNcollect" />
-      <recent name="C:\Zend\Apache2\htdocs\play\phpPDF" />
-      <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application" />
-      <recent name="C:\Zend\Apache2\htdocs\play" />
-      <recent name="C:\Zend\Apache2\htdocs\play\ci" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\popUp" />
       <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\libraries" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\controllers" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\config" />
-      <recent name="C:\Zend\Apache2\htdocs\play\paypal" />
     </key>
   </component>
   <component name="RunManager">
@@ -337,28 +345,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43341553" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18192919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18249075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -376,34 +384,17 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ryman_stores/observeClickOnMap/index.php</url>
+          <line>83</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="34" selection-start="2735" selection-end="2735" vertical-scroll-proportion="-17.88889" vertical-offset="630" max-vertical-offset="1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/config/migration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="808" selection-end="808" vertical-scroll-proportion="-17.88889" vertical-offset="0" max-vertical-offset="966" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/config/mimes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.666666" vertical-offset="504" max-vertical-offset="2352" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/config/profiler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="36" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-21.851852" vertical-offset="250" max-vertical-offset="1071" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ion_auth/application/config/smileys.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1491" />
@@ -511,119 +502,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/ryman_stores.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="1813" selection-start="4227" selection-end="5676" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="7455">
-          <folding />
-        </state>
+        <state line="100" column="1813" selection-start="4227" selection-end="5676" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="7455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distance_calculator/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="147" selection-start="161" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="11" column="147" selection-start="161" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lat_lng_postcode/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="651">
-          <folding />
-        </state>
+        <state line="16" column="8" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="651" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distance_calculator/index2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="18" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/basic/markers.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="457" selection-end="457" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="1176">
-          <folding />
-        </state>
+        <state line="17" column="2" selection-start="457" selection-end="457" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="1176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/basic/phpsqlajax_genxml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.28068045" vertical-offset="0" max-vertical-offset="1176">
-          <folding>
-            <marker date="1403867813952" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..markers..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/dbConf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="244" selection-end="244" vertical-scroll-proportion="-6.2222223" vertical-offset="0" max-vertical-offset="420">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="16" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.28068045" vertical-offset="0" max-vertical-offset="1176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/__indexOri.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="573" selection-end="644" vertical-scroll-proportion="-3.8888888" vertical-offset="399" max-vertical-offset="1533">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="573" selection-end="644" vertical-scroll-proportion="-3.8888888" vertical-offset="399" max-vertical-offset="1533" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/__dbCon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="0" selection-end="346" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="504">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="23" column="2" selection-start="0" selection-end="346" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/basic/dbConf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="346" selection-end="346" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="504">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="23" column="2" selection-start="346" selection-end="346" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/phpsqlajax_genxml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="1176">
-          <folding>
-            <marker date="1404130414891" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storelocator_branches..." />
-          </folding>
-        </state>
+        <state line="8" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="1176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/store_detailsBAK.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="15" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="3717">
-          <folding>
-            <marker date="1406544852481" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..markers..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="27" selection-start="2736" selection-end="2736" vertical-scroll-proportion="1.3467933" vertical-offset="315" max-vertical-offset="1722">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="461" selection-end="461" vertical-scroll-proportion="-4.826923" vertical-offset="106" max-vertical-offset="1428">
-          <folding>
-            <marker date="1406545349166" expanded="true" signature="-1:-1" placeholder="SELECT *, ( ..storelocator_branch_list..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/jquery.bpopup.min.js">
+    <entry file="file://$PROJECT_DIR$/ryman_stores/popUp/jquery.bpopup.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="23" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <folding>
@@ -632,7 +566,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/jquery-2.1.1.min.js">
+    <entry file="file://$PROJECT_DIR$/ryman_stores/popUp/jquery-2.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
           <folding />
@@ -642,76 +576,119 @@
     <entry file="file://$PROJECT_DIR$/ryman_stores/store_details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="15" selection-start="271" selection-end="271" vertical-scroll-proportion="0.12470309" vertical-offset="0" max-vertical-offset="4683">
-          <folding>
-            <marker date="1406544846331" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..storelocator_branches..." />
-            <marker date="1406544846331" expanded="true" signature="-1:-1" placeholder="SELECT day, ..." />
-            <marker date="1406544846331" expanded="true" signature="-1:-1" placeholder="SELECT id, s..storelocator_services_store_details..." />
-            <marker date="1406544846331" expanded="true" signature="-1:-1" placeholder="SELECT holid..storelocator_hours_holiday..." />
-            <marker date="1406544846331" expanded="true" signature="-1:-1" placeholder="SELECT branc..storelocator_near_by_details..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/basic/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="4" selection-start="3359" selection-end="3359" vertical-scroll-proportion="0.5760095" vertical-offset="1363" max-vertical-offset="2205">
-          <folding>
-            <marker date="1406544861417" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..markers..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/map2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.523753" vertical-offset="0" max-vertical-offset="1953">
-          <folding />
-        </state>
+        <state line="88" column="4" selection-start="3359" selection-end="3359" vertical-scroll-proportion="0.5760095" vertical-offset="1363" max-vertical-offset="2205" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/dbConf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="341" selection-end="341" vertical-scroll-proportion="0.32422802" vertical-offset="0" max-vertical-offset="842">
+        <state line="18" column="2" selection-start="341" selection-end="341" vertical-scroll-proportion="0.32422802" vertical-offset="0" max-vertical-offset="842" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="444" selection-end="444" vertical-scroll-proportion="0.29809976" vertical-offset="106" max-vertical-offset="1428">
+          <folding>
+            <marker date="1406625798832" expanded="true" signature="-1:-1" placeholder="SELECT *, ( ..markers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMap/__loadMap3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="13" selection-start="3054" selection-end="3054" vertical-scroll-proportion="-10.481482" vertical-offset="1691" max-vertical-offset="2520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/observeClickOnMap/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="22" selection-start="6422" selection-end="6422" vertical-scroll-proportion="-15.148149" vertical-offset="1418" max-vertical-offset="2247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMap/___loadMap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="-11.666667" vertical-offset="0" max-vertical-offset="1680">
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMap/loadMap2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="2085" selection-end="2085" vertical-scroll-proportion="-4.4423075" vertical-offset="1134" max-vertical-offset="4116">
+          <folding>
+            <element signature="tag#style#0" expanded="false" />
+            <element signature="e#5865#7067#0" expanded="false" />
+            <element signature="e#7194#7364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/popUp/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="-0.68395656" vertical-offset="756" max-vertical-offset="2037">
+          <folding>
+            <element signature="e#6#141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/loadMap2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="85" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-16.407408" vertical-offset="1846" max-vertical-offset="5271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="-17.88889" vertical-offset="0" max-vertical-offset="630">
+          <folding>
+            <element signature="e#6#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMap/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="43" selection-start="568" selection-end="590" vertical-scroll-proportion="-12.444445" vertical-offset="0" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="586" selection-end="586" vertical-scroll-proportion="3.1111112" vertical-offset="378" max-vertical-offset="1764">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="94" selection-end="182" vertical-scroll-proportion="35.0" vertical-offset="1134" max-vertical-offset="2016">
-          <folding>
-            <element signature="e#6#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="59" selection-start="188" selection-end="198" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="504">
+        <state line="35" column="0" selection-start="4987" selection-end="4987" vertical-scroll-proportion="-24.481482" vertical-offset="74" max-vertical-offset="1722">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/loadMap.php">
+    <entry file="file://$PROJECT_DIR$/ryman_stores/map2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="41" selection-start="933" selection-end="933" vertical-scroll-proportion="-8.076923" vertical-offset="441" max-vertical-offset="1659">
-          <folding>
-            <element signature="e#6#89#0" expanded="true" />
-          </folding>
+        <state line="21" column="17" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.07482185" vertical-offset="378" max-vertical-offset="1953">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ryman_stores/clickNcollect/test2.php">
+    <entry file="file://$PROJECT_DIR$/ryman_stores/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="606" selection-end="606" vertical-scroll-proportion="0.4915254" vertical-offset="35" max-vertical-offset="945">
+        <state line="47" column="39" selection-start="1922" selection-end="1922" vertical-scroll-proportion="-13.962963" vertical-offset="505" max-vertical-offset="1722">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ryman_stores/LoadMapWithMarker/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="43" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.77553445" vertical-offset="880" max-vertical-offset="2037">
           <folding />
         </state>
       </provider>

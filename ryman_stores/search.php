@@ -20,7 +20,7 @@ cos( radians($centerLat) )
 * cos( radians( lng ) - radians($centerLng) )
 + sin( radians($centerLat) )
 * sin( radians( lat ) ) ) ) AS distance FROM
-storelocator_branch_list HAVING distance < $withIn ORDER BY distance LIMIT 0 , 10";
+markers HAVING distance < $withIn ORDER BY distance LIMIT 0 , 10";
 
 //$query  = "SELECT * FROM storelocator_branches";
 

@@ -24,9 +24,7 @@ $res = unserialize('a:4:{i:0;a:44:{i:0;s:1:"1";s:2:"id";s:1:"1";i:1;s:19:"2014-0
         position:<?=$name?>,
     });
 <?}?>
-    function initialize()
-    {
-
+    function initialize(){
         var mapCenter = new google.maps.LatLng(53.089362, -4.852386);
         var infowindow = null;
 

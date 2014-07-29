@@ -199,3 +199,10 @@
 [Mon Jul 28 15:43:57 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Mon Jul 28 15:43:57 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Mon Jul 28 15:43:57 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Jul 29 09:32:39 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Jul 29 09:32:39 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Jul 29 10:21:12 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Jul 29 12:14:19 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/ryman_stores/LoadMapOnPopUp/loadMap
+[Tue Jul 29 12:49:11 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/data, referer: http://learning7.lc/ryman_stores/LoadMapOnPopUp/loadMap2.php?name=dsfsd&location=london&locationBtn=Add+Location
+[Tue Jul 29 14:23:05 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Jul 29 15:13:22 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/ryman_stores/loadMapWithPointer
