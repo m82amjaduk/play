@@ -15,8 +15,13 @@ $dataMap = array(
             'geo_name' => 'test'
         ),
         array(
-            'geo' => array(37.421995, -122.083802),
-            'name' => 'Our Store',
+            'geo' => array(37.521995, -122.213702),
+            'name' => 'Our Store2',
+            'geo_name' => 'test'
+        ),
+        array(
+            'geo' => array(37.321995, -122.183892),
+            'name' => 'Our Store3',
             'geo_name' => 'test'
         )
     )

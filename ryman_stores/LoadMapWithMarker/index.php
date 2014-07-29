@@ -12,8 +12,11 @@
 <div  onclick="myFunction()"> click here</div>
 <div id="map-content"></div>
 <script>
-    var map;
     var markers = [];
+
+var infowindow =  new google.maps.InfoWindow({
+    content: ''
+});
     function myFunction() {
         console.log("I am in myFunction");
         initialize();
@@ -22,8 +25,8 @@
     function initialize() {
         var mapOptions = {
             center: new google.maps.LatLng(37.421995, -122.083702), // ;o)
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.SATELLITE
+            zoom: 11,
+            mapTypeId: 'roadmap'
         };
 
         var map = new google.maps.Map(document.getElementById("map-content"),mapOptions);
@@ -32,15 +35,20 @@
             map: map,
             position: point
         });
+        bindInfoWindow(marker, map, infowindow, 'This is a test');
         fetchPlaces();
     }
 
     var fetchPlaces = function () {
         console.log("I am in fetchPlaces");
 
-        var infowindow =  new google.maps.InfoWindow({
-            content: ''
-        });
+        var mapOptions = {
+            center: new google.maps.LatLng(37.421995, -122.083702), // ;o)
+            zoom: 13,
+            mapTypeId: 'roadmap'
+        };
+        var map = new google.maps.Map(document.getElementById("map-content"),mapOptions);
+
 
         jQuery.ajax({
             url : 'data.php',
@@ -64,11 +72,11 @@
                         // make and place map maker.
                         var marker = new google.maps.Marker({
                             map: map,
-                            position: point
+                            position: tmpLatLng
                         });
 
                         console.log(marker );
-//                        bindInfoWindow(marker, map, infowindow, '<b>'+places[p].name + "</b><br>" + places[p].geo_name);
+                        bindInfoWindow(marker, map, infowindow, '<b>'+places[p].name + "</b><br>" + places[p].geo_name);
 
                         // not currently used but good to keep track of markers
                         markers.push(marker);
