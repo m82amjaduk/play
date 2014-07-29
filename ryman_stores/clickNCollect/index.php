@@ -41,7 +41,7 @@
 <!-- Element to pop up -->
 <div id="element_to_pop_up">
     <a class="b-close">close<a/>
-        <form name="input"  method='post'> <!-- action="#"-->
+        <div id="searchInput">
             <input type="text" name="address" class="searchBox"  placeholder="Enter Town Or Postcode"><select name="options">
                 <option value="10">10mi</option>
                 <option value="20">20mi</option>
@@ -51,47 +51,14 @@
             </select>
             <input type="submit" class="searchButton" value="SEARCH" onclick="myFunction()">
             <button id="my-button">Reset</button>
-        </form>
-        <div onclick="myFunction()" > Click Here </div>
+        </div>
 
 
         <div id="map-content">
             <img src="https://www.ryman.co.uk/media/wysiwyg/ryman/misc/ryman_store_photo.jpg" width="100%"/>
         </div>
 </div>
-
-
-
-
-<!--<img src="https://www.ryman.co.uk/media/wysiwyg/ryman/misc/ryman_store_photo.jpg" width="890px"/>-->
-<!--<img src="https://www.ryman.co.uk/media/wysiwyg/ryman/misc/ryman_store_photo.jpg" width="100%"/>-->
-
-
-<script>
-    // Semicolon (;) to ensure closing of earlier scripting
-    // Encapsulation
-    // $ is assigned to jQuery ;
-    ; (function($) {
-        // DOM Ready
-        $(function() {
-
-            // Binding a click event
-            // From jQuery v.1.7.0 use .on() instead of .bind()
-            $('#my-button').bind('click', function(e) {
-
-                // Prevents the default action to be triggered.
-                e.preventDefault();
-
-                // Triggering bPopup when click event is fired
-                $('#element_to_pop_up').bPopup();
-
-            });
-
-        });
-
-    })(jQuery);
-</script>
-
+<img src="https://www.ryman.co.uk/media/wysiwyg/ryman/misc/ryman_store_photo.jpg" width="100%"/>
 
 <script>
     var markers = [];
@@ -151,6 +118,32 @@
         });
     }
 
+</script>
+
+
+<script>
+    // Semicolon (;) to ensure closing of earlier scripting
+    // Encapsulation
+    // $ is assigned to jQuery ;
+    ; (function($) {
+        // DOM Ready
+        $(function() {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('#my-button').bind('click', function(e) {
+
+                // Prevents the default action to be triggered.
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('#element_to_pop_up').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);
 </script>
 
 

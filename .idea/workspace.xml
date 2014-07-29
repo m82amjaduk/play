@@ -35,10 +35,9 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ryman_stores/clickNCollect/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="677" selection-end="677" vertical-scroll-proportion="0.04895961" vertical-offset="569" max-vertical-offset="2184">
+            <state line="42" column="33" selection-start="981" selection-end="981" vertical-scroll-proportion="0.28029376" vertical-offset="653" max-vertical-offset="3255">
               <folding>
                 <element signature="e#6#141#0" expanded="true" />
-                <element signature="tag#script#4" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -687,10 +686,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/clickNCollect/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="677" selection-end="677" vertical-scroll-proportion="0.04895961" vertical-offset="569" max-vertical-offset="2184">
+        <state line="42" column="33" selection-start="981" selection-end="981" vertical-scroll-proportion="0.28029376" vertical-offset="653" max-vertical-offset="3255">
           <folding>
             <element signature="e#6#141#0" expanded="true" />
-            <element signature="tag#script#4" expanded="false" />
           </folding>
         </state>
       </provider>
