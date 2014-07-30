@@ -32,12 +32,15 @@
          width:980px;
          height:500px;
     }
+    .CollectFromHere{
+        background: #0dffe6;
+    }
 </style>
 
 
 <!-- Button that triggers the popup -->
 <button id="my-button">POP IT UP</button>
-<button onclick="myFunction()"  >Show here</button>
+<div id="content">  Address to show here </div>
 <!-- Element to pop up -->
 <div id="element_to_pop_up">
     <a class="b-close">close<a/>
@@ -49,7 +52,7 @@
                 <option value="50">50mi</option>
                 <option value="100">100mi</option>
             </select>
-            <input type="submit" class="searchButton" value="SEARCH" onclick="myFunction()">
+            <input type="submit" class="searchButton" value="SEARCH" onclick="fetchPlaces();">
             <button id="my-button">Reset</button>
         </div>
 
@@ -84,7 +87,7 @@
         console.log("map init Succeeded");
 
         jQuery.ajax({
-            url : 'data.php',
+            url : 'http://www.learning1.lc/api',
             dataType : 'json',
             success : function(response) {
                 console.log("Success " + response.status );
@@ -100,8 +103,9 @@
                             map: map,
                             position: tmpLatLng
                         });
-//                        console.log(marker );
-                        bindInfoWindow(marker, map, infowindow, '<b>'+places[p].name + "</b><br>" + places[p].geo_name);
+<!--                        --><?// $collect = '<div  onclick=\"myFunction(\'amjad\')\" class=\"clickHere\"> click here</div>'; ?>
+
+                        bindInfoWindow(marker, map, infowindow, '<div   onclick="loadAddress( \'' + places[p].name  + '\');"> Collect From ' + places[p].name  + '</div>');
                         // not currently used but good to keep track of markers
                         markers.push(marker);
                     }
@@ -116,6 +120,12 @@
             infowindow.setContent(html);
             infowindow.open(map, marker);
         });
+    }
+
+    function loadAddress(name){
+        console.log("popUpclosed; I'm in loadAddress");
+        $( "#element_to_pop_up" ).bPopup().close();
+        $('#content').html('This is the new address ... ' + name );
     }
 
 </script>
