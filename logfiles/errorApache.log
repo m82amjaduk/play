@@ -207,3 +207,6 @@
 [Tue Jul 29 14:23:05 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Tue Jul 29 15:13:22 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/ryman_stores/loadMapWithPointer
 [Wed Jul 30 09:15:26 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Jul 30 14:12:24 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Thu Jul 31 09:59:28 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Mon Aug 04 10:26:13 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
