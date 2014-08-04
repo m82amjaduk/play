@@ -167,6 +167,65 @@ CREATE TABLE offers_user (
 );
 
 
+----------------------------------------------
+
+CREATE TABLE services_collection (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    available character varying(1),
+    current_waiting_time bigint,
+    opening_hours text,
+    maximum_cover_cash integer DEFAULT 15,
+    mini_order_value double precision,
+    start_after bigint DEFAULT (0)::bigint,
+    end_before bigint DEFAULT (0)::bigint
+);
+
+
+CREATE TABLE services_delivery (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    available character varying(1),
+    maximum_cover integer DEFAULT 10,
+    current_waiting_time bigint,
+    free_area integer DEFAULT 3,
+    mini_order_value double precision,
+    default_charge double precision,
+    covered_post_codes text,
+    opening_hours text,
+    post_code_lookup character varying(1) DEFAULT 'N'::character varying,
+    start_after bigint DEFAULT (0)::bigint,
+    end_before bigint DEFAULT (0)::bigint
+);
+
+
+CREATE TABLE services_sit_in (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    available character varying(1),
+    max_sit integer DEFAULT 1,
+    licensed character varying(1),
+    air_condition character varying(1),
+    wheel_chair character varying(1),
+    disable_toilet character varying(1),
+    booking_accepted character varying(1),
+    opening_hours text,
+    admin character varying(32) DEFAULT 'N'::character varying,
+    reservation_page_template character varying(256) DEFAULT 'base/reservation01'::character varying,
+    menu_page_template character varying(256) DEFAULT 'base/menu_sit_in01'::character varying,
+    start_after bigint DEFAULT (0)::bigint,
+    end_before bigint DEFAULT (0)::bigint
+);
+
+
+
+
 
 ----------------------------------------------
 
@@ -251,3 +310,222 @@ CREATE TABLE social_youtube (
     url text,
     note text
 );
+
+
+----------------------------------------------------
+CREATE TABLE settings_system (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    doctype text,
+    head_title text,
+    meta_description text,
+    meta_key text,
+    favicon text,
+    head_others text,
+    copy_right text,
+    copy_right_url text,
+    currency_code character varying(32) DEFAULT '826'::character varying,
+    currency_symbol character varying(32) DEFAULT '&pound;'::character varying,
+    time_zone character varying(32) DEFAULT '0'::character varying,
+    summer_time character varying(32) DEFAULT 'BST'::character varying,
+    site_live character varying(1) DEFAULT 'N'::character varying,
+    maintenance_note text DEFAULT 'This Site is currently underconstruction.'::text,
+    default_load character varying(256) DEFAULT 'base/welcome'::character varying,
+    default_load_login character varying(256) DEFAULT 'base/menu/1/1'::character varying
+);
+
+
+
+CREATE TABLE cms_blog (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1) DEFAULT 'Y'::character varying,
+    sn integer,
+    name character varying(128) DEFAULT 'New'::character varying,
+    description text DEFAULT '#'::text,
+    image_src text,
+    image_href text,
+    thumb_src text,
+    button text DEFAULT '#'::text,
+    button_href text DEFAULT '#'::text,
+    page_template character varying(256) DEFAULT 'base/details01'::character varying
+);
+
+CREATE TABLE cms_blog_note (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1) DEFAULT 'Y'::character varying,
+    sn integer,
+    blog_id integer,
+    title character varying(128) DEFAULT 'New'::character varying,
+    description text DEFAULT '#'::text
+);
+
+
+
+CREATE TABLE cms_gallery (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    sn integer,
+    alias character varying(256),
+    name text,
+    message text,
+    folder_href text,
+    page_template character varying(256) DEFAULT 'base/gallery01'::character varying
+);
+
+
+
+CREATE TABLE cms_gallery_images (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    sn integer,
+    cms_gallery_id integer,
+    image_src text,
+    image_href text,
+    thumb_src text,
+    thumb_href text,
+    title text,
+    title2 text,
+    title3 text,
+    message text,
+    button text,
+    button_href text
+);
+
+
+CREATE TABLE cms_menu (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    sn integer,
+    alias character varying(256),
+    menu_name text NOT NULL,
+    title text
+);
+
+
+CREATE TABLE cms_menu_url (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    sn integer,
+    parent integer NOT NULL,
+    name text NOT NULL,
+    cms_menu_id integer NOT NULL,
+    cms_article_id integer,
+    href text,
+    image_src text
+);
+
+
+
+CREATE TABLE cms_slider (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    sn integer,
+    alias character varying(256),
+    slider_name text NOT NULL,
+    title text
+);
+
+
+
+CREATE TABLE cms_slider_content (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    sn integer,
+    cms_slider_id integer,
+    alias character varying(256),
+    title text,
+    title2 text,
+    title3 text,
+    message text,
+    image_src text,
+    image_href text,
+    thumb_src text,
+    thumb_href text,
+    button text,
+    button_href text
+);
+
+
+CREATE TABLE device_cwdp (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    show_menucode character varying(1) DEFAULT 'Y'::character varying,
+    save_log character varying(1) DEFAULT 'N'::character varying
+);
+
+
+
+CREATE TABLE device_cwhd (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    send_data character varying(1) DEFAULT 'Y'::character varying,
+    save_log character varying(1) DEFAULT 'N'::character varying,
+    order_support character varying(1) DEFAULT 'N'::character varying
+);
+
+
+
+CREATE TABLE device_fax (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    fax_number character varying(15),
+    domain text
+);
+
+
+
+CREATE TABLE device_sms_gateway (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    gateway_url text,
+    gateway_password text,
+    mobile_order_client character varying(15),
+    critical_mobile_client character varying(15),
+    order_confirm_customer character varying(1),
+    order_accepted_customer character varying(1),
+    order_ready_customer character varying(1),
+    order_nearby_customer character varying(1),
+    booking_confirmed_customer character varying(1),
+    order_notification_client character varying(1) DEFAULT 'N'::character varying
+);
+
+
+
+CREATE TABLE device_sms_printer (
+    id integer NOT NULL,
+    loggin_id bigint DEFAULT (- (2)::bigint),
+    "time" bigint DEFAULT (- (2)::bigint),
+    active character varying(1),
+    mobile_number character varying(15),
+    iemi character varying(32),
+    send_sms character varying(1),
+    save_log character varying(1),
+    printer_txt character varying(1) DEFAULT 'N'::character varying
+);
+
