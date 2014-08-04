@@ -105,8 +105,7 @@ CREATE TABLE `rest_reservations_confirm` (
 
 
 
-
-......................ABSOLUTE
+-----------------------------------------------------------------------
 
 CREATE TABLE offer_time_validity (
     id integer NOT NULL,
@@ -132,7 +131,7 @@ CREATE TABLE offers (
     title character varying(256) DEFAULT 'New'::character varying,
     start_date bigint,
     end_date bigint,
-    message text,
+    user_message text,
     description text,
     email_template text,
     min_value double precision DEFAULT (10)::double precision,
@@ -146,7 +145,6 @@ CREATE TABLE offers (
     time_check character varying(1) DEFAULT 'N'::character varying,
     user_check character varying(1) DEFAULT 'N'::character varying,
     product_check character varying(1) DEFAULT 'N'::character varying
-    auto_apply character varying(1) DEFAULT 'N'::character varying
 );
 
 
