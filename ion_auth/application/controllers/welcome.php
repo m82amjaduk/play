@@ -42,6 +42,19 @@ class Welcome extends CI_Controller {
     }
 
 
+    /*
+     * http://learning7.lc/ci/index.php/welcome/order_api_config
+     */
+    public function order_api_config() {
+        $this->load->database();
+        $this->db->where('business_code', 'AAA1787');
+        $query = $this->db->get('order_api_config');
+        $row = ($query->num_rows > 0 ? $query->row() : array());
+
+        header('Content-Type: application/json');
+        echo json_encode($row);
+    }
+
     /* End of file welcome.php */
     /* Location: ./application/controllers/welcome.php */
 }
