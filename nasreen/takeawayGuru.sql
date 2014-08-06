@@ -5,7 +5,7 @@ CREATE TABLE `order_api_config` (
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `active` tinyint(4) NOT NULL DEFAULT '0',
-  `business_code`  varchar(256) NOT NULL DEFAULT 'NewBusiness',
+  `business_code`  varchar(256) NOT NULL DEFAULT 'AAA1787',
   `business_name`  varchar(1024) NOT NULL DEFAULT 'NewBusiness' ,
 
   `order_api_url`  varchar(1024) NOT NULL DEFAULT 'API_URL',
@@ -15,7 +15,7 @@ CREATE TABLE `order_api_config` (
   `order_api_log_file`  tinyint(4) NOT NULL DEFAULT '1',
 
   `config_api_check_interval`  int(11) DEFAULT '1430',
-  `order_api_pin` varchar(128) NOT NULL  DEFAULT 'ABC123',
+  `config_api_pin` varchar(128) NOT NULL  DEFAULT 'ABC123',
   `config_api_log_file`  tinyint(4) NOT NULL DEFAULT '1',
 
   `receipt_print_printing_time`  tinyint(4) NOT NULL DEFAULT '1',
