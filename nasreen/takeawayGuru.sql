@@ -14,7 +14,7 @@ CREATE TABLE `order_api_config` (
   `order_api_check_interval`  int(11) DEFAULT '180' ,
   `order_api_log_file`  tinyint(4) NOT NULL DEFAULT '1',
 
-  `config_api_check_interval`  int(11) DEFAULT '1430',
+  `config_api_check_interval`  int(11) DEFAULT '86400',
   `config_api_pin` varchar(128) NOT NULL  DEFAULT 'ABC123',
   `config_api_log_file`  tinyint(4) NOT NULL DEFAULT '1',
 
@@ -26,7 +26,7 @@ CREATE TABLE `order_api_config` (
   `receipt_currency_symbol` varchar(128) NOT NULL  DEFAULT '£',
   `receipt_pdf_html_output` varchar(128) NOT NULL  DEFAULT 'html',
 
-  `app_test_print_at`  int(11) NOT NULL  DEFAULT '1000',
+  `app_test_print_at`  int(11) NOT NULL  DEFAULT '61200',
   `app_test_print_content`  text  ,
   `app_environment`  varchar(128) NOT NULL DEFAULT 'live',
   `app_close_pin`  varchar(128) NOT NULL   DEFAULT 'ABC123',
