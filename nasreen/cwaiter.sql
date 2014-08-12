@@ -104,6 +104,34 @@ CREATE TABLE `rest_reservations_confirm` (
 
 
 
+DROP TABLE IF EXISTS `prod_options`;
+CREATE TABLE `prod_options` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `login_id` bigint(20) NOT NULL DEFAULT '1',
+  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `active` tinyint(4) NOT NULL DEFAULT '0',
+  `name_option`  varchar NOT NULL DEFAULT 'New',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='###';
+
+
+DROP TABLE IF EXISTS `prod_options_price`;
+CREATE TABLE `prod_options_price` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `login_id` bigint(20) NOT NULL DEFAULT '1',
+  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `active` tinyint(4) NOT NULL DEFAULT '0',
+  `sn`   bigint(20) NOT NULL ,
+  `group_no`   bigint(20) NOT NULL ,
+  `prod_id` bigint(20) NOT NULL ,
+  `prod_options_id`   bigint(20) NOT NULL ,
+  `price`   bigint(20) NOT NULL ,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='###';
+
+
+
+
 
 -----------------------------------------------------------------------
 
