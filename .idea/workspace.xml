@@ -32,10 +32,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="takeawayGuru.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nasreen/takeawayGuru.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="86" selection-start="835" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="46" selection-start="857" selection-end="857" vertical-scroll-proportion="-24.11111" vertical-offset="0" max-vertical-offset="1386">
+            <state line="31" column="46" selection-start="857" selection-end="857" vertical-scroll-proportion="-12.444445" vertical-offset="315" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -44,34 +53,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nasreen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="50" selection-start="658" selection-end="704" vertical-scroll-proportion="-16.62963" vertical-offset="286" max-vertical-offset="1155">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cwaiter.sql" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nasreen/cwaiter.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="67" selection-start="2121" selection-end="2121" vertical-scroll-proportion="-2.7322276" vertical-offset="3524" max-vertical-offset="4452">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nasreen/device.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="935" selection-end="935" vertical-scroll-proportion="-7.04" vertical-offset="601" max-vertical-offset="1554">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="social.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nasreen/social.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-33.08" vertical-offset="916" max-vertical-offset="1869">
+            <state line="11" column="6" selection-start="117" selection-end="117" vertical-scroll-proportion="-8.555555" vertical-offset="0" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -80,16 +62,16 @@
       <file leaf-file-name="cms.sql" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nasreen/cms.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="0" selection-start="4182" selection-end="4182" vertical-scroll-proportion="-32.08" vertical-offset="2453" max-vertical-offset="3381">
+            <state line="149" column="0" selection-start="5244" selection-end="5992" vertical-scroll-proportion="-10.4" vertical-offset="2869" max-vertical-offset="3738">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offers.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nasreen/offers.sql">
+      <file leaf-file-name="social.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nasreen/social.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="24" selection-start="2129" selection-end="2129" vertical-scroll-proportion="-24.68" vertical-offset="454" max-vertical-offset="1512">
+            <state line="98" column="1" selection-start="0" selection-end="3285" vertical-scroll-proportion="0.8507109" vertical-offset="1340" max-vertical-offset="2184">
               <folding />
             </state>
           </provider>
@@ -152,10 +134,10 @@
         <option value="$PROJECT_DIR$/ion_auth/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/nasreen/takeawayGuru.sql" />
         <option value="$PROJECT_DIR$/nasreen/offers.sql" />
-        <option value="$PROJECT_DIR$/nasreen/social.sql" />
+        <option value="$PROJECT_DIR$/nasreen/cwaiter.sql" />
         <option value="$PROJECT_DIR$/nasreen/cms.sql" />
         <option value="$PROJECT_DIR$/nasreen/device.sql" />
-        <option value="$PROJECT_DIR$/nasreen/cwaiter.sql" />
+        <option value="$PROJECT_DIR$/nasreen/social.sql" />
       </list>
     </option>
   </component>
@@ -581,27 +563,6 @@
         <state line="105" column="40" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.3039807" vertical-offset="1953" max-vertical-offset="16191" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="46" selection-start="857" selection-end="857" vertical-scroll-proportion="-24.11111" vertical-offset="0" max-vertical-offset="1386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nasreen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="50" selection-start="658" selection-end="704" vertical-scroll-proportion="-16.62963" vertical-offset="286" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nasreen/takeawayGuru.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="65" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.6524741" vertical-offset="252" max-vertical-offset="1344">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="37" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="567">
@@ -611,35 +572,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nasreen/offers.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="2129" selection-end="2129" vertical-scroll-proportion="-24.68" vertical-offset="454" max-vertical-offset="1512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nasreen/social.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-33.08" vertical-offset="916" max-vertical-offset="1869">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nasreen/cms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="0" selection-start="4182" selection-end="4182" vertical-scroll-proportion="-32.08" vertical-offset="2453" max-vertical-offset="3381">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nasreen/device.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="935" selection-end="935" vertical-scroll-proportion="-7.04" vertical-offset="601" max-vertical-offset="1554">
+        <state line="15" column="30" selection-start="589" selection-end="589" vertical-scroll-proportion="0.37322274" vertical-offset="0" max-vertical-offset="1512">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nasreen/cwaiter.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="67" selection-start="2121" selection-end="2121" vertical-scroll-proportion="-2.7322276" vertical-offset="3524" max-vertical-offset="4452">
+        <state line="59" column="25" selection-start="2255" selection-end="2255" vertical-scroll-proportion="-3.0059242" vertical-offset="3776" max-vertical-offset="4620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/takeawayGuru.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="86" selection-start="835" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/device.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="90" selection-start="386" selection-end="386" vertical-scroll-proportion="0.19905214" vertical-offset="0" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="117" selection-end="117" vertical-scroll-proportion="-8.555555" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="46" selection-start="857" selection-end="857" vertical-scroll-proportion="-12.444445" vertical-offset="315" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/cms.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="0" selection-start="5244" selection-end="5992" vertical-scroll-proportion="-10.4" vertical-offset="2869" max-vertical-offset="3738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/social.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="1" selection-start="0" selection-end="3285" vertical-scroll-proportion="0.8507109" vertical-offset="1340" max-vertical-offset="2184">
           <folding />
         </state>
       </provider>

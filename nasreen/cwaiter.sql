@@ -2,7 +2,7 @@
 
 DROP TABLE IF EXISTS `logs`;
 CREATE TABLE IF NOT EXISTS `logs` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) ZEROFILL NOT NULL AUTO_INCREMENT,
   `errno` int(2) NOT NULL,
   `errtype` varchar(32) NOT NULL,
   `errstr` text NOT NULL,
@@ -15,22 +15,22 @@ CREATE TABLE IF NOT EXISTS `logs` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 
-DROP TABLE IF EXISTS `map_lat_lng`;
-CREATE TABLE `map_lat_lng` (
+DROP TABLE IF EXISTS `map_latlng`;
+CREATE TABLE `map_latlng` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `active` tinyint(4) NOT NULL DEFAULT '0',
-  `search_key`  varchar(32) NOT NULL,
-  `search_key_no_space`  varchar(32) NOT NULL,
-  `lat`  varchar(32) NOT NULL,
-  `lng`  varchar(32) NOT NULL,
+  `search_key`  varchar(32) NOT NULL COMMENT 'eg. GU21 5ED, south end, Cherry Tree Walk',
+  `search_key_nospace`  varchar(32) NOT NULL COMMENT 'eg. GU215ED, SOUTHEND, CHERRYTREEWALK',
+  `lat`  varchar(32) NOT NULL DEFAULT '0',
+  `lng`  varchar(32) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='###Not updateable with form. Has to update via software / db process';
 
 
 DROP TABLE IF EXISTS `users_address`;
-CREATE TABLE `rest_reservations_confirm` (
+CREATE TABLE `users_address` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -38,31 +38,46 @@ CREATE TABLE `rest_reservations_confirm` (
   `users_id`   bigint(20) NOT NULL ,
   `user_code`  varchar(32) NOT NULL,
   `address1`  varchar(256) NOT NULL,
+  `address2`  varchar(256),
+  `town`  varchar(256),
+  `city`  varchar(256),
+  `county`  varchar(256),
+  `country`  varchar(256),
+  `postcode`  varchar(32) NOT NULL,
+  `map_latlng_id` int(11) NOT NULL,
+  `primary_address` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='###';
 
-CREATE TABLE settings_system (
-    id integer NOT NULL,
-    loggin_id bigint DEFAULT (- (2)::bigint),
-    "time" bigint DEFAULT (- (2)::bigint),
-    active character varying(1),
-    doctype text,
-    head_title text,
-    meta_description text,
-    meta_key text,
-    favicon text,
-    head_others text,
-    copy_right text,
-    copy_right_url text,
-    currency_code character varying(32) DEFAULT '826'::character varying,
-    currency_symbol character varying(32) DEFAULT '&pound;'::character varying,
-    time_zone character varying(32) DEFAULT '0'::character varying,
-    summer_time character varying(32) DEFAULT 'BST'::character varying,
-    site_live character varying(1) DEFAULT 'N'::character varying,
-    maintenance_note text DEFAULT 'This Site is currently underconstruction.'::text,
-    default_load character varying(256) DEFAULT 'base/welcome'::character varying,
-    default_load_login character varying(256) DEFAULT 'base/menu/1/1'::character varying
-);
+
+DROP TABLE IF EXISTS `settings_system`;
+CREATE TABLE `settings_system` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
+	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	`active` TINYINT(4) NOT NULL DEFAULT '0',
+	`doctype` TEXT NULL,
+	`head_title` TEXT NULL,
+	`meta_description` TEXT NULL,
+	`meta_key` TEXT NULL,
+	`favicon` TEXT NULL,
+	`head_others` TEXT NULL,
+	`copy_right` TEXT NULL,
+	`copy_right_url` TEXT NULL,
+	`currency_code` VARCHAR(32) NULL DEFAULT '826',
+	`currency_symbol` VARCHAR(32) NULL DEFAULT '&pound;',
+	`time_zone` VARCHAR(32) NULL DEFAULT '0',
+	`summer_time` VARCHAR(32) NULL DEFAULT 'BST',
+	`site_live` TINYINT(4) NOT NULL DEFAULT '0',
+	`maintenance_note` TEXT NULL,
+	`default_load` VARCHAR(256) NULL DEFAULT 'about/home',
+	`default_load_login` VARCHAR(256) NULL DEFAULT 'about/home',
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='###';
+
+
+
+
 
 
 
@@ -197,10 +212,3 @@ CREATE TABLE `services_sit_in` (
 )COMMENT='###' COLLATE='latin1_swedish_ci' ENGINE=InnoDB AUTO_INCREMENT=2;
 
 
-
-
-
-
-----------------------------------------------
-
-----------------------------------------------------
