@@ -44,11 +44,11 @@ CREATE TABLE `order_api_config` (
   `support_phone` varchar(128) NOT NULL  DEFAULT '02031292061',
   `support_website` varchar(128) NOT NULL  DEFAULT 'http://allinepos.co.uk',
   `support_email` varchar(128) NOT NULL  DEFAULT 'support@allinepos.co.uk',
-  `support_invoice_overdue` varchar(128) NOT NULL  DEFAULT 'no' COMMENT 'no / license_renewal / overdue / license_expired / shutdown ',
+  `support_invoice_overdue` varchar(128) NOT NULL  DEFAULT 'no' COMMENT 'no / license_renewal / overdue / license_expired / shutdown',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COMMENT='###';
 
-INSERT INTO order_api_config SET business_code='AAA1786', business_name='Al-amin Restaurant', order_api_domain='http://al-aminrestaurant.com';
+INSERT INTO order_api_config SET business_code='AAA1786', business_name='Al-amin Restaurant', order_api_domain='http://al-aminrestaurant.co.uk';
 INSERT INTO order_api_config SET business_code='AAA1787', business_name='Indian Oceans', order_api_domain='http://indianoceanpurley.com';
 INSERT INTO order_api_config SET business_code='AAA1788', business_name='Bithika Tandoori', order_api_domain='http://bithika.co.uk';
 INSERT INTO order_api_config SET business_code='AAA1789', business_name='The Royals Restaurant', order_api_domain='http://theroyalsrestaurant.co.uk';
