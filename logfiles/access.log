@@ -23827,3 +23827,6 @@
 127.0.0.1 - - [06/Aug/2014:15:25:26 +0100] "GET /ion_auth/index.php/welcome/order_api_config HTTP/1.1" 200 2
 127.0.0.1 - - [06/Aug/2014:15:25:55 +0100] "GET /ion_auth/index.php/welcome/order_api_config HTTP/1.1" 200 907
 127.0.0.1 - - [06/Aug/2014:16:41:29 +0100] "GET /ion_auth/index.php/welcome/order_api_config HTTP/1.1" 200 907
+127.0.0.1 - - [13/Aug/2014:12:21:27 +0100] "GET /ryman_stores/LoadMapWithMarker/ HTTP/1.1" 200 3182
+127.0.0.1 - - [13/Aug/2014:12:21:45 +0100] "GET /ryman_stores/clickNcollect/?address=&options=10 HTTP/1.1" 200 4924
+127.0.0.1 - - [13/Aug/2014:12:21:45 +0100] "GET /ryman_stores/clickNcollect/jquery.bpopup.min.js HTTP/1.1" 200 5215
