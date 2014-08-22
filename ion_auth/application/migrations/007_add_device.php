@@ -5,7 +5,7 @@ class Migration_Add_device extends CI_Migration {
     public function up()
     {
         // Create device_cwdp ...
-        $this->db->query("CREATE TABLE `device_cwdp` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `device_cwdp` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -19,7 +19,7 @@ class Migration_Add_device extends CI_Migration {
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';");
 
         // Create device_cwhd ...
-        $this->db->query("CREATE TABLE `device_cwhd` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `device_cwhd` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -34,7 +34,7 @@ class Migration_Add_device extends CI_Migration {
 )ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';");
 
         // Create device_fax ...
-        $this->db->query("CREATE TABLE `device_fax` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `device_fax` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,

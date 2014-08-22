@@ -1,11 +1,11 @@
 <?php  defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Migration_Add_cms_tracker_view extends CI_Migration {
+class Migration_Add_settings extends CI_Migration {
 
     public function up()
     {
         // Create settings_system ...
-        $this->db->query("CREATE TABLE `settings_system` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `settings_system` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,

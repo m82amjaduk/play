@@ -6,7 +6,7 @@ class Migration_Add_offers extends CI_Migration {
     {
 
         // Create offers ...
-        $this->db->query("CREATE TABLE `offers` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `offers` (
 	`id` INT(11)  UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -35,7 +35,7 @@ class Migration_Add_offers extends CI_Migration {
 
 
         // Create offer_time_validity ...
-        $this->db->query("CREATE TABLE `offer_time_validity` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `offer_time_validity` (
   `id` int(11)  UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -50,7 +50,7 @@ class Migration_Add_offers extends CI_Migration {
 
 
         // Create offers_product ...
-        $this->db->query("CREATE TABLE `offers_product` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `offers_product` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -61,7 +61,7 @@ class Migration_Add_offers extends CI_Migration {
 )COMMENT='###' COLLATE='latin1_swedish_ci' ENGINE=InnoDB AUTO_INCREMENT=1;");
 
         // Create offers_user ...
-        $this->db->query("CREATE TABLE `offers_user` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `offers_user` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,

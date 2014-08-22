@@ -5,7 +5,7 @@ class Migration_Add_services extends CI_Migration {
     public function up()
     {
         // Create services_collection ...
-        $this->db->query("CREATE TABLE `services_collection` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `services_collection` (
     `id` INT(11) UNSIGNED ZEROFILL  NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -22,7 +22,7 @@ class Migration_Add_services extends CI_Migration {
 
 
         // Create services_delivery ...
-        $this->db->query("CREATE TABLE `services_delivery` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `services_delivery` (
 	`id` INT(11) UNSIGNED ZEROFILL  NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -43,7 +43,7 @@ class Migration_Add_services extends CI_Migration {
 
 
         // Create services_sit_in ...
-        $this->db->query("CREATE TABLE `services_sit_in` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `services_sit_in` (
 	`id` INT(11) UNSIGNED ZEROFILL  NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -64,7 +64,7 @@ class Migration_Add_services extends CI_Migration {
 
 
         // Create rest_reservations ...
-        $this->db->query("CREATE TABLE `rest_reservations` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `rest_reservations` (
   `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -83,7 +83,7 @@ class Migration_Add_services extends CI_Migration {
 
 
         // Create rest_reservations_confirm ...
-        $this->db->query("CREATE TABLE `rest_reservations_confirm` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `rest_reservations_confirm` (
   `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,

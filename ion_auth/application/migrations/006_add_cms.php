@@ -5,7 +5,7 @@ class Migration_Add_cms extends CI_Migration {
     public function up()
     {
         // Create cms_email_config ...
-        $this->db->query("CREATE TABLE `cms_email_config` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `cms_email_config` (
   `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -23,7 +23,7 @@ class Migration_Add_cms extends CI_Migration {
 
 
         // Create cms_email_template ...
-        $this->db->query("CREATE TABLE `cms_email_template` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `cms_email_template` (
   `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -36,7 +36,7 @@ class Migration_Add_cms extends CI_Migration {
 
 
         // Create cms_blog ...
-        $this->db->query("CREATE TABLE `cms_blog` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `cms_blog` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -54,7 +54,7 @@ class Migration_Add_cms extends CI_Migration {
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';");
 
         // Create cms_blog_note ...
-        $this->db->query("CREATE TABLE `cms_blog_note` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `cms_blog_note` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -68,7 +68,7 @@ class Migration_Add_cms extends CI_Migration {
  ");
 
         // Create cms_gallery ...
-        $this->db->query("CREATE TABLE `cms_gallery` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `cms_gallery` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -83,7 +83,7 @@ class Migration_Add_cms extends CI_Migration {
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###'; ");
 
         // Create cms_gallery_images ...
-        $this->db->query("CREATE TABLE `cms_gallery_images` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `cms_gallery_images` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -117,7 +117,7 @@ class Migration_Add_cms extends CI_Migration {
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###'; ");
 
         // Create cms_nav_url ...
-        $this->db->query("CREATE TABLE `cms_nav_url` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `cms_nav_url` (
     `id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -133,7 +133,7 @@ class Migration_Add_cms extends CI_Migration {
 
 
         // Create cms_slider ...
-        $this->db->query("CREATE TABLE `cms_slider` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `cms_slider` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -146,7 +146,7 @@ class Migration_Add_cms extends CI_Migration {
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###'");
 
         // Create cms_slider_content ...
-        $this->db->query("CREATE TABLE `cms_slider_content` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS  `cms_slider_content` (
 	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
