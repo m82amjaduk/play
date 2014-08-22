@@ -32,10 +32,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="005_add_socials.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="32" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-18.185184" vertical-offset="496" max-vertical-offset="1680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migration.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/migration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="7" selection-start="131" selection-end="185" vertical-scroll-proportion="0.1278928" vertical-offset="0" max-vertical-offset="821">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="005_add_socials.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ion_auth/application/migrations/005_add_socials.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="18" selection-start="4570" selection-end="4570" vertical-scroll-proportion="0.40142518" vertical-offset="2749" max-vertical-offset="3591">
+            <state line="147" column="18" selection-start="4570" selection-end="4570" vertical-scroll-proportion="-61.51852" vertical-offset="1426" max-vertical-offset="3591">
               <folding>
                 <marker date="1408708747079" expanded="true" signature="1406:1453" placeholder="CREATE TABLE..social_facebook..." />
                 <marker date="1408708747079" expanded="true" signature="1483:1529" placeholder="CREATE TABLE..social_youtube..." />
@@ -84,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/serialize/index.php" />
         <option value="$PROJECT_DIR$/ryman_stores/store_locator.sql" />
         <option value="$PROJECT_DIR$/lat_lng_postcode/index.php" />
         <option value="$PROJECT_DIR$/ryman_stores/ryman_stores.sql" />
@@ -128,13 +145,14 @@
         <option value="$PROJECT_DIR$/ion_auth/application/migrations/001_add_blog.php" />
         <option value="$PROJECT_DIR$/ion_auth/application/migrations/002_add_user.php" />
         <option value="$PROJECT_DIR$/ci/system/libraries/Migration.php" />
-        <option value="$PROJECT_DIR$/ion_auth/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/ion_auth/system/libraries/Migration.php" />
         <option value="$PROJECT_DIR$/ion_auth/application/migrations/003_add_cms_tracker.php" />
         <option value="$PROJECT_DIR$/ion_auth/application/migrations/004_add_cms_tracker_view.php" />
         <option value="$PROJECT_DIR$/nasreen/social.sql" />
         <option value="$PROJECT_DIR$/ion_auth/application/config/migration.php" />
         <option value="$PROJECT_DIR$/ion_auth/application/migrations/005_add_socials.php" />
+        <option value="$PROJECT_DIR$/ion_auth/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/ion_auth/application/controllers/migration.php" />
       </list>
     </option>
   </component>
@@ -325,11 +343,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\controllers" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\migrations" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\models" />
       <recent name="C:\Zend\Apache2\htdocs\play\jstime" />
       <recent name="C:\Zend\Apache2\htdocs\play\nasreen" />
-      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\clickNCollect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\popUp" />
@@ -392,7 +410,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31196582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31196582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -438,11 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ryman_stores/store_details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="271" selection-end="271" vertical-scroll-proportion="0.12470309" vertical-offset="0" max-vertical-offset="4683" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ryman_stores/dbConf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="2" selection-start="341" selection-end="341" vertical-scroll-proportion="0.32422802" vertical-offset="0" max-vertical-offset="842" />
@@ -675,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-12.518518" vertical-offset="817" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="5" selection-start="681" selection-end="681" vertical-scroll-proportion="0.28233832" vertical-offset="214" max-vertical-offset="16191">
@@ -747,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ion_auth/application/migrations/005_add_socials.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="18" selection-start="4570" selection-end="4570" vertical-scroll-proportion="0.40142518" vertical-offset="2749" max-vertical-offset="3591">
+        <state line="147" column="18" selection-start="4570" selection-end="4570" vertical-scroll-proportion="-61.51852" vertical-offset="1426" max-vertical-offset="3591">
           <folding>
             <marker date="1408708747079" expanded="true" signature="1406:1453" placeholder="CREATE TABLE..social_facebook..." />
             <marker date="1408708747079" expanded="true" signature="1483:1529" placeholder="CREATE TABLE..social_youtube..." />
@@ -755,6 +761,20 @@
             <marker date="1408708747079" expanded="true" signature="1640:1690" placeholder="CREATE TABLE..social_tripadvisor..." />
             <marker date="1408708747079" expanded="true" signature="1720:1763" placeholder="CREATE TABLE..social_href..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="32" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-18.185184" vertical-offset="496" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/migration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="131" selection-end="185" vertical-scroll-proportion="0.1278928" vertical-offset="0" max-vertical-offset="821">
+          <folding />
         </state>
       </provider>
     </entry>
