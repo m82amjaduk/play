@@ -223,4 +223,3 @@ delimiter ;
     established bigint DEFAULT (- (2)::bigint)
 );
 */
-

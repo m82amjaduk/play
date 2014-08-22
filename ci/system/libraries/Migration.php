@@ -228,7 +228,7 @@ class CI_Migration {
 
 		// Calculate the last migration step from existing migration
 		// filenames and procceed to the standard version migration
-		return $this->version((int) substr($last_migration, 0, 3));
+		return $this->version((int) substr($last_migration, 0, 6));
 	}
 
 	// --------------------------------------------------------------------

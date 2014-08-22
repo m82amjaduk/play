@@ -7,7 +7,7 @@ class Welcome extends CI_Controller {
     }
 
 
-    // http://learning7.lc/ci/welcome/download_process
+    // http://learning7.lc/ion_auth/welcome/download_process
     public function download_process()
     {
         $this->load->helper('download');
@@ -38,12 +38,11 @@ class Welcome extends CI_Controller {
         }
         else
             die('success');
-//            redirect('http://learning7.lc/ci/index.php/welcome/upload'.$table, 'refresh');
     }
 
 
     /*
-     * http://learning7.lc/ci/index.php/welcome/order_api_config
+     * http://learning7.lc/ion_auth/index.php/welcome/order_api_config
      */
     public function order_api_config() {
         $this->load->database();
@@ -53,6 +52,21 @@ class Welcome extends CI_Controller {
 
         header('Content-Type: application/json');
         echo json_encode($row);
+    }
+
+    /*
+     * http://learning7.lc/ion_auth/index.php/welcome/creatDB
+     */
+    public function creatDB() {
+        $this->load->library('migration');
+//        echo $this->migration->current();
+
+        if ( ! $this->migration->current())
+        {
+            show_error($this->migration->error_string());
+        }
+//        $this->load->model('trackerm');
+//        $this->trackerm->creatDB();
     }
 
     /* End of file welcome.php */

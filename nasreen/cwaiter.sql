@@ -83,8 +83,6 @@ INSERT INTO settings_system SET meta_key='Indian Food';
 
 
 
-
-
 -----------------------------------------------
 
 
@@ -202,7 +200,7 @@ CREATE TABLE `services_sit_in` (
 	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
 	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	`active` TINYINT(4) NOT NULL DEFAULT '0',
-	`available` VARCHAR(1) NULL DEFAULT NULL,
+	`available` TINYINT(4) NOT NULL DEFAULT '0',
 	`opening_hours` TEXT NULL,
 	`start_after` INT(11) NULL DEFAULT '0',
 	`end_before` INT(11) NULL DEFAULT '0',
@@ -215,5 +213,28 @@ CREATE TABLE `services_sit_in` (
 	`admin` TINYINT(4) NOT NULL DEFAULT '0',
 	PRIMARY KEY (`id`)
 )COMMENT='###' COLLATE='latin1_swedish_ci' ENGINE=InnoDB AUTO_INCREMENT=1;
+
+
+
+
+
+
+DROP TABLE IF EXISTS `cms_tracker`;
+CREATE TABLE `cms_tracker` (
+	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
+	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
+	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	`active` TINYINT(4) NOT NULL DEFAULT '0',
+	`site_id_tracker` INT(11) NULL DEFAULT '1',
+	`tracker_domian`  VARCHAR(512)  DEFAULT 'takeawayguru.com/tracker/',
+	`site_domain`  VARCHAR(512)  DEFAULT 'al-aminrestaurant.co.uk',
+	`debug_mode`  TINYINT(4) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';
+INSERT INTO cms_tracker SET active='0';
+
+
+
+
 
 
