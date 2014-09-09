@@ -1,0 +1,184 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [name] => id
+            [type] => int
+            [default] => 
+            [max_length] => 11
+            [primary_key] => 1
+        )
+
+    [1] => stdClass Object
+        (
+            [name] => login_id
+            [type] => bigint
+            [default] => 1
+            [max_length] => 20
+            [primary_key] => 0
+        )
+
+    [2] => stdClass Object
+        (
+            [name] => updated
+            [type] => timestamp
+            [default] => CURRENT_TIMESTAMP
+            [max_length] => 
+            [primary_key] => 0
+        )
+
+    [3] => stdClass Object
+        (
+            [name] => active
+            [type] => tinyint
+            [default] => 0
+            [max_length] => 4
+            [primary_key] => 0
+        )
+
+    [4] => stdClass Object
+        (
+            [name] => doctype
+            [type] => varchar
+            [type] => varchar
+            [default] => #
+            [max_length] => 512
+            [primary_key] => 0
+        )
+
+    [5] => stdClass Object
+        (
+            [name] => head_title
+            [type] => varchar
+            [default] => Official Site - Green Chilli Restaurant :: Finest Indian Cuisine
+            [max_length] => 512
+            [primary_key] => 0
+        )
+
+    [6] => stdClass Object
+        (
+            [name] => meta_description
+            [type] => text
+            [default] => 
+            [max_length] => 
+            [primary_key] => 0
+        )
+
+    [7] => stdClass Object
+        (
+            [name] => meta_key
+            [type] => text
+            [default] => 
+            [max_length] => 
+            [primary_key] => 0
+        )
+
+    [8] => stdClass Object
+        (
+            [name] => favicon
+            [type] => varchar
+            [default] => http://conosurtek.co.uk/aj/images/conosurTek/favicon.ico
+            [max_length] => 256
+            [primary_key] => 0
+        )
+
+    [9] => stdClass Object
+        (
+            [name] => head_others
+            [type] => text
+            [default] => 
+            [max_length] => 
+            [primary_key] => 0
+        )
+
+    [10] => stdClass Object
+        (
+            [name] => copy_right
+            [type] => varchar
+            [default] => All In ePOS
+            [max_length] => 256
+            [primary_key] => 0
+        )
+
+    [11] => stdClass Object
+        (
+            [name] => copy_right_url
+            [type] => varchar
+            [default] => http://allinepos.co.uk
+            [max_length] => 256
+            [primary_key] => 0
+        )
+
+    [12] => stdClass Object
+        (
+            [name] => currency_code
+            [type] => varchar
+            [default] => 826
+            [max_length] => 32
+            [primary_key] => 0
+        )
+
+    [13] => stdClass Object
+        (
+            [name] => currency_symbol
+            [type] => varchar
+            [default] => £
+            [max_length] => 32
+            [primary_key] => 0
+        )
+
+    [14] => stdClass Object
+        (
+            [name] => time_zone
+            [type] => varchar
+            [default] => 0
+            [max_length] => 32
+            [primary_key] => 0
+        )
+
+    [15] => stdClass Object
+        (
+            [name] => summer_time
+            [type] => varchar
+            [default] => BST
+            [max_length] => 32
+            [primary_key] => 0
+        )
+
+    [16] => stdClass Object
+        (
+            [name] => site_live
+            [type] => tinyint
+            [default] => 0
+            [max_length] => 4
+            [primary_key] => 0
+        )
+
+    [17] => stdClass Object
+        (
+            [name] => maintenance_note
+            [type] => text
+            [default] => 
+            [max_length] => 
+            [primary_key] => 0
+        )
+
+    [18] => stdClass Object
+        (
+            [name] => default_load
+            [type] => varchar
+            [default] => about/home
+            [max_length] => 256
+            [primary_key] => 0
+        )
+
+    [19] => stdClass Object
+        (
+            [name] => default_load_login
+            [type] => varchar
+            [default] => about/home
+            [max_length] => 256
+            [primary_key] => 0
+        )
+
+)
