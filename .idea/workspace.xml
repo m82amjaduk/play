@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php" line="10" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php" line="14" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864c1539-a1a2-4c49-a75d-f8676aea7668" name="Default" comment="" />
@@ -34,9 +34,11 @@
       <file leaf-file-name="adm_settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="476">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-              <folding />
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="799">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <marker date="1410360702216" expanded="true" signature="757:1289" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +46,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25810474" vertical-offset="116" max-vertical-offset="1071">
-              <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.5423313" vertical-offset="255" max-vertical-offset="1428">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
@@ -121,8 +123,8 @@
         <option value="$PROJECT_DIR$/ion_auth/application/config/config.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/config/config.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/welcome.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/views/adm/delete" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php" />
       </list>
     </option>
@@ -517,8 +519,13 @@
           <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -820,7 +827,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="663">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#6#92#0#PHP" expanded="false" />
             <marker date="1409737436998" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1409737436998" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1409737436998" expanded="true" signature="-1:-1" placeholder="..." />
@@ -884,14 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="476">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/views/adm/delete">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.678572" vertical-offset="545" max-vertical-offset="3230">
@@ -900,10 +899,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="799">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1410360702216" expanded="true" signature="757:1289" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25810474" vertical-offset="116" max-vertical-offset="1071">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.5423313" vertical-offset="255" max-vertical-offset="1428">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
           </folding>
