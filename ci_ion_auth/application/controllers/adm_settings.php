@@ -10,9 +10,9 @@ class Adm_settings extends CI_Controller {
         $this->load->view('adm/main.php', $this->data);
     }
     /*
-     * http://learning7.lc/ci_ion_auth/index.php/adm_settings
+     * http://play.lc/ci_ion_auth/index.php/adm_settings/edit
      */
-    public function edit($table, $id) {
+    public function edit($table='settings_business', $id=1) {
 
         $this->load->database();
         $this->data['schema'] = $this->db->field_data($table);
@@ -20,22 +20,32 @@ class Adm_settings extends CI_Controller {
         $this->data['data'] = $this->db->get()->row() ;
         $this->data['process'] = "adm_settings/edit_process/$table/$id";
 
-//        echo '<pre>'; print_r($this->data['data']); exit;
-
         $this->load->view('adm/main.php', $this->data);
     }
 
     public function edit_process($table, $id) {
-
         $this->load->database();
         $postData = $this->input->get(NULL, TRUE);
         unset($postData['submitimage_x'],$postData['submitimage_y']);
-        echo '<pre>';print_r($postData);
+        echo '<pre>';print_r($postData); exit;
         $this->db->where('id', $id);
         $this->db->update($table, $postData);
     }
 
 
-    /* End of file welcome.php */
+    /*
+     * http://play.lc/ci_ion_auth/index.php/adm_settings/test
+     */
+    public function test($table='settings_business2') {
+        $this->load->database();
+//        $data = $this->db->query("select column_comment from information_schema.columns where table_name = '$table';");
+//        $data = $this->db->query("SHOW FULL COLUMNS FROM  $table");
+        $data = $this->db->query("SHOW FULL COLUMNS FROM  $table");
+        echo '<pre>';print_r($data);
+    }
+
+
+
+        /* End of file welcome.php */
     /* Location: ./application/controllers/welcome.php */
 }

@@ -3,7 +3,7 @@
 class Migration extends CI_Controller {
 
     /*
-     * http://learning7.lc/ion_auth/index.php/migration/index
+     * http://play.lc/ci_ion_auth/index.php/migration/index
      */
     public function index() {
         echo '<h1>Please Wait While I Work</h1>';

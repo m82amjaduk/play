@@ -4,7 +4,7 @@ CREATE TABLE `order_api_config` (
   `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `active` tinyint(4) NOT NULL DEFAULT '0',
+  `active` tinyint(1) NOT NULL DEFAULT '0',
   `business_code`  varchar(256) NOT NULL UNIQUE,
   `business_name`  varchar(1024) NOT NULL DEFAULT 'NewBusiness' ,
 
