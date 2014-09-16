@@ -1,0 +1,13 @@
+.idea/*
+logfiles/*
+template
+
+.DS_Store
+
+src/application/cache/*
+!src/application/cache/index.html
+!src/application/cache/.htaccess
+
+src/application/logs/*
+!src/application/logs/index.html
+!src/application/logs/.htaccess

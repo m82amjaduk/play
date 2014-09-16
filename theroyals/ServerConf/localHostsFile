@@ -1,0 +1,16 @@
+ <VirtualHost *:80>
+      ServerName  theroyals.lc
+      DocumentRoot '/home/amzad/dev/theroyals/src'
+      ErrorLog '/home/amzad/dev/theroyals/logfiles/error_log'
+      CustomLog '/home/amzad/dev/theroyals/logfiles/access_log' common
+
+     <Directory '/home/amzad/dev/theroyals/src'>
+            Options FollowSymLinks MultiViews
+            AllowOverride all
+            AuthType None
+            Order deny,allow
+            Allow from all
+     </Directory>
+ </VirtualHost>
+# 2014-02-02-20:53:17
+# sudo cp ~/dev/theroyals/ServerConf/localHostsFile /etc/apache2/sites-available/theroyals.lc.conf

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+=====================================================================================
+First Installation
+=====================================================================================
+
+# https://help.ubuntu.com/10.04/serverguide/postgresql.html
+sudo apt-get install postgresql
+sudo vim /etc/postgresql/9.1/main/postgresql.conf  # uncomment the following
+listen_addresses = 'localhost'      # what IP address(es) to listen on;
+
+
+# http://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge
+sudo vim /etc/postgresql/9.1/main/pg_hba.conf
+local   all             postgres                                peer
+local   all             postgres                                md5                     # Change tot this..
+sudo service postgresql restart;
+
+sudo -u postgres psql;
+
+ALTER USER postgres with encrypted password 'amzad123';
+
+CREATE DATABASE  cwaiter_ukb1830 WITH TEMPLATE template1 OWNER postgres;
+
+GRANT ALL PRIVILEGES ON DATABASE "cwaiter_ukb1830" to cwaiter;
+
+psql -U postgres cwaiter_ukb1830 < '/home/amzad/dev/thekitchens/ServerConf/database.sql'
+
+sudo -u postgres psql cwaiter_ukb1830
+
+UPDATE settings_business SET web_url1='http://thekitchensonline.lc' WHERE id=1;
+
+====================================================================================
+More Commands
+====================================================================================
+
+
+
+sudo -u postgres psql
+
+# create yser with password.
+#CREATE USER cwaiter WITH PASSWORD 'cW@!t3r';
+CREATE ROLE cwaiter PASSWORD 'cW@!t3r' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+
+#encrypt password
+# ALTER USER postgres with encrypted password 'amzad123';
+ALTER USER cwaiter with encrypted password 'amzad123';
+
+#create database
+CREATE DATABASE cwaiter_ukb1830 OWNER cwaiter;
+
+# grant access
+GRANT ALL PRIVILEGES ON DATABASE "cwaiter_ukb1830" to cwaiter;
+
+
+
+#list all pggsql users
+sudo -u postgres psql
+\d              # List Users
+\q              # Quit
+
+# list all databases
+sudo -u postgres psql
+\list
+
+#Connect to the database, then list the tables:
+sudo -u postgres psql
+\c cwaiter_ukb1830          #Connect to DB
+\dt                         # list tables
+\q                          # Quit
+
+
+
+sudo -u postgres psql template1
+
+# restart pgsql
+sudo service postgresql restart;
+
+# Select a row
+SELECT * FROM user_reg LIMIT 1;
+
+# Drop Database
+DROP DATABASE cwaiter_ukb1830;
+
+# DROP USER
+DROP USER cwaiter;
+
+# view a file live..
+tail -f logfiles/error_log
+
+
+
+</body>
+</html>

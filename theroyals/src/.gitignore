@@ -1,0 +1,9 @@
+.DS_Store
+
+var/cache/*
+!var/cache/index.html
+!var/cache/.htaccess
+
+var/logs/*
+!var/logs/index.html
+!var/logs/.htaccess

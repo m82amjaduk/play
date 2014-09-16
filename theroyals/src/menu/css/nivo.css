@@ -1,0 +1,72 @@
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider {float: left;
+    width: 100%; /* Make sure your images are the same size */
+    height: 288px; /* Make sure your images are the same size */
+    }
+/*
+ * jQuery Nivo Slider v2.7
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {position: relative;}
+.nivoSlider img, #slider img {position:absolute; top: 0px; left: 0px; float: left; z-index: 10;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute; top:0px; left:0px; width:100%; height:100%; border:0; padding:0; margin:0;	z-index:6; display:none;}
+/* The slices and boxes in the Slider */
+.nivo-slice {display: block; position: absolute; z-index: 5; height: 100%;}
+.nivo-box {display: block; position: absolute; z-index: 5;}
+/* Caption styles */
+.nivo-caption {position:absolute; left:0px;	bottom:0px;	background:#000;	color:#fff;	width:100%;	z-index:8;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+}
+.nivo-caption p {padding:5px;	margin:0;}
+.nivo-caption a {display:inline !important;}
+.nivo-html-caption {display:none;}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {position:absolute; top:45%; z-index:9; cursor:pointer;}
+.nivo-prevNav {left: 0px;}
+.nivo-nextNav {right: 0px;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {position: absolute; bottom: 10px; right: 1.5em; z-index: 99; background: #fff; padding: 2px 2px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  
+  box-shadow: 0 -1px 2px 0 rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 -1px 2px 0 rgba(0,0,0,.5);
+  -moz-box-shadow: 0 -1px 2px 0 rgba(0,0,0,.5);
+} 
+.nivo-controlNav a.nivo-control {position: relative; z-index: 9; cursor: pointer;}
+.nivo-controlNav a.active {font-weight: bold;}
+
+.nivo-controlNav a {
+    display:block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/bullets.png) no-repeat;
+    border:0;
+    margin: 5px;
+    float:left;
+    text-indent: -999999px;
+    }
+.nivo-controlNav a.active {
+    background-position:0 -22px;
+}    
