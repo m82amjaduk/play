@@ -24,6 +24,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+    <favorites_list name="Nasreen">
+      <favorite_root url="file://$PROJECT_DIR$/nasreen/loyalty.sql" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
     <favorites_list name="adm">
       <favorite_root url="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
@@ -36,19 +39,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adm_settings.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php">
+      <file leaf-file-name="LocalCommand" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServerConf/LocalCommand">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="969">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-              <folding>
-                <marker date="1410519819037" expanded="true" signature="1364:1438" placeholder="SELECT table..table..." />
-                <marker date="1410519819037" expanded="true" signature="1364:1444" placeholder="SELECT table..TABLES..." />
-                <marker date="1410519819037" expanded="true" signature="1364:1445" placeholder="select colum..columns..." />
-                <marker date="1410519819037" expanded="true" signature="1486:1487" placeholder="SELECT :_tab..." />
-                <marker date="1410519819037" expanded="true" signature="1486:1510" placeholder="select colum..columns..." />
-                <marker date="1410519819037" expanded="true" signature="1486:1516" placeholder="SELECT comme..tables..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,78 +52,8 @@
       <file leaf-file-name="loyalty.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nasreen/loyalty.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6869565" vertical-offset="1368" max-vertical-offset="2210">
-              <caret line="113" column="85" selection-start-line="113" selection-start-column="85" selection-end-line="113" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="010_add_prod.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_prod.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1840" max-vertical-offset="3536">
-              <caret line="122" column="19" selection-start-line="116" selection-start-column="26" selection-end-line="135" selection-end-column="33" />
-              <folding>
-                <marker date="1410514752339" expanded="true" signature="210:1064" placeholder="CREATE TABLE..IF..." />
-                <marker date="1410514752339" expanded="true" signature="1097:1197" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1228:1325" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1356:1450" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1481:1574" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1605:1704" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1735:1829" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1860:1963" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="1994:2093" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="2124:2225" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="2256:2360" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="2391:2530" placeholder="UPDATE prod_..." />
-                <marker date="1410514752339" expanded="true" signature="2599:3223" placeholder="CREATE TABLE..IF..." />
-                <marker date="1410514752339" expanded="true" signature="3256:3343" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="3374:3455" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="3486:3573" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="3638:4147" placeholder="CREATE TABLE..IF..." />
-                <marker date="1410514752339" expanded="true" signature="4179:4757" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="4836:5349" placeholder="CREATE TABLE..IF..." />
-                <marker date="1410514752339" expanded="true" signature="5381:5880" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="6696:7126" placeholder="CREATE TABLE..IF..." />
-                <marker date="1410514752339" expanded="true" signature="7158:7218" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="7250:7310" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="7342:7418" placeholder="INSERT INTO ..." />
-                <marker date="1410514752339" expanded="true" signature="7494:8094" placeholder="CREATE TABLE..IF..." />
-                <marker date="1410514752339" expanded="true" signature="8126:8171" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="001_add_SetUpMigration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1938">
-              <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
-              <folding>
-                <marker date="1410514666042" expanded="true" signature="1388:1491" placeholder="ALTER TABLE ..." />
-                <marker date="1410514666042" expanded="true" signature="1634:1707" placeholder="CREATE TABLE..IF..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="008_add_GetUnID.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/008_add_GetUnID.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1479">
-              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="023_add_Repire.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/023_add_Repire.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="765">
-              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.36352658" vertical-offset="1926" max-vertical-offset="2754">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -230,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,86 +171,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theroyals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theroyals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theroyals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theroyals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,30 +220,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_ion_auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -452,6 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../magento-enterprise-ba" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -462,11 +287,11 @@
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\ServerConf" />
       <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\popUp" />
       <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\libraries" />
       <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\controllers" />
-      <recent name="C:\Zend\Apache2\htdocs\play\ion_auth\application\config" />
     </key>
   </component>
   <component name="RunManager">
@@ -484,9 +309,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -495,11 +317,17 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SqlCodeAssistantSettings">
     <option name="dbBrowserSelectedConnection" value="play" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -532,16 +360,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3099022" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.047066014" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25305623" sideWeight="0.49827388" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25305623" sideWeight="0.50057536" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26222494" sideWeight="0.49712312" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26222494" sideWeight="0.50172615" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -596,13 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/migrations/001_add_prod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="782">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/migration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="459">
@@ -897,26 +718,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1479">
           <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/023_add_Repire.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.44513714" vertical-offset="0" max-vertical-offset="802">
           <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1938">
-          <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
-          <folding>
-            <marker date="1410514666042" expanded="true" signature="1388:1491" placeholder="ALTER TABLE ..." />
-            <marker date="1410514666042" expanded="true" signature="1634:1707" placeholder="CREATE TABLE..IF..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,14 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="969">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <marker date="1410519819037" expanded="true" signature="1364:1438" placeholder="SELECT table..table..." />
-            <marker date="1410519819037" expanded="true" signature="1364:1444" placeholder="SELECT table..TABLES..." />
-            <marker date="1410519819037" expanded="true" signature="1364:1445" placeholder="select colum..columns..." />
-            <marker date="1410519819037" expanded="true" signature="1486:1487" placeholder="SELECT :_tab..." />
-            <marker date="1410519819037" expanded="true" signature="1486:1510" placeholder="select colum..columns..." />
-            <marker date="1410519819037" expanded="true" signature="1486:1516" placeholder="SELECT comme..tables..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,43 +758,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_prod.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1840" max-vertical-offset="3536">
+        <state vertical-scroll-proportion="0.29177058" vertical-offset="1840" max-vertical-offset="3536">
           <caret line="122" column="19" selection-start-line="116" selection-start-column="26" selection-end-line="135" selection-end-column="33" />
-          <folding>
-            <marker date="1410514752339" expanded="true" signature="210:1064" placeholder="CREATE TABLE..IF..." />
-            <marker date="1410514752339" expanded="true" signature="1097:1197" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1228:1325" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1356:1450" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1481:1574" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1605:1704" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1735:1829" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1860:1963" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="1994:2093" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="2124:2225" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="2256:2360" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="2391:2530" placeholder="UPDATE prod_..." />
-            <marker date="1410514752339" expanded="true" signature="2599:3223" placeholder="CREATE TABLE..IF..." />
-            <marker date="1410514752339" expanded="true" signature="3256:3343" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="3374:3455" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="3486:3573" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="3638:4147" placeholder="CREATE TABLE..IF..." />
-            <marker date="1410514752339" expanded="true" signature="4179:4757" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="4836:5349" placeholder="CREATE TABLE..IF..." />
-            <marker date="1410514752339" expanded="true" signature="5381:5880" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="6696:7126" placeholder="CREATE TABLE..IF..." />
-            <marker date="1410514752339" expanded="true" signature="7158:7218" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="7250:7310" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="7342:7418" placeholder="INSERT INTO ..." />
-            <marker date="1410514752339" expanded="true" signature="7494:8094" placeholder="CREATE TABLE..IF..." />
-            <marker date="1410514752339" expanded="true" signature="8126:8171" placeholder="INSERT INTO ..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59351623" vertical-offset="1122" max-vertical-offset="1938">
+          <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServerConf/LocalCommand">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nasreen/loyalty.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6869565" vertical-offset="1368" max-vertical-offset="2210">
-          <caret line="113" column="85" selection-start-line="113" selection-start-column="85" selection-end-line="113" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.36352658" vertical-offset="1926" max-vertical-offset="2754">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
