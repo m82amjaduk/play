@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS `loyalty_history` (
   `description` VARCHAR(512) NOT NULL DEFAULT 'Order Placed' COMMENT 'Recurring',
   `point` INT(11) NOT NULL DEFAULT '1',
   `transaction_type` VARCHAR(512) NOT NULL DEFAULT 'earned' COMMENT 'spent/refund',
+  `balance` INT(11) NOT NULL DEFAULT '0',
   `user_code_guest` VARCHAR(7) DEFAULT NULL COMMENT 'If Point Earned From An Invitation',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';
@@ -129,28 +130,26 @@ INSERT INTO `cms_nav_url` (`id`, `login_id`, `updated`, `active`, `sn`, `parent`
   (00000000017, 1, '2014-09-16 14:50:17', 1, 1, 0, 'Meal Deals', 4, 'takeaway/menu/2', NULL);
 
 
-DROP TABLE IF EXISTS `cms_nav_site_urls`;
-CREATE TABLE IF NOT EXISTS `cms_nav_site_urls` (
-  `id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
-  `login_id` BIGINT(20) NOT NULL DEFAULT '1',
-  `updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `active` TINYINT(1) NOT NULL DEFAULT '0',
 
-  `href` VARCHAR(2048) NOT NULL DEFAULT 'new',
-  `title` VARCHAR(2048) NOT NULL DEFAULT 'Official Site | <?=$businessName?>',
-  `description` VARCHAR(2048) NOT NULL DEFAULT '<?=$description?>',
-  `keyword` VARCHAR(2048) NOT NULL DEFAULT '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>',
-  `favicon` VARCHAR(2048) NOT NULL DEFAULT 'img/struct/favicon.ico',
-  `note` TEXT,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';
+DROP VIEW prod_options_price_view;
+CREATE VIEW prod_options_price_view AS
+  SELECT
+    prod_options_price.id AS prod_options_price_id,
+    prod_options_price.active AS options_price_active,
+    prod_options_price.sn AS options_price_sn,
+    prod_options_price.group_no,
+    prod_options_price.prod_list_id,
+    prod_options_price.price ,
+    prod_options_price.prod_options_id,
 
-INSERT INTO `cms_nav_site_urls` (`id`, `login_id`, `updated`, `active`, `href`, `title`, `description`, `keyword`, `favicon`, `note`) VALUES
-  (00000000001, 1, '2014-09-18 11:35:38', 1, 'about/home', 'Official Site | Welcome To <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000002, 1, '2014-09-18 11:35:40', 1, 'takeaway/menu', '<?=$categoryName?> | Menu | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000003, 1, '2014-09-18 11:35:41', 1, 'about/us', 'About Us | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000004, 1, '2014-09-18 11:35:43', 1, 'about/gallery', 'Our Gallery | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000005, 1, '2014-09-18 11:35:44', 1, 'about/contact', 'Contact Us | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000006, 1, '2014-09-18 11:35:45', 1, 'about/specialoffers', 'Special Offers | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000007, 1, '2014-09-18 11:35:53', 1, 'takeaway/menu/2', '<?=$categoryName?> | Menu | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL),
-  (00000000008, 1, '2014-09-18 11:37:15', 1, 'takeaway/menu/3', '<?=$categoryName?> | Menu | <?=$businessName?>', '<?=$description?>', '<?=$keyword?>, Chicken Tikka Masala, Lamb Dansak, Spicy, Hot,  Indian, Food, <?=$town?>', 'img/struct/favicon.ico', NULL);
+    prod_options.active AS prod_options_active,
+    prod_options.name_option,
+
+    prod_list.prod_category_id
+
+  FROM prod_options_price
+    RIGHT JOIN prod_options  ON prod_options_price.prod_options_id = prod_options.id
+    RIGHT JOIN prod_list ON prod_list.id =  prod_options_price.prod_list_id
+    WHERE prod_options_price.active = 1
+  ORDER BY  prod_options_price.sn ASC;
+
