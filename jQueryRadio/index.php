@@ -27,8 +27,8 @@ $checkedDelivery = ($receiving == 'delivery') ? 'checked' : NULL;
 <script>
     $(".receivingClass").click(function(){
         $(".fakeRadio").prop( "checked", false );
-        $(this).prop( "checked", true );
-        var receiving = $(this).attr("value")
+        var receiving = $(this).attr("value");
         alert(receiving);
+        $(this).prop( "checked", true );
     });
 </script>
