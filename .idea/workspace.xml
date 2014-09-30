@@ -34,6 +34,7 @@
       <favorite_root url="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/ci_ion_auth/application/config/migration.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/migration.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
     <favorites_list name="play" />
   </component>
@@ -54,15 +55,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getBalance.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getBalance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap/getBalance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6883436" vertical-offset="102" max-vertical-offset="1207">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+            <state vertical-scroll-proportion="-21.576923" vertical-offset="102" max-vertical-offset="1224">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
-                <marker date="1412075332955" expanded="true" signature="573:936" placeholder="..." />
-                <marker date="1412075332955" expanded="true" signature="845:920" placeholder="..." />
+                <marker date="1412085352792" expanded="true" signature="573:936" placeholder="..." />
+                <marker date="1412085352792" expanded="true" signature="845:920" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35460123" vertical-offset="408" max-vertical-offset="2873">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +81,7 @@
       <file leaf-file-name="errorPhp.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soap/errorPhp.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -135,9 +146,9 @@
         <option value="$PROJECT_DIR$/soap/setBalance.php" />
         <option value="$PROJECT_DIR$/jQueryRadio/index.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php" />
         <option value="$PROJECT_DIR$/soap/errorPhp.log" />
         <option value="$PROJECT_DIR$/soap/getBalance.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php" />
       </list>
     </option>
   </component>
@@ -217,60 +228,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jQueryRadio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ion_auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ion_auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="play" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ion_auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -778,33 +735,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.76923" vertical-offset="204" max-vertical-offset="1292">
-          <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQueryRadio/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="663">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
-            <element signature="e#6#250#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap/setBalance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8076925" vertical-offset="1" max-vertical-offset="816">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1411565455593" expanded="true" signature="254:1195" placeholder="..." />
-            <marker date="1411565455593" expanded="true" signature="447:1179" placeholder="..." />
-            <marker date="1411565455593" expanded="true" signature="479:1159" placeholder="..." />
+            <element signature="e#6#250#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,12 +787,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soap/getBalance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6883436" vertical-offset="102" max-vertical-offset="1207">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        <state vertical-scroll-proportion="-21.576923" vertical-offset="102" max-vertical-offset="1224">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
-            <marker date="1412075332955" expanded="true" signature="573:936" placeholder="..." />
-            <marker date="1412075332955" expanded="true" signature="845:920" placeholder="..." />
+            <marker date="1412085352792" expanded="true" signature="573:936" placeholder="..." />
+            <marker date="1412085352792" expanded="true" signature="845:920" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap/setBalance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="1" max-vertical-offset="816">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1411565455593" expanded="true" signature="254:1195" placeholder="..." />
+            <marker date="1411565455593" expanded="true" signature="447:1179" placeholder="..." />
+            <marker date="1411565455593" expanded="true" signature="479:1159" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35460123" vertical-offset="408" max-vertical-offset="2873">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

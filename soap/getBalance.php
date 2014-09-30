@@ -22,7 +22,7 @@ ini_set('error_log','errorPhp.log');
 
 
 //    $server = 'http://uat-webservices:8123/?wsdl';
-    $server = 'http://UAT-webservices.bouxavenue.lan:8124/?wsdl';
+    $server = 'http://uat-webservices.bouxavenue.lan:8124/?wsdl';
 
     $client = new SoapClient($server, array('cache_wsdl' => WSDL_CACHE_NONE));
 
@@ -41,7 +41,8 @@ ini_set('error_log','errorPhp.log');
 
     $result = $client->ReturnNavDataAsXml($request);
         echo '<h1> URL : ' . $server . '</h1>';
-        echo '<h1> Cuntomer ID : ' . $customerNo . '</h1>';
+        echo '<h1> Customer ID : ' . $customerNo . '</h1>';
+        echo '<pre>'; var_dump($result); echo '</pre>';
         echo '<pre>'; print_r($result); echo '</pre>';
 
 //
