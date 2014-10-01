@@ -21,9 +21,9 @@ class Offers extends CI_Controller {
     }
 
     /*
-     * http://play.lc/ci_ion_auth/index.php/offers/get/allinePOS/1412442000/10/collection_delivery
+     * http://play.lc/ci_ion_auth/index.php/offers/get/alLinePOs/1412442000/10/collection_delivery
      */
-    public function get($code='allinePOS', $receivingTime='1452568000', $orderValue=10, $receiving='collection_delivery') {
+    public function get($code='alLinePOs', $receivingTime='1452568000', $orderValue=10, $receiving='collection_delivery') {
         $this->load->database();
 
         $msg = $resultSuccess = array();
@@ -143,8 +143,8 @@ class Offers extends CI_Controller {
 
     /*
      *  Find valid time from a time collection
-     *  @pram int $input             // Input time
-     *  $pram collection $data  // Time Collection
+     *  @pram int           $input          // Input time
+     *  $pram collection    $data           // Time Collection
      *
      *  @return bool
      *  Sample Call :: $this->validTime($input, $Data)
@@ -153,7 +153,10 @@ class Offers extends CI_Controller {
     public function validTime($input, $data){
         foreach ($data as $time ){
             if ($time->day == date('D', $input)){
-                if ($this->_withInTime($input, $time->from_, $time->to_ ) == true)
+                $from   = $this-> hrsToSec($time->from_);
+                $to     = $this-> hrsToSec($time->to_);
+                $value  = $this->timeNoDate( $input, 'sec');
+                if ($this->inRange($value, $from, $to ) == true)
                     return true;
             }
         }
@@ -162,18 +165,15 @@ class Offers extends CI_Controller {
 
     /*
      *  Check if requested time is with in a range.
-     *  @pram int $time     // Requested time
-     *  @pram string $from  // Time range from
-     *  @pram string $to     // Time range to
+     *  @pram int $value    // Value to check
+     *  @pram int $start    // 1st Number in range
+     *  @pram int $end      // last Number in range
      *
      *  %return string
-     *  Sample Call :: $this->_withInTime($time, $from, $to );     *
+     *  Sample Call :: $this->inRange($value, $start, $end);     *
      */
-    private function _withInTime($time, $from, $to ){
-        $from   = $this-> _hrsToTime($from);
-        $to     = $this-> _hrsToTime($to);
-        $time   = $this->timeNoDate( $time, 'sec');
-        return ( in_array( $time , range( $from , $to ) ) ) ?  true : false;
+    public function inRange($value, $start, $end ){
+        return ( in_array( $value , range( $start , $end ) ) ) ?  true : false;
     }
 
 
@@ -182,9 +182,9 @@ class Offers extends CI_Controller {
      *  @pram string $input     // 24Hrs time eg 18:00
      *
      *  @return int $sec        // Time in sec
-     *  Sample Call :: $this-> _hrsToTime($input);
+     *  Sample Call :: $this-> hrsToSec($input);
      */
-    private function _hrsToTime($input){
+    public function hrsToSec($input){
         $mn     = explode(":",$input);
         $min    = ($mn[0]*60) + $mn[1] ;
         $sec    = $min * 60;
