@@ -236,7 +236,7 @@ class Migration_Install_ion_auth extends CI_Migration {
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED TABLE users, groups, users_groups, login_attempts; DEFAULT DATA: There is error with default data I have fixed on add_users.php.',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

@@ -23,7 +23,7 @@ class Migration_Add_CISession extends CI_Migration {
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'added ci_sessions',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

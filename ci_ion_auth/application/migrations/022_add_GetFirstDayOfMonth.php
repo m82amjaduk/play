@@ -8,10 +8,10 @@ class Migration_Add_GetFirstDayOfMonth extends CI_Migration {
         $this->db->query($SQL);
         // Create Function GetFirstDayOfMonth ...
         $SQL = "CREATE FUNCTION GetFirstDayOfMonth (`date` datetime)
-RETURNS datetime
-BEGIN
-  RETURN DATE_ADD(DATE_ADD(LAST_DAY(`date`), INTERVAL - 1 MONTH), INTERVAL 1 DAY);
-END ";
+            RETURNS datetime
+            BEGIN
+              RETURN DATE_ADD(DATE_ADD(LAST_DAY(`date`), INTERVAL - 1 MONTH), INTERVAL 1 DAY);
+            END ";
         $this->db->query($SQL);
 
 
@@ -22,7 +22,7 @@ END ";
                 'date_created'      => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED FUNCTION:: GetFirstDayOfMonth',
                 'release_note_adm'  => "Test Functionss",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

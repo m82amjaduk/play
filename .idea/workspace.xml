@@ -40,59 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="setBalance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soap/setBalance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8076925" vertical-offset="1" max-vertical-offset="816">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1411565455593" expanded="true" signature="254:1195" placeholder="..." />
-                <marker date="1411565455593" expanded="true" signature="447:1179" placeholder="..." />
-                <marker date="1411565455593" expanded="true" signature="479:1159" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getBalance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soap/getBalance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.576923" vertical-offset="102" max-vertical-offset="1224">
-              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-              <folding>
-                <marker date="1412085352792" expanded="true" signature="573:936" placeholder="..." />
-                <marker date="1412085352792" expanded="true" signature="845:920" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="offers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41731265" vertical-offset="0" max-vertical-offset="3502">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adm_settings.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.769231" vertical-offset="127" max-vertical-offset="969">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errorPhp.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soap/errorPhp.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30749354" vertical-offset="0" max-vertical-offset="4063">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,26 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ion_auth/application/migrations/020_add_GetUnID.php" />
-        <option value="$PROJECT_DIR$/ion_auth/application/migrations/013_add_CISession.php" />
-        <option value="$PROJECT_DIR$/ion_auth/application/controllers/migration.php" />
-        <option value="$PROJECT_DIR$/ion_auth/application/config/database.php" />
-        <option value="$PROJECT_DIR$/xmlToArray/note.xml" />
-        <option value="$PROJECT_DIR$/xmlToArray/index.php" />
-        <option value="$PROJECT_DIR$/dir/listDirUrl.php" />
-        <option value="$PROJECT_DIR$/ion_auth/application/config/config.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/config/config.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/welcome.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/views/adm/delete" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/views/adm/main.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/theroyals/src/application/migrations/001_add_SetUpMigration.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/migration.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/system/libraries/Migration.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/config/migration.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/002_add_CISession.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/003_install_ion_auth.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/004_add_users.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/005_add_cms.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_cms_settings.php" />
@@ -141,12 +73,9 @@
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/015_add_offers.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/016_add_device.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/017_add_map.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/018_add_pay_paypal.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/019_add_pay_card.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/020_add_pay_cash.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/021_add_GetFirstDayOfMonth.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/022_add_AddColumnUnlessExists.php" />
-        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/023_add_Repire.php" />
         <option value="$PROJECT_DIR$/theroyals/src/application/migrations/008_add_GetUnID.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/008_add_GetUnID.php" />
         <option value="$PROJECT_DIR$/nasreen/takeawayGuru.sql" />
@@ -158,6 +87,29 @@
         <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php" />
         <option value="$PROJECT_DIR$/soap/errorPhp.log" />
         <option value="$PROJECT_DIR$/soap/getBalance.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/002_add_CISession.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/004_add_AddColumnUnlessExists.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/005_install_ion_auth.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_users.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/007_add_cms_tracker.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/008_add_cms_settings.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/009_add_cms_hours.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_cms.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/011_add_socials.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/012_add_logs.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/013_add_prod.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/014_add_orders.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/015_add_services.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/016_add_offers.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/017_add_device.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/018_add_pay_paypal.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/019_add_pay_psense.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/020_add_pay_cash.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/021_add_map.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/022_add_GetFirstDayOfMonth.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/023_add_Repire.php" />
+        <option value="$PROJECT_DIR$/ci_ion_auth/application/migrations/003_add_GetUnID.php" />
         <option value="$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php" />
       </list>
     </option>
@@ -195,6 +147,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,9 +194,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_ion_auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_ion_auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_ion_auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_ion_auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -330,15 +358,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -381,26 +409,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45782396" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45782396" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3074572" sideWeight="0.49482164" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3074572" sideWeight="0.5051784" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31112468" sideWeight="0.49482164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31112468" sideWeight="0.5051784" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -506,164 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/002_add_CISession.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="782">
-          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/003_install_ion_auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.615385" vertical-offset="3692" max-vertical-offset="4471">
-          <caret line="238" column="89" selection-start-line="238" selection-start-column="89" selection-end-line="238" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/004_add_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="1275" max-vertical-offset="2193">
-          <caret line="91" column="89" selection-start-line="91" selection-start-column="89" selection-end-line="91" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/005_add_cms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.384615" vertical-offset="3403" max-vertical-offset="4182">
-          <caret line="213" column="89" selection-start-line="213" selection-start-column="89" selection-end-line="213" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_cms_settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.461538" vertical-offset="1673" max-vertical-offset="2465">
-          <caret line="119" column="89" selection-start-line="119" selection-start-column="89" selection-end-line="119" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/007_add_socials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.807693" vertical-offset="2795" max-vertical-offset="3587">
-          <caret line="184" column="89" selection-start-line="184" selection-start-column="89" selection-end-line="184" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/009_add_logs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.423077" vertical-offset="75" max-vertical-offset="867">
-          <caret line="28" column="89" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/011_add_orders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.423077" vertical-offset="1112" max-vertical-offset="1904">
-          <caret line="89" column="89" selection-start-line="89" selection-start-column="89" selection-end-line="89" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/012_add_cms_hours.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.384615" vertical-offset="245" max-vertical-offset="1037">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/013_add_cms_tracker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462" vertical-offset="663" max-vertical-offset="1632">
-          <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/014_add_services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="1479" max-vertical-offset="2278">
-          <caret line="104" column="89" selection-start-line="104" selection-start-column="89" selection-end-line="104" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/015_add_offers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.115385" vertical-offset="1095" max-vertical-offset="1887">
-          <caret line="86" column="89" selection-start-line="86" selection-start-column="89" selection-end-line="86" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/016_add_device.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.461538" vertical-offset="1333" max-vertical-offset="2125">
-          <caret line="99" column="89" selection-start-line="99" selection-start-column="89" selection-end-line="99" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/017_add_map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.73077" vertical-offset="75" max-vertical-offset="867">
-          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/018_add_pay_paypal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.23077" vertical-offset="649" max-vertical-offset="1428">
-          <caret line="63" column="89" selection-start-line="63" selection-start-column="89" selection-end-line="63" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/019_add_pay_card.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.73077" vertical-offset="381" max-vertical-offset="1173">
-          <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/020_add_pay_cash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.73077" vertical-offset="109" max-vertical-offset="901">
-          <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/021_add_GetFirstDayOfMonth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="765">
-          <caret line="24" column="89" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/022_add_AddColumnUnlessExists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="255" max-vertical-offset="1054">
-          <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theroyals/src/application/migrations/008_add_GetUnID.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020858895" vertical-offset="85" max-vertical-offset="1479">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/008_add_GetUnID.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1479">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/023_add_Repire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44513714" vertical-offset="0" max-vertical-offset="802">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/migration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31288344" vertical-offset="0" max-vertical-offset="815">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -678,20 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9409594" vertical-offset="867" max-vertical-offset="3910">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_prod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29177058" vertical-offset="1840" max-vertical-offset="3536">
-          <caret line="122" column="19" selection-start-line="116" selection-start-column="26" selection-end-line="135" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59351623" vertical-offset="1122" max-vertical-offset="1938">
-          <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -751,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08478803" vertical-offset="408" max-vertical-offset="13107">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14601228" vertical-offset="0" max-vertical-offset="815">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.18773006" vertical-offset="153" max-vertical-offset="1360">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,40 +645,364 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soap/setBalance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8076925" vertical-offset="1" max-vertical-offset="816">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="816">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1411565455593" expanded="true" signature="254:1195" placeholder="..." />
-            <marker date="1411565455593" expanded="true" signature="447:1179" placeholder="..." />
-            <marker date="1411565455593" expanded="true" signature="479:1159" placeholder="..." />
+            <marker date="1411565455593" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411565455593" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411565455593" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/soap/getBalance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.576923" vertical-offset="102" max-vertical-offset="1224">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
           <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
-            <marker date="1412085352792" expanded="true" signature="573:936" placeholder="..." />
-            <marker date="1412085352792" expanded="true" signature="845:920" placeholder="..." />
+            <marker date="1412085352792" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412085352792" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/adm_settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.769231" vertical-offset="127" max-vertical-offset="969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="969">
           <caret line="27" column="50" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/migration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="459">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/001_add_SetUpMigration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="918" max-vertical-offset="1751">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="80" selection-end-column="43" />
+          <folding>
+            <marker date="1412152524008" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
+            <marker date="1412152524008" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..migrations_db_versions..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/002_add_CISession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="782">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <marker date="1412152534902" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/004_add_AddColumnUnlessExists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="255" max-vertical-offset="1054">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/005_install_ion_auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="3672" max-vertical-offset="4471">
+          <caret line="238" column="43" selection-start-line="238" selection-start-column="43" selection-end-line="238" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1538463" vertical-offset="1413" max-vertical-offset="2193">
+          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+          <folding>
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/007_add_cms_tracker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.76923" vertical-offset="839" max-vertical-offset="1632">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/008_add_cms_settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0" vertical-offset="1974" max-vertical-offset="2754">
+          <caret line="136" column="43" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
+          <folding>
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152579608" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/009_add_cms_hours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.423077" vertical-offset="261" max-vertical-offset="1054">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152587526" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_cms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.307693" vertical-offset="5918" max-vertical-offset="6800">
+          <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
+          <folding>
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152599864" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/011_add_socials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.307693" vertical-offset="3573" max-vertical-offset="4352">
+          <caret line="229" column="43" selection-start-line="229" selection-start-column="43" selection-end-line="229" selection-end-column="43" />
+          <folding>
+            <marker date="1412152615857" expanded="true" signature="-1:-1" placeholder="ALTER TABLE social_google..." />
+            <marker date="1412152615857" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..social_facebook..." />
+            <marker date="1412152615857" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..social_youtube..." />
+            <marker date="1412152615857" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..social_takeawayguru..." />
+            <marker date="1412152615857" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..social_tripadvisor..." />
+            <marker date="1412152615857" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..social_href..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/012_add_logs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.423077" vertical-offset="109" max-vertical-offset="901">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <marker date="1412152622111" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/013_add_prod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.346154" vertical-offset="3743" max-vertical-offset="4522">
+          <caret line="236" column="43" selection-start-line="236" selection-start-column="43" selection-end-line="236" selection-end-column="43" />
+          <folding>
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="UPDATE prod_..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152630601" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/014_add_orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.423077" vertical-offset="1180" max-vertical-offset="1972">
+          <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+          <folding>
+            <marker date="1412152636105" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152636105" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/015_add_services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.346154" vertical-offset="1822" max-vertical-offset="2601">
+          <caret line="123" column="43" selection-start-line="123" selection-start-column="43" selection-end-line="123" selection-end-column="43" />
+          <folding>
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152642573" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/016_add_offers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.269231" vertical-offset="819" max-vertical-offset="1598">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+          <folding>
+            <marker date="1412152648691" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152648691" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152648691" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/017_add_device.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.461538" vertical-offset="1503" max-vertical-offset="2295">
+          <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
+          <folding>
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1412152657935" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/018_add_pay_paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.23077" vertical-offset="700" max-vertical-offset="1479">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+          <folding>
+            <marker date="1412152664222" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/019_add_pay_psense.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.73077" vertical-offset="551" max-vertical-offset="1343">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <marker date="1412152674076" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/020_add_pay_cash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.73077" vertical-offset="228" max-vertical-offset="1020">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding>
+            <marker date="1412152681267" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/021_add_map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.73077" vertical-offset="109" max-vertical-offset="901">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <marker date="1412152687260" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/022_add_GetFirstDayOfMonth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="765">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/023_add_Repire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="765">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/003_add_GetUnID.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5840491" vertical-offset="459" max-vertical-offset="1479">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/offers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41731265" vertical-offset="0" max-vertical-offset="3502">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.30749354" vertical-offset="0" max-vertical-offset="4063">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

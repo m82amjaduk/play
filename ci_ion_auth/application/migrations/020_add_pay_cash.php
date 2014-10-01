@@ -5,15 +5,22 @@ class Migration_Add_pay_cash extends CI_Migration {
     public function up()
     {
         // Create pay_cash ...
-        $this->db->query("CREATE TABLE IF NOT EXISTS  `pay_cash` (
-  `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT  UNIQUE,
-  `login_id` bigint(20) NOT NULL DEFAULT '1',
-  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `active` tinyint(4) NOT NULL DEFAULT '0',
-  `min_order_value` decimal(20,2) DEFAULT '10.00',
-  `captcha` tinyint(4) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='###' AUTO_INCREMENT=1;");
+        $this->db->query(
+            "CREATE TABLE IF NOT EXISTS  `pay_cash` (
+              `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT  UNIQUE,
+              `login_id` bigint(20) NOT NULL DEFAULT '1',
+              `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+              `active` tinyint(1) NOT NULL DEFAULT '0',
+              `min_order_value` decimal(20,2) DEFAULT '10.00',
+              `captcha` tinyint(4) NOT NULL DEFAULT '0',
+              `cache_config_data` tinyint(1) NOT NULL DEFAULT '1',
+              `log_active` tinyint(1) NOT NULL DEFAULT '0',
+              `log_dir`  VARCHAR(512) DEFAULT 'var/log',
+              `log_transaction` VARCHAR(512) DEFAULT 'cash.log',
+              `log_exception` VARCHAR(512) DEFAULT 'exception.log',
+              PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB AUTO_INCREMENT=1 COLLATE='latin1_swedish_ci' COMMENT='###';"
+        );
 
         // Insert Data  pay_cash ...
         $data = array(
@@ -30,7 +37,7 @@ class Migration_Add_pay_cash extends CI_Migration {
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED TABLE:: pay_cash',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

@@ -10,7 +10,7 @@ class Migration_Add_Repire extends CI_Migration {
 
         $this->db->query("call AddColumnUnlessExists('$database', 'device_cwdp', 'notify_email_eng', 'VARCHAR (256) DEFAULT \'m82amjad@gmail.com\'');");
         $this->db->query("call AddColumnUnlessExists('$database', 'device_cwdp', 'notify_email_client', 'VARCHAR (256)  DEFAULT \'m82amjad@gmail.com\'  ');");
-        $this->db->query("call AddColumnUnlessExists('$database', 'device_cwdp', 'debug', ' TINYINT(4) NOT NULL DEFAULT \'0\' ');");
+        $this->db->query("call AddColumnUnlessExists('$database', 'device_cwdp', 'debug', ' TINYINT(1) NOT NULL DEFAULT \'0\' ');");
 
 
 
@@ -21,7 +21,7 @@ class Migration_Add_Repire extends CI_Migration {
                 'date_created'      => '2014-09-01 16:33:06',
                 'release_note_eng'  => 'ADDED FUNCTION:: extraColum',
                 'release_note_adm'  => "Made migration more powerfull",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

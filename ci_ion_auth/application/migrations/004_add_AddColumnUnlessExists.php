@@ -37,7 +37,7 @@ class Migration_Add_AddColumnUnlessExists extends CI_Migration {
                 'date_created'      => '2014-09-01 16:33:06',
                 'release_note_eng'  => 'ADDED FUNCTION:: AddColumnUnlessExists',
                 'release_note_adm'  => "Made migration more powerfull",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

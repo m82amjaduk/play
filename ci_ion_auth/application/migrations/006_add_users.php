@@ -62,7 +62,7 @@ class Migration_Add_users extends CI_Migration {
   `id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT UNIQUE,
   `login_id` bigint(20) NOT NULL DEFAULT '1',
   `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `active` tinyint(4) NOT NULL DEFAULT '0',
+  `active` tinyint(1) NOT NULL DEFAULT '0',
   `users_id`   bigint(20) NOT NULL ,
   `user_code`  varchar(32) NOT NULL,
   `address1`  varchar(256) NOT NULL,
@@ -73,9 +73,9 @@ class Migration_Add_users extends CI_Migration {
   `country`  varchar(256),
   `postcode`  varchar(32) NOT NULL,
   `map_latlng_id` int(11) NOT NULL,
-  `primary_address` tinyint(4) NOT NULL DEFAULT '0',
+  `primary_address` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='###';");
+) ENGINE=InnoDB AUTO_INCREMENT=1 COLLATE='latin1_swedish_ci' COMMENT='###';");
 
         // Does not require Default Data .. !!
 
@@ -89,7 +89,7 @@ class Migration_Add_users extends CI_Migration {
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED TABLE: user_address; FIXED: Ion_auth data',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

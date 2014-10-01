@@ -52,7 +52,7 @@ CONTAINS SQL
     RETURN @ret;
 
   END";
-        $this->db->query( $SQL);
+//        $this->db->query( $SQL);
 
         // Does not require Insert Code...
 
@@ -64,7 +64,7 @@ CONTAINS SQL
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED FUNCTION:: GetUnID',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

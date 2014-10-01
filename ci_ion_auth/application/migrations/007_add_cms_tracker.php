@@ -24,7 +24,7 @@ class Migration_Add_cms_tracker extends CI_Migration {
             ),
             'active' => array(
                 'type' => 'TINYINT',
-                'constraint' => '4',
+                'constraint' => '1',
                 'null' => FALSE,
                 'default' => '0',
             ),
@@ -48,7 +48,7 @@ class Migration_Add_cms_tracker extends CI_Migration {
             ),
             'debug_mode' => array(
                 'type' => 'TINYINT',
-                'constraint' => '4',
+                'constraint' => '1',
                 'null' => FALSE,
                 'default' => '1',
             ),
@@ -73,7 +73,7 @@ class Migration_Add_cms_tracker extends CI_Migration {
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED TABLE:: cms_tracker',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );

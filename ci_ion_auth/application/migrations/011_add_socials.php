@@ -24,7 +24,7 @@ class Migration_Add_socials extends CI_Migration {
             ),
             'active' => array(
                 'type' => 'TINYINT',
-                'constraint' => '4',
+                'constraint' => '1', 
                 'null' => FALSE,
                 'default' => '0',
             ),
@@ -54,7 +54,7 @@ class Migration_Add_socials extends CI_Migration {
         // Dumping data for table 'social_google'
         $data = array(
             array(
-                'url' => 'http://goolge.com'
+                'url' => 'https://plus.google.com/u/0/'
             )
         );
         $this->db->insert_batch('social_google', $data);
@@ -70,7 +70,7 @@ class Migration_Add_socials extends CI_Migration {
         // Dumping data for table 'social_takeawayguru'
         $data = array(
             array(
-                'url' => 'http://takeawayguru.com'
+                'url' => 'https://www.youtube.com/channel/UCJENQl-cgkP2ZiiYDhXWXRA'
             )
         );
         $this->db->insert_batch('social_takeawayguru', $data);
@@ -112,7 +112,7 @@ class Migration_Add_socials extends CI_Migration {
         // Dumping data for table 'social_facebook'
         $data = array(
             array(
-                'url' => 'http://facebook.com'
+                'url' => 'https://www.facebook.com/TakeAwayGuru/timeline'
             )
         );
         $this->db->insert_batch('social_facebook', $data);
@@ -155,8 +155,8 @@ class Migration_Add_socials extends CI_Migration {
             ),
             array(
                 'id'            => '2',
-                'url'           => 'http://facebook.com',
-                'note'          => 'takeaway guru',
+                'url'           => 'https://www.facebook.com/TakeAwayGuru/timeline',
+                'note'          => 'Facebook',
                 'sn'            => '2',
                 'social_name'   => 'facebook',
                 'icon'          => 'http://takeawayguru.com/imgCommon/social/facebook.ico',
@@ -164,12 +164,57 @@ class Migration_Add_socials extends CI_Migration {
             ),
             array(
                 'id'            => '3',
-                'url'           => 'http://youtube.com',
+                'url'           => 'https://www.youtube.com/channel/UCJENQl-cgkP2ZiiYDhXWXRA',
                 'note'          => 'youtube',
                 'sn'            => '3',
                 'social_name'   => 'youtube',
                 'icon'          => 'http://takeawayguru.com/imgCommon/social/youtube.ico',
                 'logo'          => 'http://takeawayguru.com/imgCommon/social/youtubeLogo.png',
+            ),
+            array(
+                'id'            => '4',
+                'url'           => 'https://twitter.com/takeawayguru',
+                'note'          => 'twitter',
+                'sn'            => '4',
+                'social_name'   => 'twitter',
+                'icon'          => 'http://takeawayguru.com/imgCommon/social/twitter.ico',
+                'logo'          => 'http://takeawayguru.com/imgCommon/social/twitterLogo.png',
+            ),
+            array(
+                'id'            => '5',
+                'url'           => 'https://plus.google.com/u/0/',
+                'note'          => 'Google +',
+                'sn'            => '5',
+                'social_name'   => 'google+',
+                'icon'          => 'http://takeawayguru.com/imgCommon/social/google.ico',
+                'logo'          => 'http://takeawayguru.com/imgCommon/social/googleLogo.png',
+            ),
+            array(
+                'id'            => '6',
+                'url'           => 'http://takeawayguru1.blogspot.co.uk/',
+                'note'          => 'Blogpost',
+                'sn'            => '6',
+                'social_name'   => 'blogpost',
+                'icon'          => 'http://takeawayguru.com/imgCommon/social/blogpost.ico',
+                'logo'          => 'http://takeawayguru.com/imgCommon/social/blogpostLogo.png',
+            ),
+            array(
+                'id'            => '7',
+                'url'           => 'http://www.pinterest.com/lalitasahu73/',
+                'note'          => 'Pinterest',
+                'sn'            => '7',
+                'social_name'   => 'pinterest',
+                'icon'          => 'http://takeawayguru.com/imgCommon/social/pinterest.ico',
+                'logo'          => 'http://takeawayguru.com/imgCommon/social/pinterestLogo.png',
+            ),
+            array(
+                'id'            => '8',
+                'url'           => 'https://www.tumblr.com/blog/takeawayguru',
+                'note'          => 'Tumblr',
+                'sn'            => '8',
+                'social_name'   => 'tumblr',
+                'icon'          => 'http://takeawayguru.com/imgCommon/social/tumblr.ico',
+                'logo'          => 'http://takeawayguru.com/imgCommon/social/tumblrLogo.png',
             ),
         );
         $this->db->insert_batch('social_href', $data);
@@ -182,7 +227,7 @@ class Migration_Add_socials extends CI_Migration {
                 'date_created'  => '2014-08-25 14:31:06',
                 'release_note_eng'  => 'ADDED TABLE::  social_google, social_facebook, social_youtube, social_takeawayguru, social_tripadvisor, social_href',
                 'release_note_adm'  => "First Release",
-                'migration_by'      => 'Unknown', //$this->session->userdata('identity'),
+                'migration_by'      => '1',
                 'migration_ip'      => $_SERVER['REMOTE_ADDR']
             )
         );
