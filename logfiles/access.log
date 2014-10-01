@@ -25085,3 +25085,4 @@
 127.0.0.1 - - [01/Oct/2014:17:16:44 +0100] "GET /ci_ion_auth/index.php/offers/prod/1 HTTP/1.1" 200 6535
 127.0.0.1 - - [01/Oct/2014:17:17:14 +0100] "GET /ci_ion_auth/index.php/offers/prod/1 HTTP/1.1" 200 4407
 127.0.0.1 - - [01/Oct/2014:17:19:49 +0100] "GET /ci_ion_auth/index.php/offers/prod/1 HTTP/1.1" 200 4407
+127.0.0.1 - - [01/Oct/2014:17:22:12 +0100] "GET /ci_ion_auth/index.php/offers/prod/1 HTTP/1.1" 200 4449
