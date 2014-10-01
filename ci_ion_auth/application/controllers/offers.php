@@ -21,6 +21,15 @@ class Offers extends CI_Controller {
     }
 
     /*
+     * http://play.lc/ci_ion_auth/index.php/offers/prod/1
+     */
+    public function prod($id=1) { //
+//        $this->load->model('products');
+        $this->load->model('products');
+        $this->products->product();
+    }
+
+    /*
      * http://play.lc/ci_ion_auth/index.php/offers/get/alLinePOs/1412442000/10/collection_delivery
      */
     public function get($code='alLinePOs', $receivingTime='1452568000', $orderValue=10, $receiving='collection_delivery') {

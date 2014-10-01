@@ -69,6 +69,15 @@ class Welcome extends CI_Controller {
 //        $this->trackerm->creatDB();
     }
 
+
+    /*
+ * http://play.lc/ci_ion_auth/index.php/offers/welcome/1
+ */
+    public function prod($id=1) { //
+//        $this->load->model('products');
+        $this->load->model('products');
+        $this->trackerm->creatDB();
+    }
     /* End of file welcome.php */
     /* Location: ./application/controllers/welcome.php */
 }

@@ -20,6 +20,37 @@
 ini_set('error_log','errorPhp.log');
 //Mage::setIsDeveloperMode(true);
 
+$arr = array(
+    "Jacob" => 5,
+    "bob" => 20,
+    "Jane" => 20,
+    "Jill" => 15,
+    "John" => 10,
+);
+$output = splitArrayByValue($arr);
+
+echo '<pre>'; print_r($output);
+
+function splitArrayByValue($arr){
+    arsort($arr);
+    $output = array();
+    foreach($arr as $name=>$score)
+    {
+        $output[$score][$name] = $score;
+        if (count($output)>3)
+        {
+            array_pop($output);
+            break;
+        }
+    }
+    $output = array_values($output);
+    return $output;
+}
+
+
+
+
+
 
 //    $server = 'http://uat-webservices:8123/?wsdl';
     $server = 'http://uat-webservices.bouxavenue.lan:8124/?wsdl';
