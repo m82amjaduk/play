@@ -1,0 +1,173 @@
+2014-10-13T11:06:49+00:00 DEBUG (7): 2014Oct13:110649,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:06:49+00:00 DEBUG (7): 2014Oct13:110649,navisionId:5090562   TimeRequired:53 ms Started:1413198409670 ms ,Data.php
+2014-10-13T11:06:49+00:00 DEBUG (7): 2014Oct13:110649,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:06:54+00:00 DEBUG (7): 2014Oct13:110654,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:06:55+00:00 DEBUG (7): 2014Oct13:110655,navisionId:5090562   TimeRequired:64 ms Started:1413198415006 ms ,Data.php
+2014-10-13T11:06:55+00:00 DEBUG (7): 2014Oct13:110655,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:06:58+00:00 DEBUG (7): 2014Oct13:110658,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:06:59+00:00 DEBUG (7): 2014Oct13:110659,navisionId:5090562   TimeRequired:57 ms Started:1413198419030 ms ,Data.php
+2014-10-13T11:06:59+00:00 DEBUG (7): 2014Oct13:110659,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:07:14+00:00 DEBUG (7): 2014Oct13:110714,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:07:14+00:00 DEBUG (7): 2014Oct13:110714,navisionId:5090562   TimeRequired:49 ms Started:1413198434834 ms ,Data.php
+2014-10-13T11:07:14+00:00 DEBUG (7): 2014Oct13:110714,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:07:19+00:00 DEBUG (7): 2014Oct13:110719,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:07:20+00:00 DEBUG (7): 2014Oct13:110720,navisionId:5090562   TimeRequired:70 ms Started:1413198440217 ms ,Data.php
+2014-10-13T11:07:20+00:00 DEBUG (7): 2014Oct13:110720,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:07:21+00:00 DEBUG (7): 2014Oct13:110721,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:07:22+00:00 DEBUG (7): 2014Oct13:110722,navisionId:5090562   TimeRequired:59 ms Started:1413198442431 ms ,Data.php
+2014-10-13T11:07:22+00:00 DEBUG (7): 2014Oct13:110722,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:08:27+00:00 DEBUG (7): 2014Oct13:110827,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:08:28+00:00 DEBUG (7): 2014Oct13:110828,navisionId:5090562   TimeRequired:64 ms Started:1413198508498 ms ,Data.php
+2014-10-13T11:08:28+00:00 DEBUG (7): 2014Oct13:110828,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:08:34+00:00 DEBUG (7): 2014Oct13:110834,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:08:35+00:00 DEBUG (7): 2014Oct13:110835,navisionId:5090562   TimeRequired:82 ms Started:1413198515231 ms ,Data.php
+2014-10-13T11:08:35+00:00 DEBUG (7): 2014Oct13:110835,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:08:41+00:00 DEBUG (7): 2014Oct13:110841,navisionId:5090562 >> Request 
+<request>
+                <post>
+                    <requesttype>200</requesttype>
+                    <requestdescription>Unknown type</requestdescription>
+                    <currentuser>steven.galvin</currentuser>
+                    <terminalid>MO1</terminalid>
+                    <branchid>5600</branchid>
+                    <data>
+                        <customerno>5090562</customerno>
+                    </data>
+                </post>
+            </request>,Data.php
+2014-10-13T11:08:41+00:00 DEBUG (7): 2014Oct13:110841,navisionId:5090562   TimeRequired:87 ms Started:1413198521727 ms ,Data.php
+2014-10-13T11:08:41+00:00 DEBUG (7): 2014Oct13:110841,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>200</requesttype><successful>1</successful><message>Points Status</message><data><row><customerno>5090562</customerno><points>2155</points><exchangerate>0.05</exchangerate><redemptionmultiplier>1</redemptionmultiplier></row></data></reply>
+,Data.php
+2014-10-13T11:08:50+00:00 DEBUG (7): 2014Oct13:110850,navisionId:5090562 >> Request 
+<post>
+              <requesttype>1801</requesttype>
+              <requestdescription>Points Payment Entry</requestdescription>
+              <currentuser>vinee.ly</currentuser>
+              <terminalid>MO01</terminalid>
+              <branchid>5600</branchid>
+              <data>
+                <action>ADD</action>
+                <orderNo>58</orderNo>
+                <customerNo>5090562</customerNo>
+                <vipAmount>4</vipAmount>
+                <vipPoints>80</vipPoints>
+                <vipExchangeRate>0.05</vipExchangeRate>
+              </data>
+            </post>,Data.php
+2014-10-13T11:08:51+00:00 DEBUG (7): 2014Oct13:110851,navisionId:5090562   TimeRequired:64 ms Started:1413198531601 ms ,Data.php
+2014-10-13T11:08:51+00:00 DEBUG (7): 2014Oct13:110851,navisionId:5090562  >> Reply <?xml version="1.0"?>
+<reply><requesttype>1801</requesttype><successful>1</successful><message>Points Payment Entry Inserted</message><data/></reply>
+,Data.php
