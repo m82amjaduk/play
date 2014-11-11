@@ -23,11 +23,11 @@
                     <transno>228</transno>
                     <receiptno>BW50000227</receiptno>
                     <entrytype>Payment</entrytype>
-                    <points>-2,975</points>
+                    <points>-15</points>
                     <issuedate>07/07/2011</issuedate>
                     <cardno>5000332</cardno>
                     <sequenceno>0</sequenceno>
-                    <contactno>5000332</contactno>
+                    <contactno>5090562</contactno>
                     <expirationdate>31/12/3999</expirationdate>
                     <loyaltyscheme>VIP</loyaltyscheme>
                     <viptransaction>No</viptransaction>

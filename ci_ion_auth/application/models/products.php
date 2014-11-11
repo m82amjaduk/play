@@ -30,8 +30,7 @@ class Products extends CI_Model
         $meat  =  $this->db->get()->result() ;
         $this->db->select('*') ->from('prod_options_price_view') ->where('prod_list_id', $id);
         $opt  =  $this->db->get()->result() ;
-//        echo '<pre>'; print_r($opt);
-//        $opt[] = $opt ;  // $this->splitArrayByValue($opt);
+
 
         $products = $prod;
         $products->meats = $meat;

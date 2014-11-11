@@ -2,4 +2,9 @@
 git pull origin master
 git push origin master
 m82amjaduk
-PASSWORD
+amzad123
+
+
+mysqladmin -uroot -p create magento-enterprise-ryb2b1
+mysql -uroot -p  magento-enterprise-ryb2b1 < "C:\Amzad\ryb2b\magento-enterprise-ryb2b_20141027.sql"
+mysql -uroot -p  learning7 > "C:\Zend\Apache2\htdocs\learning7\SQL\JustInstalled.sql"

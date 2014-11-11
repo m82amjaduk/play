@@ -1,6 +1,0 @@
-[30-Sep-2014 13:41:15 UTC] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't find <definitions> in 'http://uat-webservices.bouxavenue.lan:8124/' in C:\Zend\Apache2\htdocs\play\soap\getBalance.php on line 27
-[30-Sep-2014 13:41:15 UTC] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't find <definitions> in 'http://uat-webservices.bouxavenue.lan:8124/' in C:\Zend\Apache2\htdocs\play\soap\getBalance.php:27
-Stack trace:
-#0 C:\Zend\Apache2\htdocs\play\soap\getBalance.php(27): SoapClient->SoapClient('http://uat-webs...', Array)
-#1 {main}
-  thrown in C:\Zend\Apache2\htdocs\play\soap\getBalance.php on line 27

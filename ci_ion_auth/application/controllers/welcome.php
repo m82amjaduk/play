@@ -78,6 +78,23 @@ class Welcome extends CI_Controller {
         $this->load->model('products');
         $this->trackerm->creatDB();
     }
+
+
+
+
+    // http://play.lc/ci_ion_auth/index.php/welcome/sms
+    public function sms(){ // die('fds');
+        $this->load->library('curl');
+        $sms_status = $this->curl->simple_get('http://213.104.214.8:9090');
+        echo $sms_status;
+
+    }
+
+
+
+
+
+
     /* End of file welcome.php */
     /* Location: ./application/controllers/welcome.php */
 }
