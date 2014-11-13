@@ -29230,3 +29230,9 @@
 127.0.0.1 - - [13/Nov/2014:09:47:17 +0000] "GET /index.php/checkout/onepage/progress/?prevStep=shipping_method HTTP/1.1" 200 363
 127.0.0.1 - - [13/Nov/2014:09:47:20 +0000] "POST /index.php/checkout/onepage/savePayment/ HTTP/1.1" 200 73
 127.0.0.1 - - [13/Nov/2014:09:47:21 +0000] "GET /index.php/paypal/express/start/ HTTP/1.1" 302 -
+127.0.0.1 - - [13/Nov/2014:14:41:02 +0000] "GET /_card.php HTTP/1.1" 404 207
+127.0.0.1 - - [13/Nov/2014:14:41:12 +0000] "GET /paypal/_card.php HTTP/1.1" 500 541
+127.0.0.1 - - [13/Nov/2014:14:42:31 +0000] "GET /paypal/_card.php HTTP/1.1" 200 2
+127.0.0.1 - - [13/Nov/2014:14:42:34 +0000] "GET /paypal/_card.php HTTP/1.1" 200 2
+127.0.0.1 - - [13/Nov/2014:14:45:03 +0000] "GET /paypal/_card.php HTTP/1.1" 200 2
+127.0.0.1 - - [13/Nov/2014:17:31:09 +0000] "GET /soap/getBalance.php HTTP/1.1" 200 812
