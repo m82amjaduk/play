@@ -53,7 +53,7 @@
       <file leaf-file-name="cw.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nasreen/cw.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7735848" vertical-offset="46960" max-vertical-offset="49793">
+            <state vertical-scroll-proportion="0.0" vertical-offset="47107" max-vertical-offset="49793">
               <caret line="2771" column="49" selection-start-line="2771" selection-start-column="49" selection-end-line="2771" selection-end-column="49" />
               <folding />
             </state>
@@ -63,20 +63,19 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="952">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="952">
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1415704869022" expanded="true" signature="181:772" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.log" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file/test.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19640565" vertical-offset="0" max-vertical-offset="779">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
@@ -86,7 +85,7 @@
       <file leaf-file-name="LocalCommand" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ServerConf/LocalCommand">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding />
             </state>
@@ -96,8 +95,62 @@
       <file leaf-file-name="errorPhp.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/errorPhp.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
               <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loyalty.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nasreen/loyalty.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1513">
+              <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="014_add_orders.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/014_add_orders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1219" max-vertical-offset="1972">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding>
+                <marker date="1412152636105" expanded="true" signature="228:2089" placeholder="CREATE TABLE..IF..." />
+                <marker date="1412152636105" expanded="true" signature="2178:2782" placeholder="CREATE TABLE..IF..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="006_add_users.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.653846" vertical-offset="412" max-vertical-offset="2193">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <marker date="1412152566961" expanded="true" signature="297:438" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="601:971" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="1057:1137" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="1318:1439" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="1886:2839" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="2871:3238" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="3395:4142" placeholder="CREATE TABLE..IF..." />
+                <marker date="1412152566961" expanded="true" signature="5175:5316" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="5479:5849" placeholder="INSERT INTO ..." />
+                <marker date="1412152566961" expanded="true" signature="5935:6015" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nasreen/new.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6063408" vertical-offset="0" max-vertical-offset="757">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -117,6 +170,7 @@
         <option value="$PROJECT_DIR$/nasreen/cw.sql" />
         <option value="$PROJECT_DIR$/file/test.log" />
         <option value="$PROJECT_DIR$/file/index.php" />
+        <option value="$PROJECT_DIR$/nasreen/new.sql" />
       </list>
     </option>
   </component>
@@ -209,7 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
+              <option name="myItemId" value="nasreen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,10 +327,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\nasreen" />
       <recent name="C:\Zend\Apache2\htdocs\play\soap" />
       <recent name="C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\models" />
       <recent name="C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers" />
-      <recent name="C:\Zend\Apache2\htdocs\play\nasreen" />
       <recent name="C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -302,15 +356,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -349,29 +403,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42394823" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41747573" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26618123" sideWeight="0.49822065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19174758" sideWeight="0.48754448" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19174758" sideWeight="0.5124555" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20145631" sideWeight="0.6042654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20145631" sideWeight="0.39454976" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262159" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262159" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -419,13 +473,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ion_auth/application/controllers/migration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14601228" vertical-offset="0" max-vertical-offset="815">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/migration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="459">
@@ -461,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1538463" vertical-offset="1413" max-vertical-offset="2193">
-          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/007_add_cms_tracker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.76923" vertical-offset="839" max-vertical-offset="1632">
@@ -489,20 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_cms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.307693" vertical-offset="5918" max-vertical-offset="6800">
-          <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/011_add_socials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.307693" vertical-offset="3573" max-vertical-offset="4352">
-          <caret line="229" column="43" selection-start-line="229" selection-start-column="43" selection-end-line="229" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/012_add_logs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.423077" vertical-offset="109" max-vertical-offset="901">
@@ -514,13 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.346154" vertical-offset="3743" max-vertical-offset="4522">
           <caret line="236" column="43" selection-start-line="236" selection-start-column="43" selection-end-line="236" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/014_add_orders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.423077" vertical-offset="1180" max-vertical-offset="1972">
-          <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -731,16 +750,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nasreen/loyalty.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nasreen/cw.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7735848" vertical-offset="46960" max-vertical-offset="49793">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47107" max-vertical-offset="49793">
           <caret line="2771" column="49" selection-start-line="2771" selection-start-column="49" selection-end-line="2771" selection-end-column="49" />
           <folding />
         </state>
@@ -750,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.086185046" vertical-offset="0" max-vertical-offset="789">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,19 +783,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="952">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="952">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1415704869022" expanded="true" signature="181:772" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file/test.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19640565" vertical-offset="0" max-vertical-offset="779">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/011_add_socials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5086322" vertical-offset="2757" max-vertical-offset="4352">
+          <caret line="229" column="43" selection-start-line="229" selection-start-column="43" selection-end-line="229" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/010_add_cms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5099602" vertical-offset="5153" max-vertical-offset="6800">
+          <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/loyalty.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1513">
+          <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/014_add_orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1219" max-vertical-offset="1972">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1412152636105" expanded="true" signature="228:2089" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152636105" expanded="true" signature="2178:2782" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/migrations/006_add_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.653846" vertical-offset="412" max-vertical-offset="2193">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <marker date="1412152566961" expanded="true" signature="297:438" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="601:971" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="1057:1137" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="1318:1439" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="1886:2839" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="2871:3238" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="3395:4142" placeholder="CREATE TABLE..IF..." />
+            <marker date="1412152566961" expanded="true" signature="5175:5316" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="5479:5849" placeholder="INSERT INTO ..." />
+            <marker date="1412152566961" expanded="true" signature="5935:6015" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nasreen/new.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6063408" vertical-offset="0" max-vertical-offset="757">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding />
         </state>
       </provider>

@@ -316,3 +316,10 @@
 [Wed Nov 05 17:15:58 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
 [Tue Nov 11 11:14:01 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Tue Nov 11 11:14:01 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Nov 11 11:52:44 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Tue Nov 11 15:20:13 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/file/function.phpinfo, referer: http://play.lc/file/
+[Tue Nov 11 15:39:21 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Wed Nov 12 10:05:19 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Wed Nov 12 17:29:22 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Thu Nov 13 09:27:43 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Thu Nov 13 09:27:43 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
