@@ -34,3 +34,5 @@ INSERT INTO `orders_state` (`id`, `login_id`, `updated`, `active`, `sn`, `state`
 	(00000000014, 1, '2014-11-13 10:53:33', 1, 14, 'escalated_for_cancellation', 'We are cancelling your order, DUE TO ........................', 1, 1, 0, 0),
 	(00000000015, 1, '2014-11-13 12:27:44', 1, 15, 'too_busy_to_deliver', 'We are sorry!! We are unable to deliver your food due to high volum of orders. It would be great if you could collect your food.', 1, 1, 0, 1),
 	(00000000016, 1, '2014-11-13 12:27:47', 1, 16, 'too_busy', 'We are sorry!! We are unable to cook your food with in your requested time. It would be great if do not mind waiting a little longer', 1, 1, 0, 1);
+
+SELECT GROUP_CONCAT(state ORDER BY sn ASC SEPARATOR ',') FROM orders_state WHERE active=1;
