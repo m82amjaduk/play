@@ -1,7 +1,4 @@
-/* 
-Nature Template 
-http://www.templatemo.com/preview/templatemo_398_nature 
-*/
+
 
 body, html { overflow-x: hidden; }
 
@@ -57,13 +54,13 @@ img {
      overflow: hidden;
 }
 
-.templatemo-site-title { 
+.site-title {
     color: #fff !important; 
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
 	font-size: 48px;
 }
 
-.templatemo-site-title a, .templatemo-site-title a:hover { 
+.site-title a, .site-title a:hover {
 	color: #fff;
 	text-decoration: none;
 }
