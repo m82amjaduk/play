@@ -323,3 +323,21 @@
 [Wed Nov 12 17:29:22 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
 [Thu Nov 13 09:27:43 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Thu Nov 13 09:27:43 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Fri Nov 14 09:48:06 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Fri Nov 14 11:04:57 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Fri Nov 14 11:05:14 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Fri Nov 14 11:05:22 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Fri Nov 14 11:10:26 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/learning7/skin/frontend/enterprise/default/css/images, referer: http://learning7.lc/skin/frontend/enterprise/default/css/webtex/onepagecheckout.css
+[Fri Nov 14 11:10:57 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/learning7/skin/frontend/enterprise/default/css/images, referer: http://learning7.lc/skin/frontend/enterprise/default/css/webtex/onepagecheckout.css
+[Fri Nov 14 11:16:56 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/learning7/skin/frontend/enterprise/default/css/images, referer: http://learning7.lc/skin/frontend/enterprise/default/css/webtex/onepagecheckout.css
+[Fri Nov 14 11:21:38 2014] [error] [client 127.0.0.1] client denied by server configuration: C:/Zend/Apache2/htdocs/learning7/app/etc/local.xml
+[Fri Nov 14 11:32:14 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/learning7/skin/frontend/enterprise/default/css/images, referer: http://learning7.lc/skin/frontend/enterprise/default/css/webtex/onepagecheckout.css
+[Fri Nov 14 11:37:45 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/learning7/skin/frontend/enterprise/default/css/images, referer: http://learning7.lc/skin/frontend/enterprise/default/css/webtex/onepagecheckout.css
+[Mon Nov 17 10:44:32 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Mon Nov 17 10:44:32 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Nov 19 15:38:56 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Nov 19 15:38:56 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Wed Nov 19 16:49:51 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jQPageLoad/burget.jpg
+[Wed Nov 19 16:49:56 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jQPageLoad/burget.jphp
+[Wed Nov 19 16:50:02 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jQPageLoad/burger.jphp
+[Thu Nov 20 11:07:26 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/css/templatemo_main.css, referer: http://play.lc/hatchGate/
