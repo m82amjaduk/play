@@ -94,17 +94,20 @@
                         <h2>Testimonial</h2>
                         <br /><br />
                         <p>Pleasant Evening Good Food</p>
-                         <i class="date">Reviewed 29 June 2014 via mobile</i> <hr>
+                         <i class="date">Reviewed 29 June 2014 via mobile</i> <hr><br />
+
 
                         <p>Visited while staying in the area. Very pleasant staff offering first
                         class service. I opted for the Indian Menu trying one of the monthly
                         specials It was excellent. I would recommend and will visit again when
                         passing through. Oila Great food</p>
-                        <i class="date">Reviewed 7 March 2014</i> <hr>
+                        <i class="date">Reviewed 7 March 2014</i> <hr><br />
+
 
                         <p>Really great food and nice place to go to eat! Not too expensive
                         either! Lots of parking as well just outside. Ellie "Excellent Indian and a proper pub bar" </p>
-                        <i class="date">Reviewed 8 January 2014</i> <hr>
+                        <i class="date">Reviewed 8 January 2014</i> <hr><br />
+
 
 
                         <p>We now go to this restaurant regularly. It has a proper English bar on
@@ -113,10 +116,11 @@
                         you wish.
                         They serve English food too, but we have never tried it.
                         Really excellent food, surprisingly good red wine, and friendly staff.</p>
-                        <i class="date">Visited December 2013 Northern</i> <hr>
+                        <i class="date">Visited December 2013 Northern</i> <hr><br />
+
 
                         <p>Great Foood & Company</p>
-                        <i class="date">Reviewed 3 November 2013</i> <hr>
+                        <i class="date">Reviewed 3 November 2013</i> <hr> <br />
 
 
                         <p>After calling in at the Old Bell in Grazely and being disappointed
@@ -128,7 +132,8 @@
                         and attentive, we were given complimentary drinks at the end of the
                         meal, which was a nice touch, I would definitely recommend this Inn
                         and will return.</p>
-                        <i class="date">Visited November 2013 Beckarnne</i> <hr>
+                        <i class="date">Visited November 2013 Beckarnne</i> <hr><br />
+
                     </div>
                 </section><!-- /.testimonial-text -->
 
