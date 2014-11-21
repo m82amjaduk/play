@@ -341,3 +341,12 @@
 [Wed Nov 19 16:49:56 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jQPageLoad/burget.jphp
 [Wed Nov 19 16:50:02 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/jQPageLoad/burger.jphp
 [Thu Nov 20 11:07:26 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/css/templatemo_main.css, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:57:59 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-02.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:58:10 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-02.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:58:11 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-02.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:58:17 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-02.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:59:13 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-04.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:59:22 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-04.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:59:24 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-04.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:59:28 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-04.jpg, referer: http://play.lc/hatchGate/
+[Fri Nov 21 09:59:33 2014] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/hatchGate/images/Hatch-Gate-Inn-04.jpg, referer: http://play.lc/hatchGate/
