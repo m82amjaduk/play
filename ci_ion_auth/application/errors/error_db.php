@@ -60,3 +60,5 @@ p {
 	</div>
 </body>
 </html>
+
+<?  error_log("$heading * $message ");  ?>

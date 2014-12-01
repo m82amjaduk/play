@@ -7,4 +7,7 @@
 <p>Filename: <?php echo $filepath; ?></p>
 <p>Line Number: <?php echo $line; ?></p>
 
+   <?  error_log("$severity * $message * $filepath * $line ");  ?>
+<!--   --><?//  error_log("$severity * $message * $filepath * $line ", 1, "amzadfof@gmail.com");  ?>
+
 </div>

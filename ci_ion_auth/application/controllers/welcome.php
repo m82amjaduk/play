@@ -3,6 +3,7 @@
 class Welcome extends CI_Controller {
 
     public function index() {
+//        trigger_error( 'Whoops!', E_USER_NOTICE );
         $this->load->view('welcome');
     }
 

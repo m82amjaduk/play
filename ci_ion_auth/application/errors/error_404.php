@@ -60,3 +60,6 @@ p {
 	</div>
 </body>
 </html>
+
+
+<?  error_log(" $heading * $message *  http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");  ?>

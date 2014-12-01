@@ -34,6 +34,7 @@ if (defined('ENVIRONMENT'))
 	{
 		case 'development':
 			error_reporting(E_ALL);
+            ini_set('error_log','errorPhp.log');
 		break;
 	
 		case 'testing':

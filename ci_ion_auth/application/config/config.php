@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://learning7.lc/ci_ion_auth/index.php/';
+$config['base_url']	= 'http://play.lc/ci_ion_auth/index.php/';
 
 /*
 |--------------------------------------------------------------------------
