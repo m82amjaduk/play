@@ -253,8 +253,6 @@ INSERT INTO `offer_time_validity` (`id`, `login_id`, `updated`, `active`, `offer
 INSERT INTO `offers` (`id`, `login_id`, `updated`, `active`, `sn`, `offer_code`, `title`, `summary`, `start_date`, `end_date`, `product_include`, `product_exclude`, `product_exclude_meal_deal`, `offers_page_show`, `offers_page_description`, `offers_page_terms`, `offers_page_readmore_link`, `email_template`, `admin_message`, `min_value`, `cw_discount_percentage`, `store_discount_percentage`, `cw_discount_amount`, `store_discount_amount`, `receiving`, `code_require`, `maximum_use`, `time_check`, `apply_loyalty_points`) VALUES
 	(00000000001, 1, '2014-10-01 09:41:50', 1, 1, 'ALLINEPOS', 'New', 'New', '2014-10-02 09:39:57', '2014-10-31 09:39:57', '#', '#', 0, 1, NULL, NULL, 'takeaway/menu/6', NULL, NULL, 10.00, 2.00, 2.00, 3.00, 1.00, 'collection_delivery', 1, -2, 1, 1);
 
-
-
 */
 
 
