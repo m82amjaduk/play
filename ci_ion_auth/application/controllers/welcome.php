@@ -105,11 +105,11 @@ class Welcome extends CI_Controller {
         echo '========================================<br />';
         print_r($this->map->getLngLat('N90DY'));
         echo '========================================<br />';
-        echo 'GU215ED >> N90DY =====>> '. $this->map->getDistance(51.3262614, -0.5452457, 51.6206058, -0.0591767) .'<br />' ;
+        echo 'GU215ED >> N90DY =====>> '. $this->map->getDistance(51.3262614, -0.5452457, 51.6206058, -0.0591767)->feet .'<br />' ;
         echo '========================================<br />';
         $from = $this->map->getLngLat('GU215ED');
         $to = $this->map->getLngLat('GU215AH');
-        echo 'GU215ED >> GU215AH =====>> '. $this->map->getDistance($from->lat, $from->lng, $to->lat, $to->lng, false) .'<br />' ;
+        echo 'GU215ED >> GU215AH =====>> '. $this->map->getDistance($from->lat, $from->lng, $to->lat, $to->lng)->feet .'<br />' ;
         echo '========================================<br />';
         print_r($this->map->getDistanceByAddress('GU215ED','GU215AH'));
 

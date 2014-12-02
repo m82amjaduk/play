@@ -27,3 +27,8 @@ ERROR - 2014-12-02 15:02:02 --> Severity: Notice  --> Trying to get property of 
 ERROR - 2014-12-02 15:02:02 --> Severity: Notice  --> Trying to get property of non-object C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php 64
 ERROR - 2014-12-02 15:02:26 --> Severity: Notice  --> Trying to get property of non-object C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php 64
 ERROR - 2014-12-02 15:02:27 --> Severity: Notice  --> Trying to get property of non-object C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php 64
+ERROR - 2014-12-02 15:31:45 --> Severity: 4096  --> Object of class stdClass could not be converted to string C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php 108
+ERROR - 2014-12-02 15:31:45 --> Severity: 4096  --> Object of class stdClass could not be converted to string C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php 112
+ERROR - 2014-12-02 15:32:40 --> Severity: 4096  --> Object of class stdClass could not be converted to string C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php 108
+ERROR - 2014-12-02 15:32:40 --> Severity: 4096  --> Object of class stdClass could not be converted to string C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php 112
+ERROR - 2014-12-02 15:33:00 --> Severity: 4096  --> Object of class stdClass could not be converted to string C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php 112

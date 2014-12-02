@@ -87,3 +87,8 @@ WHERE `business_code` =  'AAA1787'</p><p>Filename: C:\Zend\Apache2\htdocs\play\c
 [02-Dec-2014 15:02:02 UTC] Notice * Trying to get property of non-object * libraries/map.php * 64 
 [02-Dec-2014 15:02:26 UTC] Notice * Trying to get property of non-object * libraries/map.php * 64 
 [02-Dec-2014 15:02:27 UTC] Notice * Trying to get property of non-object * libraries/map.php * 64 
+[02-Dec-2014 15:31:45 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 108 
+[02-Dec-2014 15:31:45 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 112 
+[02-Dec-2014 15:32:40 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 108 
+[02-Dec-2014 15:32:40 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 112 
+[02-Dec-2014 15:33:00 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 112 

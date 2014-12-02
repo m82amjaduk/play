@@ -56,6 +56,7 @@ class Map{
         $dataRes = array (
             'distance_meter'    => $data->rows[0]->elements[0]->distance->value
             , 'distance_mile'   => ( $data->rows[0]->elements[0]->distance->value *0.000621371192237)
+            , 'distance_feet'   => ( $data->rows[0]->elements[0]->distance->value *0.000621371192237)*5280
             , 'duration_sec'    => $data->rows[0]->elements[0]->duration->value
             , 'distance'        => $data->rows[0]->elements[0]->distance->text
             , 'duration'        => $data->rows[0]->elements[0]->duration->text
@@ -68,7 +69,7 @@ class Map{
 
 
 
-    public function getDistance($lat1, $lng1, $lat2, $lng2, $miles = true)
+    public function getDistance($lat1, $lng1, $lat2, $lng2)
     {
         $pi80 = M_PI / 180;
         $lat1 *= $pi80;
@@ -76,18 +77,67 @@ class Map{
         $lat2 *= $pi80;
         $lng2 *= $pi80;
 
-        $r = 6372.797; // mean radius of Earth in km
+        $r = 6372.797; // Mean radius of Earth in km
         $dlat = $lat2 - $lat1;
         $dlng = $lng2 - $lng1;
         $a = sin($dlat / 2) * sin($dlat / 2) + cos($lat1) * cos($lat2) * sin($dlng / 2) * sin($dlng / 2);
         $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
         $km = $r * $c;
 
-        return ($miles ? ($km * 0.621371192) : $km);
+        $dataRes = array (
+            'km'        => $km
+            , 'meter'   => ($km/1000)
+            , 'mile'    => ($km * 0.621371192)
+            , 'yard'    => ($km * 0.621371192)*1760
+            , 'feet'    => ($km * 0.621371192)*5280
+        );
+        return (object)$dataRes;
     }
+
+
 
 
     /******************************************************************
      * End Of file .....
      */
 }
+
+
+/*
+
+
+CREATE TABLE `services_delivery_charge` (
+	`id` INT(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
+	`login_id` BIGINT(20) NOT NULL DEFAULT '1',
+	`updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	`active` TINYINT(1) NOT NULL DEFAULT '0',
+	`distance_from` DECIMAL(9,4) NULL DEFAULT NULL,
+	`distance_to` DECIMAL(9,4) NULL DEFAULT NULL,
+	`charge` DECIMAL(7,2) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`),
+	UNIQUE INDEX `id` (`id`)
+)
+COMMENT='Delivery CHarges'
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=7;
+
+REPLACE INTO `services_delivery_charge` (`id`, `login_id`, `updated`, `active`, `distance_from`, `distance_to`, `charge`) VALUES
+	(00000000001, 1, '2014-11-11 16:00:34', 1, 0.0000, 0.5000, 1.50),
+	(00000000002, 1, '2014-11-11 16:11:11', 1, 0.5001, 1.0000, 2.00),
+	(00000000003, 1, '2014-11-11 16:11:18', 1, 1.0001, 2.5000, 3.00),
+	(00000000004, 1, '2014-11-11 16:02:12', 1, 2.5100, 3.0000, 3.50),
+	(00000000005, 1, '2014-11-11 16:02:23', 1, 3.0100, 4.0000, 4.50),
+	(00000000006, 1, '2014-11-11 16:14:29', 1, 1.5000, 3.5000, 2.50);
+
+
+SELECT
+distance_from*5280 AS distance_from,
+distance_to*5280 AS distance_to,
+charge
+FROM services_delivery_charge
+WHERE active=1 ORDER BY distance_from ASC
+
+
+
+ */
