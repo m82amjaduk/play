@@ -114,8 +114,21 @@ class Welcome extends CI_Controller {
         print_r($this->map->getDistanceByAddress('GU215ED','GU215AH'));
 
 
+        echo '========================================<br />';
+        echo '========================================<br />';
     }
 
+    public function deleCharge($dis=5291){
+
+        $this->load->database();
+        $this->load->library('map');
+        $this->db->select('*') ->from('services_delivery_charge_view');
+        $data  =  $this->db->get()->result() ;
+        echo '<pre>'; print_r($data);
+
+        echo '========================================<br />';
+        echo $this->map->getCharge($data, $dis);
+    }
 
 
 

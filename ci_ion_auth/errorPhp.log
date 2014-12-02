@@ -92,3 +92,26 @@ WHERE `business_code` =  'AAA1787'</p><p>Filename: C:\Zend\Apache2\htdocs\play\c
 [02-Dec-2014 15:32:40 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 108 
 [02-Dec-2014 15:32:40 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 112 
 [02-Dec-2014 15:33:00 UTC] 4096 * Object of class stdClass could not be converted to string * controllers/welcome.php * 112 
+[02-Dec-2014 16:36:27 UTC] Notice * Undefined property: Welcome::$db * controllers/welcome.php * 120 
+[02-Dec-2014 16:36:27 UTC] PHP Fatal error:  Call to a member function select() on a non-object in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 120
+[02-Dec-2014 16:36:56 UTC] A Database Error Occurred * <p>Error Number: 1054</p><p>Unknown column 'active' in 'where clause'</p><p>SELECT *
+FROM (`services_delivery_charge_view`)
+WHERE `active` =  1</p><p>Filename: C:\Zend\Apache2\htdocs\play\ci_ion_auth\system\database\DB_driver.php</p><p>Line Number: 330</p> 
+[02-Dec-2014 16:37:29 UTC] PHP Fatal error:  Call to undefined method Welcome::getCharge() in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 126
+[02-Dec-2014 16:39:12 UTC] PHP Fatal error:  Call to undefined method Welcome::getCharge() in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 126
+[02-Dec-2014 16:45:52 UTC] PHP Fatal error:  Call to undefined method Welcome::getCharge() in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 126
+[02-Dec-2014 16:49:00 UTC] PHP Fatal error:  Call to undefined method Welcome::getCharge() in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 126
+[02-Dec-2014 16:49:32 UTC] PHP Fatal error:  Call to undefined method Welcome::getCharge() in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 127
+[02-Dec-2014 16:51:42 UTC]  2641 Sent Default Dele Charge 
+[02-Dec-2014 16:52:02 UTC]  5280 Sent Default Dele Charge 
+[02-Dec-2014 16:52:12 UTC]  5281 Sent Default Dele Charge 
+[02-Dec-2014 16:52:26 UTC]  5281 Sent Default Dele Charge 
+[02-Dec-2014 16:52:32 UTC]  5281 Sent Default Dele Charge 
+[02-Dec-2014 16:53:00 UTC]  5291 Sent Default Dele Charge 
+[02-Dec-2014 16:53:07 UTC]  5291 Sent Default Dele Charge 
+[02-Dec-2014 16:54:43 UTC] Notice * Undefined property: Welcome::$map * controllers/welcome.php * 129 
+[02-Dec-2014 16:54:43 UTC] PHP Fatal error:  Call to a member function getCharge() on a non-object in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 129
+[02-Dec-2014 16:54:53 UTC]  5291 Sent Default Dele Charge 
+[02-Dec-2014 16:57:01 UTC]  13202 Sent Default Dele Charge 
+[02-Dec-2014 17:00:50 UTC]  158840 Sent Default Dele Charge 
+[02-Dec-2014 17:17:48 UTC] out_of_range_21129

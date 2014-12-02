@@ -95,6 +95,51 @@ class Map{
     }
 
 
+    /*
+        * Check if requested time is with in a range.
+        * @pram int $value // Value to check
+        * @pram int $start // 1st Number in range
+        * @pram int $end // last Number in range
+        *
+        * %return string
+        * Sample Call :: $this->inRange($value, $start, $end); *
+        */
+    public function inRange($value, $start, $end ){
+        return ( in_array( $value , range( $start , $end ) ) ) ? true : false;
+    }
+
+    /*
+        * Check if requested time is with in a range.
+        * @pram int $data           // array of delevery charge
+        * @pram int $distance       // 1st Number in range
+        * @pram int $defaultCharge  // Return default charge if not found
+        *
+        * %return float
+        * Sample Call :: $this->getCharge($data, $distance, $defaultCharge ); *
+        */
+    public function getDeliveryCharge($data, $distance, $defaultCharge=2.01 ){
+        if( $distance >  end($data)->distance_to || $distance < 0 ){
+            $log = "out_of_range_$distance";
+            error_log($log);
+            return $log;
+        };
+
+
+        /*  This function should set in model ... */
+
+
+        foreach ($data as $row){ // echo (int)$row->distance_from . ' >>> ' . (int)$row->distance_to . '<br />';
+            if($this->inRange((int)$distance, (int)$row->distance_from, (int)$row->distance_to) == true ) {
+                return $row->charge;
+            }
+        }
+        error_log("$distance Sent Default Dele Charge ");
+        return $defaultCharge; // Default Del Charge ..
+    }
+
+
+
+
 
 
     /******************************************************************
@@ -126,9 +171,9 @@ REPLACE INTO `services_delivery_charge` (`id`, `login_id`, `updated`, `active`, 
 	(00000000001, 1, '2014-11-11 16:00:34', 1, 0.0000, 0.5000, 1.50),
 	(00000000002, 1, '2014-11-11 16:11:11', 1, 0.5001, 1.0000, 2.00),
 	(00000000003, 1, '2014-11-11 16:11:18', 1, 1.0001, 2.5000, 3.00),
-	(00000000004, 1, '2014-11-11 16:02:12', 1, 2.5100, 3.0000, 3.50),
-	(00000000005, 1, '2014-11-11 16:02:23', 1, 3.0100, 4.0000, 4.50),
-	(00000000006, 1, '2014-11-11 16:14:29', 1, 1.5000, 3.5000, 2.50);
+	(00000000004, 1, '2014-11-11 16:02:12', 1, 2.5001, 3.0000, 3.50),
+	(00000000005, 1, '2014-11-11 16:02:23', 1, 3.0001, 4.0000, 4.50),
+	(00000000006, 1, '2014-11-11 16:14:29', 1, 1.5001, 3.5000, 2.50);
 
 
 SELECT
