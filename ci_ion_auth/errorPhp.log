@@ -115,3 +115,81 @@ WHERE `active` =  1</p><p>Filename: C:\Zend\Apache2\htdocs\play\ci_ion_auth\syst
 [02-Dec-2014 16:57:01 UTC]  13202 Sent Default Dele Charge 
 [02-Dec-2014 17:00:50 UTC]  158840 Sent Default Dele Charge 
 [02-Dec-2014 17:17:48 UTC] out_of_range_21129
+[02-Dec-2014 17:30:07 UTC] PHP Fatal error:  Call to undefined method Map::getCharge() in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 130
+[02-Dec-2014 17:39:10 UTC] out_of_range_-4
+[02-Dec-2014 17:39:17 UTC] out_of_range_67678
+[03-Dec-2014 09:58:47 UTC] Notice * Undefined property: stdClass::$let * controllers/welcome.php * 143 
+[03-Dec-2014 09:58:59 UTC] Notice * Undefined property: stdClass::$let * controllers/welcome.php * 143 
+[03-Dec-2014 09:59:28 UTC] out_of_range_157542.14846319
+[03-Dec-2014 10:05:50 UTC] Notice * Undefined offset: 0 * libraries/map.php * 40 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:05:50 UTC] Notice * Undefined offset: 0 * libraries/map.php * 41 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:05:50 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:05:50 UTC] C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php43FAILED:: http://maps.googleapis.com/maps/api/geocode
+[03-Dec-2014 10:05:50 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:06:52 UTC] Notice * Undefined offset: 0 * libraries/map.php * 40 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:52 UTC] Notice * Undefined offset: 0 * libraries/map.php * 41 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:52 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:52 UTC] C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php43FAILED:: http://maps.googleapis.com/maps/api/geocode
+[03-Dec-2014 10:06:52 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:06:53 UTC] Notice * Undefined offset: 0 * libraries/map.php * 40 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:53 UTC] Notice * Undefined offset: 0 * libraries/map.php * 41 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:53 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:53 UTC] C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php43FAILED:: http://maps.googleapis.com/maps/api/geocode
+[03-Dec-2014 10:06:53 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:06:54 UTC] Notice * Undefined offset: 0 * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Undefined offset: 0 * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php43FAILED:: http://maps.googleapis.com/maps/api/geocode
+[03-Dec-2014 10:06:54 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:06:54 UTC] Notice * Undefined offset: 0 * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 40 
+[03-Dec-2014 10:06:54 UTC] Notice * Undefined offset: 0 * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] Notice * Trying to get property of non-object * libraries/map.php * 41 
+[03-Dec-2014 10:06:54 UTC] C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries\map.php43FAILED:: http://maps.googleapis.com/maps/api/geocode
+[03-Dec-2014 10:06:55 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:09:43 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:13:13 UTC] out_of_range_18728158.347581
+[03-Dec-2014 10:13:16 UTC] out_of_range_18728158.347581
+[03-Dec-2014 10:13:45 UTC] out_of_range_18728158.347581
+[03-Dec-2014 10:14:13 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:17:15 UTC] out_of_range
+[03-Dec-2014 10:18:06 UTC] out_of_range_18730513.790811
+[03-Dec-2014 10:21:04 UTC] Notice * Undefined index: distance * controllers/welcome.php * 147 
+[03-Dec-2014 11:31:29 UTC] out_of_range_18730513.790811
+[03-Dec-2014 11:37:24 UTC] Notice * Undefined property: Welcome::$session * controllers/welcome.php * 150 
+[03-Dec-2014 11:37:24 UTC] PHP Fatal error:  Call to a member function userdata() on a non-object in C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\controllers\welcome.php on line 150
+[03-Dec-2014 11:37:39 UTC] Warning * Illegal offset type in isset or empty * libraries/Session.php * 449 

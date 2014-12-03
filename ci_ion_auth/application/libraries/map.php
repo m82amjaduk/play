@@ -34,13 +34,16 @@ class Map{
     public function getLngLat($address='GU215ED'){
         $method     = 'http://maps.googleapis.com/maps/api/geocode';
         $url        = $method."/json?address=$address&sensor=false";
-        $data       = @file_get_contents($url);
-        $data       = json_decode($data );
+        $dataJson   = @file_get_contents($url);
+        $data       = json_decode($dataJson );
+        if ($data->status == 'ZERO_RESULTS')
+            return (object)array('lat' => 0, 'lng'=> 0 );
+
         $dataRes    = array(
             'lat' => $data->results[0]->geometry->bounds->northeast->lat,
             'lng' => $data->results[0]->geometry->bounds->northeast->lng
         );
-        if($data->status != 'OK') error_log(__FILE__ . __LINE__ . "FAILED:: $method");
+        if($data->status != 'OK') error_log(__FILE__ . __LINE__ . "FAILED:: method >> $method >> $dataJson" );
         return (object)$dataRes;
     }
 
@@ -133,7 +136,7 @@ class Map{
                 return $row->charge;
             }
         }
-        error_log("$distance Sent Default Dele Charge ");
+        error_log("$distance Sent Default Delivery Charge ");
         return $defaultCharge; // Default Del Charge ..
     }
 

@@ -119,19 +119,39 @@ class Welcome extends CI_Controller {
     }
 
     public function deleCharge($dis=5291){
-
         $this->load->database();
         $this->load->library('map');
-        $this->db->select('*') ->from('services_delivery_charge_view');
+        $this->db->select('*')->from('services_delivery_charge_view');
         $data  =  $this->db->get()->result() ;
         echo '<pre>'; print_r($data);
 
         echo '========================================<br />';
-        echo $this->map->getCharge($data, $dis);
+        echo $this->map->getDeliveryCharge($data, $dis);
     }
 
+    public function setPostcode($postcode='GU215ED'){
+        $this->load->database();
+        $this->db->select('*')->from('services_delivery_charge_view');
+        $data  =  $this->db->get()->result();
 
 
+        $this->load->library('map');
+        $this->load->library('session');
+        $business   = $this->map->getLngLat('GU215ED'); // Business Lat and Lng
+        // Add lat lng to business address add following fileds to orders..
+        $to         = $this->map->getLngLat($postcode);
+        $sessData = array(
+            'postcode' => $postcode
+            , 'address_lat' => $to->lat
+            , 'address_lng' => $to->lng
+        );
+        $sessData['address_distance'] = $this->map->getDistance($business->lat, $business->lng, $to->lat, $to->lng)->feet;
+        $sessData['delivery_charge'] = $this->map->getDeliveryCharge($data, $sessData['address_distance']);
+
+        $this->session->set_userdata($sessData);
+
+        echo '<pre>'; print_r($sessData);
+    }
 
 
     /* End of file welcome.php */
