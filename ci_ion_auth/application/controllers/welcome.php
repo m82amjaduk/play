@@ -210,7 +210,7 @@ class Welcome extends CI_Controller {
         $res = $this->invoice->removeCancelled($res);*/
 
         $res= $this->invoice->getOrdersFromTo('2012-01-01 00:00:00', '2016-01-01 00:00:00');
-//        $res = $this->invoice->getTotals($res);
+        $res = $this->invoice->getTotals($res);
         echo '<pre>'; print_r($res);
     }
 

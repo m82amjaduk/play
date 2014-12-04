@@ -29,10 +29,11 @@ class Invoice extends CI_Model
      */
     public function getTotals($res){
         $res                            = $this->separateCancelled($res);
-        $result['activeOrders']         =  $res->activeOrders;
-        $result['activeOrdersReport']   =  $this->genReport($res->activeOrders);
-        $result['cancelledOrders']      = $res->cancelledOrders;
-        $result['cancelledOrdersReport'] =  $this->genReport($res->cancelledOrders);
+
+        $result['act']          =  $this->genReport($res->activeOrders);
+        $result['cnc']          =  $this->genReport($res->cancelledOrders);
+        $result['actOrders']    = $res->activeOrders;
+        $result['cncOrders']    = $res->cancelledOrders;
         return (object)$result;
     }
 
@@ -75,7 +76,7 @@ class Invoice extends CI_Model
     /*
      * Get data from database for the months.
      */
-    public function getOrdersFromTo($from='2009-01-01 00:00:00', $to='2016-01-01 00:00:00'){
+    public function getOrdersFromTo($from='2009-01-01 00:00:00', $to='2016-01-01'){
         return $this->db->query("SELECT * FROM orders_view where requested_at >= '$from'  AND  requested_at <=  '$to' ")->result();
     }
 

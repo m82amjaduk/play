@@ -95,25 +95,25 @@
       <file leaf-file-name="invoice.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/models/invoice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4809816" vertical-offset="1019" max-vertical-offset="2380">
-              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.56319016" vertical-offset="0" max-vertical-offset="2397">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
-                <marker date="1417711785576" expanded="true" signature="926:4312" placeholder="..." />
-                <marker date="1417711785576" expanded="true" signature="2015:2104" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2015:2110" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2367" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2372" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2373" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2373" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2401" placeholder="SELECT * FRO..orders_view..." />
-                <marker date="1417711785576" expanded="true" signature="2318:2402" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="893:4270" placeholder="..." />
+                <marker date="1417715375577" expanded="true" signature="1982:2071" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="1982:2077" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2325" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2330" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2331" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2331" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2359" placeholder="SELECT * FRO..orders_view..." />
+                <marker date="1417715375577" expanded="true" signature="2276:2360" placeholder="SELECT * FRO..orders_view..." />
               </folding>
             </state>
           </provider>
@@ -122,10 +122,10 @@
       <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.076923" vertical-offset="3384" max-vertical-offset="4284">
-              <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.8461537" vertical-offset="3384" max-vertical-offset="4284">
+              <caret line="208" column="36" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
               <folding>
-                <marker date="1417711733411" expanded="true" signature="7501:8232" placeholder="..." />
+                <marker date="1417714711597" expanded="true" signature="7499:8230" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -931,35 +931,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.076923" vertical-offset="3384" max-vertical-offset="4284">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8461537" vertical-offset="3384" max-vertical-offset="4284">
+          <caret line="208" column="36" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
           <folding>
-            <marker date="1417711733411" expanded="true" signature="7501:8232" placeholder="..." />
+            <marker date="1417714711597" expanded="true" signature="7499:8230" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/models/invoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4809816" vertical-offset="1019" max-vertical-offset="2380">
-          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.56319016" vertical-offset="0" max-vertical-offset="2397">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <marker date="1417711785576" expanded="true" signature="926:4312" placeholder="..." />
-            <marker date="1417711785576" expanded="true" signature="2015:2104" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2015:2110" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2344" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2367" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2372" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2373" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2373" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2401" placeholder="SELECT * FRO..orders_view..." />
-            <marker date="1417711785576" expanded="true" signature="2318:2402" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="893:4270" placeholder="..." />
+            <marker date="1417715375577" expanded="true" signature="1982:2071" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="1982:2077" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2302" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2325" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2330" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2331" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2331" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2359" placeholder="SELECT * FRO..orders_view..." />
+            <marker date="1417715375577" expanded="true" signature="2276:2360" placeholder="SELECT * FRO..orders_view..." />
           </folding>
         </state>
       </provider>
