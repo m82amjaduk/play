@@ -38,9 +38,9 @@
 |
 */
 
-$route['default_controller'] = "auth";
+$route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
-
+include('routescw.php');
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

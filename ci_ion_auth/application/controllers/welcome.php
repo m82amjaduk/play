@@ -3,11 +3,14 @@
 class Welcome extends CI_Controller {
 
     public function index() {
-//        trigger_error( 'Whoops!', E_USER_NOTICE );
-        $this->load->database();
-        $this->db->where('business_code', 'AAA1787');
-        $query = $this->db->get('order_api_config');
-        $row = ($query->num_rows > 0 ? $query->row() : array());
+
+        trigger_error( 'Whoops!', E_USER_NOTICE );
+//        $this->load->database();
+//        $this->db->where('business_code', 'AAA1787');
+//        $query = $this->db->get('order_api_config');
+//        $row = ($query->num_rows > 0 ? $query->row() : array());
+        $this->config->set_item('default_controller', 'auth');
+        echo $this->config->item('default_controller');
         $this->load->view('welcome');
     }
 
@@ -152,6 +155,90 @@ class Welcome extends CI_Controller {
 
         echo '<pre>'; print_r($sessData);
     }
+
+    public function usersExport(){
+        $this->load->database();
+        $this->load->library('csvreader');
+        $report = $this->db->select('first_name as fname, last_name as lname, email, phone, username, user_code, title')->get('users');
+        echo $new_report = $this->csvreader->csv_from_result($report, ',', "\n",'"');
+
+        $this->load->helper('download');
+        force_download("users.csv", $new_report);
+    }
+
+    public function upload_advance( ) {
+        $this->data['page']= 'import/upload_advance';
+        $this->load->view($this->_menuMainPage, $this->data);
+    }
+
+    public function usersImportProcess( ) {
+        $this->config->set_item('csrf_protection', FALSE);
+        $table = $this->input->post('table');
+        $config['upload_path'] = './var/upload/';
+        $config['allowed_types'] = '*';
+        $config['max_size'] = '0';
+        $config['max_width'] = '0';
+        $config['max_height'] = '0';
+        $config['overwrite'] = TRUE;
+        $config['file_name'] = "$table.csv";
+        $this->load->library('upload', $config);
+
+        if (!$this->upload->do_upload())
+            die( $this->upload->display_errors());
+        else{
+            $successArray = $this->upload->data();
+            $success = "File Upload Succeeded ". implode('|',$successArray);
+        }
+
+        $result = $this->csvreader->parse_file($successArray['full_path']);
+
+        $this->db->truncate($table);
+        foreach ($result as $row) {
+            $this->cm->insert_data($table, $row);
+        }
+        $this->data['result'] = $result;
+        $this->data['page']= 'import/upload_result';
+        $this->load->view($this->_menuMainPage, $this->data);
+    }
+
+
+    public function invoice($y=2015, $m=1){
+        $this->load->database();
+        $this->load->model('invoice');
+        /*$res = $this->invoice->getData(2014, 12);
+        echo '<pre>'; print_r($res);
+        $res = $this->invoice->removeCancelled($res);*/
+
+        $res= $this->invoice->getOrdersFromTo('2012-01-01 00:00:00', '2016-01-01 00:00:00');
+//        $res = $this->invoice->getTotals($res);
+        echo '<pre>'; print_r($res);
+    }
+
+
+
+    /*
+     *  [1] => stdClass Object
+        (
+            [id] => 00000000003
+            [active] => 1
+            [order_code] => AAA1787
+            [order_id_temp] => AAA0001
+            [user_code] => AAA1791
+            [fname] =>
+            [lname] =>
+            [email] =>
+            [phone] =>
+            [postcode] =>
+            [placed_at] =>
+            [requested_at] =>
+            [receiving] => delivery
+            [pay_method] => cash
+            [checkout_price] => 20.00
+            [vip] => 0
+            [customer_group] => A
+            [status] => processing
+        )
+     */
 
 
     /* End of file welcome.php */
