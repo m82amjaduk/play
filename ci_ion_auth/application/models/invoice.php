@@ -65,6 +65,7 @@ class Invoice extends CI_Model
         return (object)$result;
     }
 
+
     /*
      * Get data from database for the months.
      */
