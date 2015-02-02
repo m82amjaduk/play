@@ -21,6 +21,30 @@ function genMonthList($startYear,  $startMonth){
     return $months;
 }
 
+/*
+SELECT
+    orders.id AS id,
+    orders.active,
+    orders.order_code,
+    orders.order_id_temp,
+    orders.user_code,
+    orders.fname,
+    orders.lname,
+    orders.email,
+    orders.phone,
+    orders.postcode,
+    orders.placed_at,
+    orders.requested_at,
+    orders.receiving,
+    orders.pay_method,
+    orders.checkout_price,
+    orders.vip,
+    orders.customer_group,
+    order_status_fun(orders.order_code) AS status
+FROM storelocator_branches
+WHERE YEAR(updated) = 2015 AND MONTH(updated)=1
+ORDER BY id ASC;
+*/
 
 
 ?>
