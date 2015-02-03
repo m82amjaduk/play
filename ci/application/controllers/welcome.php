@@ -42,6 +42,33 @@ class Welcome extends CI_Controller {
     }
 
 
+    public function genCSVnSend() {
+        date_default_timezone_set('Europe/London') ;
+        // Create CSV
+        $data = 'test, test2';
+        $dir = 'var/temp/';
+        $filePath = $dir. 'OrderExportCsv_'.date('y-m-d-H-i-s').'.csv';  // echo file_exists($filePath);
+
+        // Write CSV To temp folder
+        $this->load->helper('file');
+        if (!is_dir($dir)) { mkdir($dir, 0777, true);}
+        write_file($filePath, $data, 'w+');
+
+        // attach CSV from temp folder And Send
+        /*
+        $this->emailm->send($to, $subject, $greeting, $body_text, array(), array($filePath));
+
+        if(!empty($files)){
+            foreach ($files as $file)
+                $this->email->attach($file);
+        } */
+
+        // Delete CSV
+        delete_files($filePath);
+        echo '<br>done';
+    }
+
+
     /* End of file welcome.php */
     /* Location: ./application/controllers/welcome.php */
 }
