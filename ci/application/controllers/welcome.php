@@ -51,7 +51,8 @@ class Welcome extends CI_Controller {
 
         // Write CSV To temp folder
         $this->load->helper('file');
-        if (!is_dir($dir)) { mkdir($dir, 0777, true);}
+//        if (!is_dir($dir)) { mkdir($dir, 0777, true);}
+        $this->createPath($dir);
         write_file($filePath, $data, 'w+');
 
         // attach CSV from temp folder And Send
@@ -66,6 +67,42 @@ class Welcome extends CI_Controller {
         // Delete CSV
         delete_files($filePath);
         echo '<br>done';
+    }
+
+    // Move this to filesdir.php  // Class
+    /**
+     * recursively create a long directory path
+     */
+    function createPath($path) {
+        if (is_dir($path)) return true;
+        $prev_path = substr($path, 0, strrpos($path, '/', -2) + 1 );
+        $return = createPath($prev_path);
+        return ($return && is_writable($prev_path)) ? mkdir($path) : false;
+    }
+
+
+    function getreport(){
+        $v =0;
+        $report = array(
+            array('Total Orders', $v)
+            , array('Total In Amount', $v)
+            , array('Cash Paid Orders', $v)
+            , array('Cash Paid Amount', $v)
+            , array('Card Paid Orders', $v)
+            , array('Card Paid Amount', $v)
+            , array('Paypal Paid Orders', $v)
+            , array('Paypal Earned Amount', $v)
+            , array('Paypal Fee', $v)
+            , array('Paypal Commission', $v)
+            , array('Paid To Paypal', $v)
+            , array('Net Paypal Earned', $v)
+            , array('Total Cancelled Orders', $v)
+            , array('Total Cancelled Amount', $v)
+            , array('Net Paypal Earned', $v)
+            , array('10% Of total Sale', $v)
+            , array('Transfer To Client', $v)
+        );
+        return $report;
     }
 
 

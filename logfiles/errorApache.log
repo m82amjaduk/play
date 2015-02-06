@@ -371,3 +371,6 @@
 [Wed Jan 21 10:10:17 2015] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/map/js, referer: http://play.lc/map/
 [Mon Feb 02 15:10:15 2015] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
 [Mon Feb 02 15:10:16 2015] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Feb 03 11:10:07 2015] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/cli
+[Tue Feb 03 16:33:27 2015] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
+[Tue Feb 03 16:33:27 2015] [error] [client 127.0.0.1] File does not exist: C:/Zend/Apache2/htdocs/play/favicon.ico
