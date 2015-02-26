@@ -83,14 +83,12 @@ function addUpdateItem($array, $collection){
  *  Return true is both array are identical
  *  $array1             First array
  *  $array2             Second array
- *  $keyRemove          Key to remove before compare
- *  $this->compareArrayRemovingAKey($array1, $array2, 'quantity');
+ *  $keyRemove          Keys to remove in array before compare
+ *  $this->compareArrayRemovingAKey($array1, $array2, array('quantity', 'price'));
  */
-function compareArrayRemovingAKey($array1, $array2, $keys){
+function compareArrayRemovingKeys($array1, $array2, $keys){
     foreach($keys as $key){ unset($array1[$key]); }
     foreach($keys as $key){ unset($array2[$key]); }
-//    unset($array1[$keysRemove[0]], $array1[$keysRemove[1]]);
-//    unset($array1[$keysRemove[0]], $array1[$keysRemove[1]]);
     return  (! array_diff($array1, $array2) ) ?  true : false;
 }
 
