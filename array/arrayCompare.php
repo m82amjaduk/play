@@ -49,34 +49,12 @@ $data4 = array (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * 1.
  */
 
 
-$data = array ($data1,$data2,$data2,$data3,$data3,$data3,$data4,$data4,$data1);
+$data = array ($data1,$data2,$data2,$data3,$data3,$data3,$data3,$data3,$data4,$data4,$data1);
 
 $collection = array();
 foreach ($data as $row){
@@ -87,8 +65,9 @@ foreach ($data as $row){
 function addUpdateItem($array, $collection){
     $addItem = true;
     foreach($collection as  $key => $row){
-        if(($array['product_id'] == $row['product_id']) && compareArrayRemovingAKey($array, $row, 'quantity')){
+        if(($array['product_id'] == $row['product_id']) && compareArrayRemovingAKey($array, $row, array('quantity', 'price'))){
             $row['quantity'] += 1;
+            $row['price'] += $array['price'];
             $collection[$key]  = $row;
             $addItem = false;
         }
@@ -107,9 +86,11 @@ function addUpdateItem($array, $collection){
  *  $keyRemove          Key to remove before compare
  *  $this->compareArrayRemovingAKey($array1, $array2, 'quantity');
  */
-function compareArrayRemovingAKey($array1, $array2, $keyRemove){
-    unset($array1[$keyRemove]);
-    unset($array2[$keyRemove]);
+function compareArrayRemovingAKey($array1, $array2, $keys){
+    foreach($keys as $key){ unset($array1[$key]); }
+    foreach($keys as $key){ unset($array2[$key]); }
+//    unset($array1[$keysRemove[0]], $array1[$keysRemove[1]]);
+//    unset($array1[$keysRemove[0]], $array1[$keysRemove[1]]);
     return  (! array_diff($array1, $array2) ) ?  true : false;
 }
 
