@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />	
+    <title>NetPay API Example Code</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <h1><span id="main-logo">NetPay</span> API: REST</h1>
+                </div>
+            </div>                       
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <h3>PHP Example Code Set</h3>
+                </div>
+            </div>                       
+        </div>
+    </div>
+    <div class="container">
+        <div id="content" class="row">
+			<div>
+				<p>This set contains working example code to help you integrate your application into the payment gateway. Below are the transaction types covered in this example.</p>
+				<table>
+                    <tr class="header">
+                        <td colspan="2">Transaction</td>
+                    </tr>
+					<tr>
+						<td><strong><a href="purchase_card.html">Purchase Transaction using Card</a></strong><br/>purchase_card.html</td>
+						<td>It is a single transaction that authorise the payment and transfer funds from payer's account to merchant account.
+
+		Purchase is a operation type which the Authorise and Capture are completed at the same time. It is a common type of payment model which used by the merchant to accept card payments. Purchase operation can be done via Debit/Credit Card or Stored Card Token.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="purchase_token.html">Purchase Transaction using Token</a></strong><br/>purchase_token.html</td>
+						<td>It is a single transaction that authorise the payment and transfer funds from payer's account to merchant account.
+
+		Purchase is a operation type which the Authorise and Capture are completed at the same time. It is a common type of payment model which used by the merchant to accept card payments. Purchase operation can be done via Debit/Credit Card or Stored Card Token.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="refund.html">Refund Transaction</a></strong><br/>refund.html</td>
+						<td>Request a refund for a transaction.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="retrieve.html">Retrieve Transaction</a></strong><br/>retrieve.html</td>
+						<td>Request to retrieve the details of a transaction.</td>
+					</tr>
+                    <tr class="header">
+                        <td colspan="2">Token</td>
+                    </tr>
+					<tr>
+						<td><strong><a href="create_token.html">Create Token</a></strong><br/>create_token.html</td>
+						<td>Request for the gateway to store card information against a token.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="retrieve_token.html">Retrieve Token</a></strong><br/>retrieve_token.html</td>
+						<td>Request to retrieve the card details saved against the specified token. The card details returned include the masked card number, card expiry, and card type.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="delete_token.html">Delete Token</a></strong><br/>delete_token.html</td>
+						<td>Request to delete token.</td>
+					</tr>
+                    <tr class="header">
+                        <td colspan="2">3DS</td>
+                    </tr>
+					<tr>
+						<td><strong><a href="ddds_enrollment_card.html">3DS: Check enrollment using Card</a></strong><br/>ddds_enrollment_card.html</td>
+						<td>Request to check a cardholder's enrollment in the 3DSecure scheme.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="ddds_enrollment_token.html">3DS: Check enrollment using Token</a></strong><br/>ddds_enrollment_token.html</td>
+						<td>Request to check a cardholder's enrollment in the 3DSecure scheme.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="retrieve_ddds.html">3DS: Retrieve enrollment</a></strong><br/>retrieve_ddds.html</td>
+						<td>Retrieves the 3DS Operation Result.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="ddds_process_acs_result.html">3DS: Process ACS Result</a></strong><br/>ddds_process_acs_result.html</td>
+						<td>Interprets the authentication response returned from the card Issuer's Access Control Server (ACS) after the cardholder completes the authentication process.</td>
+					</tr>
+                    <tr class="header">
+                        <td colspan="2">Scheduled Payments</td>
+                    </tr>
+					<tr>
+						<td><strong><a href="scheduled_payment_card.html">Create Scheduled Payment using Card</a></strong><br/>scheduled_payment_card.html</td>
+						<td>Merchants are able to create Scheduled (Recurring) Payments. NetPay stores customer's payment information safely for recurring transactions.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="retrieve_scheduled_payment.html">Retrieve Scheduled Payment</a></strong><br/>retrieve_scheduled_payment.html</td>
+						<td>Retrieve previously created Scheduled (Recurring) Payments.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="cancel_scheduled_payment.html">Cancel Scheduled Payment</a></strong><br/>cancel_scheduled_payment.html</td>
+						<td>Cancel previously created Scheduled (Recurring) Payments.</td>
+					</tr>
+                    <tr class="header">
+                        <td colspan="2">Authorize Payments</td>
+                    </tr>
+					<tr>
+						<td><strong><a href="authorize_card.html">Create Authorize of Payment using Card</a></strong><br/>authorize_card.html</td>
+						<td>Creates Authorization for Payments using Card.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="authorize_token.html">Create Authorize of Payment using Token</a></strong><br/>authorize_token.html</td>
+						<td>Creates Authorization for Payments using Token.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="capture.html">Capture Authorized Payment</a></strong><br/>capture.html</td>
+						<td>Captures Payment for Authorization.</td>
+					</tr>
+					<tr>
+						<td><strong><a href="void.html">Void Authorization</a></strong><br/>void.html</td>
+						<td>Voids last action made to Authorization.</td>
+					</tr>
+				</table>
+				<div class="resume">
+					<h3>Best Practices</h3>
+					<p>These examples make most transaction fields available to
+					edit when submitting the transaction. This is intended for this example only to
+					simplify the process. In your integration, the only fields you should ever
+					display to the customer are those requiring the customer to enter data. All
+					other fields should be generated in your code (Process.php in this example) and not be available to the customer.</p>
+
+					<p>In line with the above, you should never use HTML hidden
+					fields to submit data to be used in the transaction request. Instead, you should
+					specify and set these values within your application code (i.e. Process.php based on this example)</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

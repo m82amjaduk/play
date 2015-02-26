@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>NetPay API Example Code</title>
+		<link rel="stylesheet" type="text/css" href="./assets/style.css" />  
+	</head>
+	<body>
+		<header class="container-fluid">
+			<div class="row-fluid">
+				<div class="container">
+					<div class="row">
+						<h1><span id="main-logo">NetPay</span> PHP Example - REST</h1>
+					</div>
+				</div>                       
+			</div>
+		</header>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="container">
+					<div class="row">
+						<h3>3DS: Retrieve enrollment</h3>
+					</div>
+				</div>                       
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<p><a href="index.html">Return to the Home Page</a></p>
+			</div>
+		</div>
+		<div class="container">
+			<div id="content" class="row">
+				<form action="./process.php" method="post">
+					<table>
+						
+						<tr>
+							<td>
+								<span>Api Version </span>
+							</td>
+							<td>
+								<input type="text" name="version" value="v1" readonly="readonly"/>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<span>Api username </span>
+							</td>
+							<td>
+								<input type="text" name="username" value=""/>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<span>Api Password </span>
+							</td>
+							<td>
+								<input type="text" name="password" value=""/>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<span>HTTP Accept </span>
+							</td>
+							<td>
+								<select name="accept_type" id="accept_type">
+									<option value="json">JSON</option>
+									<option value="xml">XML</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<span>HTTP Content Type </span>
+							</td>
+							<td>
+								<select name="content_type" id="Select1">
+									<option value="json">JSON</option>
+									<option value="xml">XML</option>
+								</select>
+							</td>
+						</tr>
+						
+						<tr class="showall">
+							<td colspan="2">+ Show all</td>
+						</tr>							
+						
+						<tr>
+							<td>
+								<span class="mandatory">ddd_secure_id </span>
+							</td>
+							<td>
+								<input type="text" name="ddd_secure_id" value=""/><br/>
+								<span>A unique identifier ID supplied by the merchant for the authentication.</span>
+							</td>
+						</tr>
+	
+						<tr class="title">
+							<td colspan="2"><p><span>Merchant</span></p></td>
+						</tr>
+
+						<tr>
+							<td>
+								<span class="mandatory">merchant.merchant_id </span>
+							</td>
+							<td>
+								<input type="text" name="merchant[merchant_id]" value=""/><br/>
+								<span>Merchant's unique identifier ID issued by NetPay</span>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<span class="mandatory">merchant.operation_type </span>
+							</td>
+							<td>
+								<input type="text" name="merchant[operation_type]" value="RETRIEVE_3DS_ENROLLMENT"/><br/>
+								Identifier of API operation for the request. Value must be a member of the following list. The values are case sensitive. <br>
+								<ul>
+									<li><span>RETRIEVE_3DS_ENROLLMENT</span></li>
+								</ul>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<span class="mandatory">merchant.operation_mode </span>
+							</td>
+							<td>
+								<input type="text" name="merchant[operation_mode]" value=""/><br/>
+								Value must be a member of the following list.
+								<ul>
+									<li><span>1</span> : Live</li>
+									<li><span>2</span> : Test</li>
+								</ul>
+							</td>
+						</tr>
+						
+						<tr class="title">
+							<td colspan="2"><p><span>Transaction</span></p></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<span class="mandatory">transaction.source </span>
+							</td>
+							<td>
+								<input type="text" name="transaction[source]" value=""/><br/>
+								Indicates the source of this transaction. Value must be a member of the following list. The values are case sensitive.
+								<ul>
+									<li><span>INTERNET</span> : Transaction conducted over the Internet.</li>
+								</ul>
+							</td>
+						</tr>
+
+						<tr class="send">
+							<td colspan="2"><button type="submit">Process Request</button></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="./assets/custom.js"></script>
+
+</html>

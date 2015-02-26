@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>NetPay API Example Code</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <h1><span id="main-logo">NetPay</span> PHP Example - REST</h1>
+                </div>
+            </div>                       
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <h3>Create Scheduled Payment using Card</h3>
+                </div>
+            </div>                       
+        </div>
+    </div>
+	<div class="container">
+		<div class="row">
+			<p><a href="index.html">Return to the Home Page</a></p>
+		</div>
+	</div>
+    <div class="container">
+        <div id="content" class="row">
+			<form action="./process.php" method="post">
+				<table>
+					<tr>
+						<td>
+							<span>Api Version </span>
+						</td>
+						<td>
+							<input type="text" name="version" value="v1" readonly="readonly"/>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>Api username </span>
+						</td>
+						<td>
+							<input type="text" name="username" value=""/>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>Api Password </span>
+						</td>
+						<td>
+							<input type="text" size="120" name="password" value=""/>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>HTTP Accept </span>
+						</td>
+						<td>
+							<select name="accept_type" id="accept_type">
+								<option value="json">JSON</option>
+								<option value="xml">XML</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>HTTP Content Type </span>
+						</td>
+						<td>
+							<select name="content_type" id="Select1">
+								<option value="json">JSON</option>
+								<option value="xml">XML</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="showall">
+						<td colspan="2">+ Show all</td>
+					</tr>
+					<tr class="title">
+						<td colspan="2"><p><span>Merchant</span></p><input type="hidden" name="uses_scheduled" value="yes" /></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">merchant.merchant_id </span>
+						</td>
+						<td>
+							<input type="text" name="merchant[merchant_id]" value=""/><br/>
+							<span>Merchant's unique identifier ID issued by NetPay</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">merchant.operation_type </span>
+						</td>
+						<td>
+							<input type="text" name="merchant[operation_type]" value="CREATE_SCHEDULED_PAYMENT"/><br/>
+							Identifier of API operation for the request. Value must be a member of the following list. The values are case sensitive. <br>
+							<ul>
+								<li><span>CREATE_SCHEDULED_PAYMENT</span></li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">merchant.operation_mode </span>
+						</td>
+						<td>
+							<input type="text" name="merchant[operation_mode]" value=""/><br/>
+							Value must be a member of the following list.
+							<ul>
+								<li><span>1</span> : Live</li>
+								<li><span>2</span> : Test</li>
+							</ul>
+						</td>
+					</tr>
+					
+					<tr class="title">
+						<td colspan="2"><p><span>Transaction</span></p></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.amount </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[amount]" value=""/><br/>
+							<span>Payment amount for this transaction. Expressed as a decimal number in the units of the currency. E.g. 25.47 in GBP is the amount 12 Pound 47 Penny. '.' represents valid decimal number.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.currency </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[currency]" value=""/><br/>
+							<span>Currency for this transaction. Expressed as an ISO 4217 alpha code. E.g. GBP, EUR, USD</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.source </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[source]" value=""/><br/>
+							Indicates the source of this transaction. Value must be a member of the following list. The values are case sensitive.
+							<ul>
+								<li><span>MOTO</span> : Transaction received by mail or telephone.</li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.description </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[description]" value=""/><br/>
+							<span>Description of this transaction.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>transaction.reference </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[reference]" value=""/><br/>
+							<span>An optional identifier of this transaction. E.g. Invoice number.</span>
+						</td>
+					</tr>
+					
+					<tr class="title">
+						<td colspan="2"><p><span>Payment Source</span></p></td>
+					</tr>
+					
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.type </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[type]" value="CARD"/><br/>
+							Identifier of the payment source. Value must be a member of the following list. The values are case sensitive. <br>
+							<ul>
+								<li><span>CARD</span></li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.card_type </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][card_type]" value=""/><br/>
+							Identifier of payer's card. Value must be a member of the following list. The values are case sensitive. <br>
+							<ul>
+								<li><span>VISA</span> : Visa</li>
+								<li><span>VISAUK</span> : Visa Debit UK</li>
+								<li><span>ELEC</span> : Visa Electron</li>
+								<li><span>MCRD</span> : MasterCard</li>
+								<li><span>MCDB</span> : MasterCard Debit</li>
+								<li><span>MSTO</span> : Maestro</li>
+								<li><span>AMEX</span> : American Express</li>
+								<li><span>DINE</span> : Diners</li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.number </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][number]" value=""/><br/>
+							<span>Credit/Debit card number as printed on the card. Data is a string that consist of the characters 0-9.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.expiry_month </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][expiry_month]" value=""/><br/>
+							<span>Expiry month as printed on the card. Data is a string that consist of the characters 0-9. E.g. 01, 02</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.expiry_year </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][expiry_year]" value=""/><br/>
+							<span>Expiry year as printed on the card. The Common Era year is 2000 plus this value. Data is a string that consist of the characters 0-9. E.g. 13, 14, 15</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.holder.title </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][title]" value=""/><br/>
+							<span>Card holder's title as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>payment_source.card.holder.firstname </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][firstname]" value=""/><br/>
+							<span>Card holder's first name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>payment_source.card.holder.middlename </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][middlename]" value=""/><br/>
+							<span>Card holder's middle name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>payment_source.card.holder.lastname </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][lastname]" value=""/><br/>
+							<span>Card holder's last name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.holder.fullname </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][fullname]" value=""/><br/>
+							<span>Card holder's last name as printed on the card.</span>
+						</td>
+					</tr>
+					
+					<tr class="title">
+						<td colspan="2"><p><span>Billing</span></p></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>billing.bill_to_company </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_company]" value=""/><br/>
+							<span>Name of the company which the order is being billed.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_address </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_address]" value=""/><br/>
+							<span>Address of the card holder. House no/name, street.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_town_city </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_town_city]" value=""/><br/>
+							<span>Town or City of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_county </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_county]" value=""/><br/>
+							<span>County or State of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>billing.bill_to_postcode </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_postcode]" value=""/><br/>
+							<span>Post Code or Zip of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_country </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_country]" value=""/><br/>
+							<span>ISO standard alpha country code of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr class="title">
+						<td colspan="2"><P><span>Scheduled Payment</span></P></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">scheduled_payment.scheduled_payment_id </span>
+						</td>
+						<td>
+							<input type="text" name="scheduled_payment[scheduled_payment_id]" value=""/><br/>
+							<span>An identifier of the scheduled payment.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">scheduled_payment.interval.frequency </span>
+						</td>
+						<td>
+							<input type="text" name="scheduled_payment[interval][frequency]" value=""/><br/>
+							<span>It is the frequency of the payment. If unit is DAY, frequency must be between 7 and 365. If unit is MONTH, the frequency must be between 1 and 12.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">scheduled_payment.interval.unit </span>
+						</td>
+						<td>
+							<input type="text" name="scheduled_payment[interval][unit]" value=""/><br/>
+							<span>Identifier of the interval unit. Value must be a member of the following list. The values are case sensitive. <br>
+                                <ul>
+                                    <li><strong>DAY</strong> : Daily Payment</li>
+                                    <li><strong>MONTH</strong> : Monthly Payment</li>
+                                </ul>
+                            </span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">scheduled_payment.interval.total_occurrence </span>
+						</td>
+						<td>
+							<input type="text" name="scheduled_payment[interval][total_occurrence]" value=""/><br/>
+							<span>Total number of payment. If value is 9999, there is no limit for payment occurrence.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">scheduled_payment.interval.start_date </span>
+						</td>
+						<td>
+							<input type="text" name="scheduled_payment[interval][start_date]" value=""/><br/>
+							<span>Identifier of the first payment date. Start day should be set at least next day of the request day. <br />
+If the start date is the 31st, and the interval unit is MONTH, the payment date will be the last day of each month.<br />
+Date format YYYY-MM-DD. Eg. 2014-12-25.</span>
+						</td>
+					</tr>
+
+					<tr class="title">
+						<td colspan="2"><P><span>Optional Customer Details</span></P></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_email </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_email]" value=""/><br/>
+							<span>Email address of the person who placed order.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_phone </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_phone]" value=""/><br/>
+							<span>The phone number of the person who placed order.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_fax </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_fax]" value=""/><br/>
+							<span>The fax number of the person who placed order.</span>
+						</td>
+					</tr>
+
+					<tr class="send">
+						<td colspan="2"><button type="submit">Process Request</button></td>
+					</tr>
+
+				</table>
+			</form>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="./assets/custom.js"></script>
+</body>
+</html>

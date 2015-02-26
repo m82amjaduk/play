@@ -1,0 +1,189 @@
+﻿body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+	background: #22113b;
+	min-height: 100%;
+	font-family: calibri;
+}
+h1, h3{
+    margin: 0;
+}
+a{
+	color: #9b3f92;
+}
+a,
+a:hover,
+a:focus
+{
+	outline: none;
+	text-decoration: none;	
+}
+a:hover{
+	color: #58408e;
+}
+.container-fluid h1{
+	font-size: 2em;
+	line-height: 41px;
+	text-align: right;
+	color: #58408e;
+}
+.container-fluid h3{
+	color: #fff;
+	padding: 5px 0;
+	font-weight: normal;
+	font-size: 1.1em;
+	text-align: right;
+}
+.container-fluid{
+    background: #6d6e70;
+	background: -moz-linear-gradient(top, #6d6e70 0%, #4d4e50 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d6e70), color-stop(100%,#4d4e50));
+	background: -webkit-linear-gradient(top, #6d6e70 0%,#4d4e50 100%);
+	background: -o-linear-gradient(top, #6d6e70 0%,#4d4e50 100%);
+	background: -ms-linear-gradient(top, #6d6e70 0%,#4d4e50 100%);
+	background: linear-gradient(to bottom, #6d6e70 0%,#4d4e50 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6e70', endColorstr='#4d4e50',GradientType=0 );
+}
+header.container-fluid{
+	padding: 10px 0;
+    background: #d2d2d2;
+    background: -moz-linear-gradient(top, #d2d2d2 0%, #fafafa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d2d2), color-stop(100%,#fafafa));
+    background: -webkit-linear-gradient(top, #d2d2d2 0%,#fafafa 100%);
+    background: -o-linear-gradient(top, #d2d2d2 0%,#fafafa 100%);
+    background: -ms-linear-gradient(top, #d2d2d2 0%,#fafafa 100%);
+    background: linear-gradient(to bottom, #d2d2d2 0%,#fafafa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#fafafa',GradientType=0 );
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+#content{
+	background: #fff;
+	padding: 10px 15px;
+	margin: 15px auto;
+	border: 10px solid #4d4e50;
+	box-shadow: 0 0 250px 0 rgba(255,255,255,.2), 0 0 15px 0 rgba(0,0,0,.95);
+}
+#main-logo {
+    display: inline-block;
+    width: 127px;
+    height: 43px;
+    background: url('img/netpay_logo.png') no-repeat;
+	color: rgba(0,0,0,0);
+	float: left;
+}
+table{
+	border-spacing: 0;
+    border-collapse: separate;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+	width: 100%;
+}
+td{
+	background:#eee;
+	padding: 5px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+td:first-child{
+	background: #f5f5f5;
+	width: 35%;
+}
+.resume{
+	margin-top: 20px;
+	padding: 10px;
+}
+.title > td{
+	background: rgba(88,64,142, 1);
+	color: #eee;
+	padding: 6px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+.title:hover td{
+	background: rgba(155,63,146, 1);
+}
+input, 
+select{
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	margin-bottom: 5px;
+}
+input[disabled],
+input[readonly]{
+	cursor: not-allowed;
+	background-color: #eeeeee;
+}
+input:hover,
+input:focus,
+input:active,
+select:hover,
+select:focus,
+select:active {
+	box-shadow: 0 0 5px 0 rgba(155,63,146,.9) !important;
+	border: 1px solid rgb(155,63,146) !important;
+	outline: none;
+}
+.send{
+	text-align: center;
+}
+.showall{
+	background: #fff;
+	text-align: right;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none; 
+}
+.showall:hover td{
+	background: rgba(88,64,142,.2);
+}
+tr.header td{
+	background: #58408e;
+	color: #fff;
+}
+tr.header td p{
+	margin: 0;	
+}
+td>p{
+	margin: 0 2px;
+}
+tr.title span{
+	font-weight: bold !important;
+}
+td{
+	max-width: 1090px;
+}
+xmp{
+	word-wrap: break-word;
+}
+.mandatory{
+	font-weight: bold;
+}
+.mandatory:after{
+	content:' *';
+	color: #d00;
+}

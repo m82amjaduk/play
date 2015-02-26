@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>NetPay API Example Code</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <h1><span id="main-logo">NetPay</span> PHP Example - REST</h1>
+                </div>
+            </div>                       
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <h3>Authorize Transaction using Card</h3>
+                </div>
+            </div>                       
+        </div>
+    </div>
+	<div class="container">
+		<div class="row">
+			<p><a href="index.html">Return to the Home Page</a></p>
+		</div>
+	</div>
+    <div class="container">
+        <div id="content" class="row">
+			<form action="./process.php" method="post">
+				<table>
+					<tr>
+						<td>
+							<span>Api Version </span>
+						</td>
+						<td>
+							<input type="text" name="version" value="v1" readonly="readonly"/>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>Api username </span>
+						</td>
+						<td>
+							<input type="text" name="username" value=""/>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>Api Password </span>
+						</td>
+						<td>
+							<input type="text" size="120" name="password" value=""/>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>HTTP Accept </span>
+						</td>
+						<td>
+							<select name="accept_type" id="accept_type">
+								<option value="json">JSON</option>
+								<option value="xml">XML</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>HTTP Content Type </span>
+						</td>
+						<td>
+							<select name="content_type" id="Select1">
+								<option value="json">JSON</option>
+								<option value="xml">XML</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="showall">
+						<td colspan="2">+ Show all</td>
+					</tr>
+					<tr class="title">
+						<td colspan="2"><p><span>Merchant</span></p></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">merchant.merchant_id </span>
+						</td>
+						<td>
+							<input type="text" name="merchant[merchant_id]" value=""/><br/>
+							<span>Merchant's unique identifier ID issued by NetPay</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">merchant.operation_type </span>
+						</td>
+						<td>
+							<input type="text" name="merchant[operation_type]" value="AUTHORIZE"/><br/>
+							Identifier of API operation for the request. Value must be a member of the following list. The values are case sensitive. <br>
+							<ul>
+								<li><span>AUTHORIZE</span></li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">merchant.operation_mode </span>
+						</td>
+						<td>
+							<input type="text" name="merchant[operation_mode]" value=""/><br/>
+							Value must be a member of the following list.
+							<ul>
+								<li><span>1</span> : Live</li>
+								<li><span>2</span> : Test</li>
+							</ul>
+						</td>
+					</tr>
+					
+					<tr class="title">
+						<td colspan="2"><p><span>Transaction</span></p></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.transaction_id </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[transaction_id]" value=""/><br/>
+							<span>Merchant's unique identifier for this transaction to distinguish it from any other transactions on the order.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.amount </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[amount]" value=""/><br/>
+							<span>Payment amount for this transaction. Expressed as a decimal number in the units of the currency. E.g. 25.47 in GBP is the amount 12 Pound 47 Penny. '.' represents valid decimal number.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.currency </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[currency]" value=""/><br/>
+							<span>Currency for this transaction. Expressed as an ISO 4217 alpha code. E.g. GBP, EUR, USD</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>transaction.reference </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[reference]" value=""/><br/>
+							<span>An optional identifier of this transaction. E.g. Invoice number.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.source </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[source]" value=""/><br/>
+							Indicates the source of this transaction. Value must be a member of the following list. The values are case sensitive.
+							<ul>
+								<li><span>INTERNET</span> : Transaction conducted over the Internet.</li>
+								<li><span>MOTO</span> : Transaction received by mail or telephone.</li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">transaction.description </span>
+						</td>
+						<td>
+							<input type="text" name="transaction[description]" value=""/><br/>
+							<span>Description of this transaction.</span>
+						</td>
+					</tr>
+					
+					<tr class="title">
+						<td colspan="2"><p><span>Payment Source</span></p></td>
+					</tr>
+					
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.type </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[type]" value="CARD"/><br/>
+							Identifier of the payment source. Value must be a member of the following list. The values are case sensitive. <br>
+							<ul>
+								<li><span>CARD</span></li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.card_type </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][card_type]" value=""/><br/>
+							Identifier of payer's card. Value must be a member of the following list. The values are case sensitive. <br>
+							<ul>
+								<li><span>VISA</span> : Visa</li>
+								<li><span>VISAUK</span> : Visa Debit UK</li>
+								<li><span>ELEC</span> : Visa Electron</li>
+								<li><span>MCRD</span> : MasterCard</li>
+								<li><span>MCDB</span> : MasterCard Debit</li>
+								<li><span>MSTO</span> : Maestro</li>
+								<li><span>AMEX</span> : American Express</li>
+								<li><span>DINE</span> : Diners</li>
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.number </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][number]" value=""/><br/>
+							<span>Credit/Debit card number as printed on the card. Data is a string that consist of the characters 0-9.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.expiry_month </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][expiry_month]" value=""/><br/>
+							<span>Expiry month as printed on the card. Data is a string that consist of the characters 0-9. E.g. 01, 02</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.expiry_year </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][expiry_year]" value=""/><br/>
+							<span>Expiry year as printed on the card. The Common Era year is 2000 plus this value. Data is a string that consist of the characters 0-9. E.g. 13, 14, 15</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.security_code </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][security_code]" value=""/><br/>
+							<span>Card Verification Code (CVC), as printed on the back or front of the card. Data is a string that consist of the characters 0-9.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.holder.title </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][title]" value=""/><br/>
+							<span>Card holder's title as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.holder.firstname </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][firstname]" value=""/><br/>
+							<span>Card holder's first name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>payment_source.card.holder.middlename </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][middlename]" value=""/><br/>
+							<span>Card holder's middle name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.holder.lastname </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][lastname]" value=""/><br/>
+							<span>Card holder's last name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">payment_source.card.holder.fullname </span>
+						</td>
+						<td>
+							<input type="text" name="payment_source[card][holder][fullname]" value=""/><br/>
+							<span>Card holder's last name as printed on the card.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>billing.bill_to_company </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_company]" value=""/><br/>
+							<span>Name of the company which the order is being billed.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_address </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_address]" value=""/><br/>
+							<span>Address of the card holder. House no/name, street.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_town_city </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_town_city]" value=""/><br/>
+							<span>Town or City of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_county </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_county]" value=""/><br/>
+							<span>County or State of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>billing.bill_to_postcode </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_postcode]" value=""/><br/>
+							<span>Post Code or Zip of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span class="mandatory">billing.bill_to_country </span>
+						</td>
+						<td>
+							<input type="text" name="billing[bill_to_country]" value=""/><br/>
+							<span>ISO standard alpha country code of the card holder's address.</span>
+						</td>
+					</tr>
+
+					<tr class="title">
+						<td colspan="2"><P><span>Optional Order Details</span></P></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_reference </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_reference]" value=""/><br/>
+							<span>An optional identifier of the order. E.g. Shopping basket ID.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[0].item_id </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][0][item_id]" value=""/><br/>
+							<span>An optional identifier ID of ordered items.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[0].item_name </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][0][item_name]" value=""/><br/>
+							<span>Ordered item's name.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[0].item_description </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][0][item_description]" value=""/><br/>
+							<span>Ordered item's description.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[0].item_quantity </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][0][item_quantity]" value=""/><br/>
+							<span>Ordered item's quantity.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[0].item_price </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][0][item_price]" value=""/><br/>
+							<span>Ordered item's price. Expressed as a decimal number in the units of the currency. E.g. 25.47 in GBP is the amount 12 Pound 47 Penny. '.' represents valid decimal number.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[1].item_id </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][1][item_id]" value=""/><br/>
+							<span>An optional identifier ID of ordered items.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[1].item_name </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][1][item_name]" value=""/><br/>
+							<span>Ordered item's name.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[1].item_description </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][1][item_description]" value=""/><br/>
+							<span>Ordered item's description.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[1].item_quantity </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][1][item_quantity]" value=""/><br/>
+							<span>Ordered item's quantity.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>order.order_items[1].item_price </span>
+						</td>
+						<td>
+							<input type="text" name="order[order_items][1][item_price]" value=""/><br/>
+							<span>Ordered item's price. Expressed as a decimal number in the units of the currency. E.g. 25.47 in GBP is the amount 12 Pound 47 Penny. '.' represents valid decimal number.</span>
+						</td>
+					</tr>
+
+					<tr class="title">
+						<td colspan="2"><P><span>Optional Shipping Details</span></P></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_title </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_title]" value=""/><br/>
+							<span>The title of the person to whom the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_firstname </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_firstname]" value=""/><br/>
+							<span>The first name of the person to whom the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_middlename </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_middlename]" value=""/><br/>
+							<span>The middle name of the person to whom the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_lastname </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_lastname]" value=""/><br/>
+							<span>The last name of the person to whom the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_fullname </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_fullname]" value=""/><br/>
+							<span>The full name of the person to whom the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_company </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_company]" value=""/><br/>
+							<span>Name of the company which the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_address </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_address]" value=""/><br/>
+							<span>The address to which the items contained in this order are being shipped. House no/name, street.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_town_city </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_town_city]" value=""/><br/>
+							<span>Town or City of the shipping address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_county </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_county]" value=""/><br/>
+							<span>County or State of the shipping address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_postcode </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_postcode]" value=""/><br/>
+							<span>Post Code or Zip of the shipping address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>	
+							<span>shipping.ship_to_country </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_country]" value=""/><br/>
+							<span>ISO standard alpha country code of the shipping address.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_method </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_method]" value=""/><br/>
+							<span>Shipping method. E.g. Royal Mail, Next Day Delivery, TNS, UPS</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>shipping.ship_to_phone </span>
+						</td>
+						<td>
+							<input type="text" name="shipping[ship_to_phone]" value=""/><br/>
+							<span>The phone number of the person to whom the order is being shipped.</span>
+						</td>
+					</tr>
+
+					<tr class="title">
+						<td colspan="2"><P><span>Optional Customer Details</span></P></td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_email </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_email]" value=""/><br/>
+							<span>Email address of the person who placed order.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_phone </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_phone]" value=""/><br/>
+							<span>The phone number of the person who placed order.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_fax </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_fax]" value=""/><br/>
+							<span>The fax number of the person who placed order.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_ip_address </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_ip_address]" value=""/><br/>
+							<span>The IP address of the computer used by the customer, in xxx.xxx.xxx.xxx format.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_hostname </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_hostname]" value=""/><br/>						
+							<span>The name of the server to which the customer is connected.</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>customer.customer_browser </span>
+						</td>
+						<td>
+							<input type="text" name="customer[customer_browser]" value=""/><br/>
+							<span>The User-Agent header of the browser the customer used to place the order. E.g. MOZILLA/4.0 (COMPATIBLE; MSIE 5.0; WINDOWS 95)</span>
+						</td>
+					</tr>
+
+					<tr class="send">
+						<td colspan="2"><button type="submit">Process Request</button></td>
+					</tr>
+
+				</table>
+			</form>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="./assets/custom.js"></script>
+</body>
+</html>
