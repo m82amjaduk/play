@@ -78,7 +78,7 @@ $data4 = array (
 
 $data = array ($data1,$data2,$data2,$data3,$data3,$data3,$data4,$data4,$data1);
 
-$collection = NULL;
+$collection = array();
 foreach ($data as $row){
     $collection = addUpdateItem($row, $collection);
 }
