@@ -45,7 +45,7 @@
         <ul id="menu-list">
             <li class="active home-menu"><a href="#home">Home</a></li>
             <li class="about-menu"><a href="#about">About Us</a></li>
-            <li class="services-menu"><a href="#services">Our Services</a></li>
+            <li class="services-menu"><a href="#services">Our Menu</a></li>
             <li class="testimonial-menu"><a href="#testimonial">Testimonials</a></li>
             <li class="contact-menu"><a href="#contact">Contact</a></li>
         </ul>
@@ -83,9 +83,10 @@
 
                 <section id="services-text" class="inactive">
                     <div class="col-sm-12 col-md-12 col-lg-12">
-                        <h2>About Us</h2>
-                        <p>The Hatchgate Inn is a XV1th century Inn with lots of character, oak beams and a large open inglenook fireplace with original artefacts. It is a pub that welcomes everybody, with a large garden, ample parking and an enclosed play area for younger children. For sports fans we have Sky TV in the Sports Bar (we are a member of the London Irish Supporters Club).</p>
-                        <h4>Welcome to The Hatch Gate Inn .. </h4>
+                        <h2>Our Menu</h2>
+                        <p> Fresh, Home Cooked Food at the  Hatch Gate Inn </p>
+                        <h4> <a href="images/TheHatchGateInn.pdf">Our Menu</a> </h4>
+
                     </div>
                 </section><!-- /.services-text -->
 

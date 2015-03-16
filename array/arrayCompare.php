@@ -45,10 +45,6 @@ $data4 = array (
 
 
 
-
-
-
-
 /*
  * 1.
  */
@@ -57,15 +53,17 @@ $data4 = array (
 $data = array ($data1,$data2,$data2,$data3,$data3,$data3,$data3,$data3,$data4,$data4,$data1);
 
 $collection = array();
+
 foreach ($data as $row){
     $collection = addUpdateItem($row, $collection);
 }
 
+orderBy($collection, 'quantity');
 
 function addUpdateItem($array, $collection){
     $addItem = true;
     foreach($collection as  $key => $row){
-        if(($array['product_id'] == $row['product_id']) && compareArrayRemovingAKey($array, $row, array('quantity', 'price'))){
+        if(($array['product_id'] == $row['product_id']) && compareArrayRemovingKeys($array, $row, array('quantity', 'price'))){
             $row['quantity'] += 1;
             $row['price'] += $array['price'];
             $collection[$key]  = $row;
@@ -78,6 +76,11 @@ function addUpdateItem($array, $collection){
     return $collection;
 }
 
+function orderBy(&$data, $field)
+{
+    $code = "return strnatcmp(\$a['$field'], \$b['$field']);";
+    usort($data, create_function('$a,$b', $code));
+}
 
 /*
  *  Return true is both array are identical
@@ -87,8 +90,10 @@ function addUpdateItem($array, $collection){
  *  $this->compareArrayRemovingAKey($array1, $array2, array('quantity', 'price'));
  */
 function compareArrayRemovingKeys($array1, $array2, $keys){
-    foreach($keys as $key){ unset($array1[$key]); }
-    foreach($keys as $key){ unset($array2[$key]); }
+    foreach($keys as $key){
+        unset($array1[$key]);
+        unset($array2[$key]);
+    }
     return  (! array_diff($array1, $array2) ) ?  true : false;
 }
 
