@@ -63,9 +63,11 @@
       <file leaf-file-name="arrayCompare.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/array/arrayCompare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39631903" vertical-offset="850" max-vertical-offset="2380">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="0.6883436" vertical-offset="680" max-vertical-offset="2397">
+              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+              <folding>
+                <marker date="1426520992312" expanded="true" signature="969:1533" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -340,7 +342,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35552195" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3551345" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26618123" sideWeight="0.49822065" order="1" side_tool="false" content_ui="tabs" />
@@ -772,9 +774,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/arrayCompare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39631903" vertical-offset="850" max-vertical-offset="2380">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="0.6883436" vertical-offset="680" max-vertical-offset="2397">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+          <folding>
+            <marker date="1426520992312" expanded="true" signature="969:1533" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

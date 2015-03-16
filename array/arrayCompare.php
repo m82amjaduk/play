@@ -57,9 +57,9 @@ $collection = array();
 foreach ($data as $row){
     $collection = addUpdateItem($row, $collection);
 }
-
 orderBy($collection, 'quantity');
 
+/*add or update and items to items array */
 function addUpdateItem($array, $collection){
     $addItem = true;
     foreach($collection as  $key => $row){
@@ -76,6 +76,7 @@ function addUpdateItem($array, $collection){
     return $collection;
 }
 
+/* Order an array by its key value */
 function orderBy(&$data, $field)
 {
     $code = "return strnatcmp(\$a['$field'], \$b['$field']);";
