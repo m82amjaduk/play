@@ -53,21 +53,31 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hatchGate/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="1020" max-vertical-offset="3417">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="3417">
               <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrayCompare.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="arrayCompare.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/arrayCompare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6883436" vertical-offset="680" max-vertical-offset="2397">
-              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="884" max-vertical-offset="2397">
+              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding>
                 <marker date="1426520992312" expanded="true" signature="969:1533" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="justEat.sql.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/justEat/justEat.sql.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791">
+              <caret line="0" column="49" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +141,7 @@
         <option value="$PROJECT_DIR$/domain/index.php" />
         <option value="$PROJECT_DIR$/hatchGate/index.php" />
         <option value="$PROJECT_DIR$/array/arrayCompare.php" />
+        <option value="$PROJECT_DIR$/justEat/justEat.sql.sql" />
       </list>
     </option>
   </component>
@@ -195,7 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="array" />
+              <option name="myItemId" value="justEat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,11 +277,11 @@
       <recent name="C:\Zend\Apache2\htdocs\play\ci_ion_auth\application\libraries" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Zend\Apache2\htdocs\play\justEat" />
       <recent name="C:\Zend\Apache2\htdocs\play\date" />
       <recent name="C:\Zend\Apache2\htdocs\play\NetPay" />
       <recent name="C:\Zend\Apache2\htdocs\play\ServerConf" />
       <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores\popUp" />
-      <recent name="C:\Zend\Apache2\htdocs\play\ryman_stores" />
     </key>
   </component>
   <component name="RunManager">
@@ -288,15 +299,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -347,8 +358,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26618123" sideWeight="0.49822065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17665036" sideWeight="0.60299194" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17665036" sideWeight="0.39700806" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17848411" sideWeight="0.60229886" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17848411" sideWeight="0.39655173" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -418,13 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/models/ion_auth_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3703704" vertical-offset="31931" max-vertical-offset="36890">
-          <caret line="1889" column="0" selection-start-line="1889" selection-start-column="0" selection-end-line="1889" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/system/libraries/Log.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.230769" vertical-offset="1231" max-vertical-offset="2023">
@@ -594,13 +598,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/errorPhp.log">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8768116" vertical-offset="8981" max-vertical-offset="9809">
           <caret line="571" column="0" selection-start-line="571" selection-start-column="0" selection-end-line="571" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ci_ion_auth/application/models/invoice.php">
@@ -766,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hatchGate/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="1020" max-vertical-offset="3417">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="3417">
           <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
           <folding />
         </state>
@@ -774,11 +778,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/arrayCompare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6883436" vertical-offset="680" max-vertical-offset="2397">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="884" max-vertical-offset="2397">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <marker date="1426520992312" expanded="true" signature="969:1533" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/justEat/justEat.sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791">
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
