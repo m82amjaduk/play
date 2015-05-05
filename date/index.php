@@ -1,4 +1,7 @@
 <?
+
+echo date('dmy').'<br />';
+
 $months = genMonthList(2014,  01 );
 
 //echo
