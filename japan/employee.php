@@ -100,3 +100,23 @@ PRIMARY KEY (`id`),
 ) ENGINE=InnoDB AUTO_INCREMENT=1 COLLATE='latin1_swedish_ci' COMMENT='###';"
 );
 $this->mig->log($action, __FILE__, __LINE__);
+
+
+$action = "CREATE TABLE IF NOT EXISTS `employee_personal`";
+$this->db->query(
+    " $action (
+`id` int(11) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT UNIQUE,
+`login_id` bigint(20) NOT NULL DEFAULT '1',
+`updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+`active` tinyint(1) NOT NULL DEFAULT '0',
+`user_code` VARCHAR(7) NOT NULL DEFAULT 'AAA1786',
+`visa_expired` DATE NULL DEFAULT NULL,
+`date_entered_in_country` DATE NULL DEFAULT NULL,
+`date_of_birth` DATE NULL DEFAULT NULL,
+`date_joined_us` DATE NULL DEFAULT NULL,
+`next_to_kin1` TEXT,
+`next_to_kin2` TEXT,
+PRIMARY KEY (`id`),
+) ENGINE=InnoDB AUTO_INCREMENT=1 COLLATE='latin1_swedish_ci' COMMENT='###';"
+);
+$this->mig->log($action, __FILE__, __LINE__);
