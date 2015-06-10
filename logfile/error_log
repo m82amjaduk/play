@@ -3,3 +3,44 @@
 [Thu Nov 20 20:29:33.960529 2014] [autoindex:error] [pid 5533] [client 127.0.0.1:58736] AH01276: Cannot serve directory /home/amzad/dev/play/hatchGate/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
 [Thu Nov 20 20:29:38.090720 2014] [:error] [pid 5533] [client 127.0.0.1:58736] script '/home/amzad/dev/play/hatchGate/index.php' not found or unable to stat
 [Thu Nov 20 20:30:00.152109 2014] [autoindex:error] [pid 5534] [client 127.0.0.1:58738] AH01276: Cannot serve directory /home/amzad/dev/play/hatchGate/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Jun 09 17:49:15.631970 2015] [:error] [pid 13016] [client 127.0.0.1:49509] script '/home/amzad/dev/play/login.php' not found or unable to stat, referer: http://play.lc/curl/
+[Wed Jun 10 00:04:57.153336 2015] [:error] [pid 13018] [client 127.0.0.1:52838] script '/home/amzad/dev/play/curl/action_page.php' not found or unable to stat, referer: http://play.lc/curl/index2.php
+[Wed Jun 10 00:09:23.459726 2015] [:error] [pid 13427] [client 127.0.0.1:52857] PHP Notice:  Undefined index:  in /home/amzad/dev/play/curl/action_page.php on line 8, referer: http://play.lc/curl/
+[Wed Jun 10 00:09:23.459764 2015] [:error] [pid 13427] [client 127.0.0.1:52857] PHP Stack trace:, referer: http://play.lc/curl/
+[Wed Jun 10 00:09:23.459786 2015] [:error] [pid 13427] [client 127.0.0.1:52857] PHP   1. {main}() /home/amzad/dev/play/curl/action_page.php:0, referer: http://play.lc/curl/
+[Wed Jun 10 00:14:21.206058 2015] [:error] [pid 13429] [client 127.0.0.1:52906] PHP Notice:  Undefined index: email in /home/amzad/dev/play/curl/index2.php on line 8
+[Wed Jun 10 00:14:21.206097 2015] [:error] [pid 13429] [client 127.0.0.1:52906] PHP Stack trace:
+[Wed Jun 10 00:14:21.206119 2015] [:error] [pid 13429] [client 127.0.0.1:52906] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0
+[Wed Jun 10 00:15:09.839377 2015] [:error] [pid 13014] [client 127.0.0.1:52910] PHP Notice:  Undefined index: email in /home/amzad/dev/play/curl/index2.php on line 8, referer: https://www.facebook.com
+[Wed Jun 10 00:15:09.839423 2015] [:error] [pid 13014] [client 127.0.0.1:52910] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:15:09.839445 2015] [:error] [pid 13014] [client 127.0.0.1:52910] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:15:09.839466 2015] [:error] [pid 13014] [client 127.0.0.1:52910] PHP Notice:  Undefined index: pass in /home/amzad/dev/play/curl/index2.php on line 9, referer: https://www.facebook.com
+[Wed Jun 10 00:15:09.839477 2015] [:error] [pid 13014] [client 127.0.0.1:52910] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:15:09.839491 2015] [:error] [pid 13014] [client 127.0.0.1:52910] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:15:12.613152 2015] [:error] [pid 13015] [client 127.0.0.1:52911] PHP Notice:  Undefined index: email in /home/amzad/dev/play/curl/index2.php on line 8, referer: https://www.facebook.com
+[Wed Jun 10 00:15:12.613193 2015] [:error] [pid 13015] [client 127.0.0.1:52911] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:15:12.613215 2015] [:error] [pid 13015] [client 127.0.0.1:52911] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:15:12.613256 2015] [:error] [pid 13015] [client 127.0.0.1:52911] PHP Notice:  Undefined index: pass in /home/amzad/dev/play/curl/index2.php on line 9, referer: https://www.facebook.com
+[Wed Jun 10 00:15:12.613265 2015] [:error] [pid 13015] [client 127.0.0.1:52911] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:15:12.613280 2015] [:error] [pid 13015] [client 127.0.0.1:52911] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:15:56.910110 2015] [:error] [pid 13023] [client 127.0.0.1:52969] PHP Notice:  Undefined index: email in /home/amzad/dev/play/curl/index2.php on line 8, referer: https://www.facebook.com
+[Wed Jun 10 00:15:56.910143 2015] [:error] [pid 13023] [client 127.0.0.1:52969] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:15:56.910165 2015] [:error] [pid 13023] [client 127.0.0.1:52969] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:15:56.910184 2015] [:error] [pid 13023] [client 127.0.0.1:52969] PHP Notice:  Undefined index: pass in /home/amzad/dev/play/curl/index2.php on line 9, referer: https://www.facebook.com
+[Wed Jun 10 00:15:56.910195 2015] [:error] [pid 13023] [client 127.0.0.1:52969] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:15:56.910209 2015] [:error] [pid 13023] [client 127.0.0.1:52969] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:16:14.392135 2015] [:error] [pid 13017] [client 127.0.0.1:52971] PHP Notice:  Undefined index:  in /home/amzad/dev/play/curl/action_page.php on line 8, referer: http://play.lc/curl/
+[Wed Jun 10 00:16:14.392181 2015] [:error] [pid 13017] [client 127.0.0.1:52971] PHP Stack trace:, referer: http://play.lc/curl/
+[Wed Jun 10 00:16:14.392203 2015] [:error] [pid 13017] [client 127.0.0.1:52971] PHP   1. {main}() /home/amzad/dev/play/curl/action_page.php:0, referer: http://play.lc/curl/
+[Wed Jun 10 00:18:37.833095 2015] [:error] [pid 13017] [client 127.0.0.1:52982] PHP Notice:  Undefined index: email in /home/amzad/dev/play/curl/index2.php on line 8, referer: https://www.facebook.com
+[Wed Jun 10 00:18:37.833151 2015] [:error] [pid 13017] [client 127.0.0.1:52982] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:18:37.833177 2015] [:error] [pid 13017] [client 127.0.0.1:52982] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:18:37.833205 2015] [:error] [pid 13017] [client 127.0.0.1:52982] PHP Notice:  Undefined index: pass in /home/amzad/dev/play/curl/index2.php on line 9, referer: https://www.facebook.com
+[Wed Jun 10 00:18:37.833220 2015] [:error] [pid 13017] [client 127.0.0.1:52982] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:18:37.833239 2015] [:error] [pid 13017] [client 127.0.0.1:52982] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:20:12.037402 2015] [:error] [pid 13015] [client 127.0.0.1:52991] PHP Notice:  Undefined index: email in /home/amzad/dev/play/curl/index2.php on line 8, referer: https://www.facebook.com
+[Wed Jun 10 00:20:12.037463 2015] [:error] [pid 13015] [client 127.0.0.1:52991] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:20:12.037491 2015] [:error] [pid 13015] [client 127.0.0.1:52991] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
+[Wed Jun 10 00:20:12.037507 2015] [:error] [pid 13015] [client 127.0.0.1:52991] PHP Notice:  Undefined index: pass in /home/amzad/dev/play/curl/index2.php on line 9, referer: https://www.facebook.com
+[Wed Jun 10 00:20:12.037514 2015] [:error] [pid 13015] [client 127.0.0.1:52991] PHP Stack trace:, referer: https://www.facebook.com
+[Wed Jun 10 00:20:12.037523 2015] [:error] [pid 13015] [client 127.0.0.1:52991] PHP   1. {main}() /home/amzad/dev/play/curl/index2.php:0, referer: https://www.facebook.com
