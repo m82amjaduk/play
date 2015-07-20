@@ -1,53 +1,26 @@
-<?
+<?php
+/**
+ * Created by PhpStorm.
+ * User: AMojumder
+ * Date: 12/06/2015
+ * Time: 09:34
+ */
 
-echo date('dmy').'<br />';
+//        echo $systemTimeZone = system('date +%Z');
+echo date('l dS \of F Y h:i:s A');
+echo "<br />".date_default_timezone_get();
+echo "<br />";
 
-$months = genMonthList(2014,  01 );
 
-//echo
-foreach ($months as $row){
-    echo $row['y'].'/'.$row['m'].'<br>';
+
+
+
+
+echo MySqlTime('now');
+function MySqlTime($str='now', $zone='Europe/London'){
+    $theTime = strtotime($str);
+    $tz = new DateTimeZone($zone);
+    $transition = $tz->getTransitions($theTime, $theTime);   // echo  '<pre>'; print_r($transition); // exit;
+    $tr = $transition[0]['ts'];
+    return date('Y-m-d H:i:s', $tr);
 }
-
-function genMonthList($startYear,  $startMonth){
-    $yearNow    = date('Y');
-    $monthNow   = date('m');
-    $months     = array();
-    while($yearNow >= $startYear && $monthNow >= $startMonth ) {
-        $months[] = array('y' => $yearNow, 'm' => $monthNow );
-        $monthNow --;
-        if ($monthNow == 0 ){
-            $monthNow = 12;
-            $yearNow --;
-        }
-    }
-    return $months;
-}
-
-/*
-SELECT
-    orders.id AS id,
-    orders.active,
-    orders.order_code,
-    orders.order_id_temp,
-    orders.user_code,
-    orders.fname,
-    orders.lname,
-    orders.email,
-    orders.phone,
-    orders.postcode,
-    orders.placed_at,
-    orders.requested_at,
-    orders.receiving,
-    orders.pay_method,
-    orders.checkout_price,
-    orders.vip,
-    orders.customer_group,
-    order_status_fun(orders.order_code) AS status
-FROM storelocator_branches
-WHERE YEAR(updated) = 2015 AND MONTH(updated)=1
-ORDER BY id ASC;
-*/
-
-
-?>
