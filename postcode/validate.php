@@ -47,7 +47,7 @@
         // http://stackoverflow.com/questions/5286046/javascript-phone-number-validation
     }
 </script>
-<input type="button" value="Check Postcode" onclick="checkPostCode ('gu21');">
+<input type="button" value="Check Postcode" onclick="checkPostCode ('gu215ed');">
 <input type="button" value="Check Phone" onclick="validateUKPhone ('447900642131');">
 
 

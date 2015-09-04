@@ -8,6 +8,37 @@ class Welcome extends CI_Controller {
 
 
     // http://learning7.lc/ci/welcome/download_process
+    public function mandrill()
+    {
+        date_default_timezone_set("Asia/Bangkok");
+        $this->load->library('email');
+
+        $config['protocol'] = 'smtp';
+        $config['charset']  = 'iso-8859-1'; //Change this you your preferred charset
+        $config['wordwrap'] = TRUE;
+        $config['mailtype'] = 'html'; //Use 'text' if you don't need html tags and images
+
+        $config['smtp_host']    = 'smtp.mandrillapp.com';      // '109.203.123.78';
+        $config['smtp_user']    = 'm82amjad@yahoo.co.uk';      // 'system+conosurtek.co.uk';
+        $config['smtp_pass']    = 'QIhd5HxsRE8qFxBCU2OfIQ';  // 'sys797';
+        $config['smtp_port']    = '587';
+        $this->email->initialize($config);
+
+        $this->email->from('amzadfof@gmail.com', 'Your Name');
+        $this->email->to('amzadfof@gmail.com');
+        $this->email->cc('amzadfof@gmail.com');
+        $this->email->bcc('amzadfof@gmail.com');
+
+        $this->email->subject('Sending Email from CodeIgniter with Mandrill');
+        $this->email->message('If you forgot how to do this, go ahead and refer to: <a href="http://the-amazing-php.blogspot.com/2015/05/codeigniter-send-email-with-mandrill.html">The Amazing PHP</a>.');
+
+        echo $this->email->send();
+
+        echo '>>>>>>>>>>>>>>>>>>';
+
+    }
+
+    // http://learning7.lc/ci/welcome/download_process
     public function download_process()
     {
         $this->load->helper('download');
@@ -106,6 +137,16 @@ class Welcome extends CI_Controller {
     }
 
 
+
+    /*
+     *
+        $config['smtp_host']    = $this->_data->smtp_host;      // '109.203.123.78';
+        $config['smtp_user']    = $this->_data->smtp_user;      // 'system+conosurtek.co.uk';
+        $config['smtp_pass']    = $this->_data->smtp_password;  // 'sys797';
+        $config['mailtype']     = $this->_data->mailtype;       // 'html';
+        $config['protocol']     = $this->_data->protocol;       // 'smtp';
+
+     */
     /* End of file welcome.php */
     /* Location: ./application/controllers/welcome.php */
 }

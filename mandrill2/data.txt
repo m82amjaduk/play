@@ -1,0 +1,13 @@
+{
+    "key": "e2UKjAFiFCKJnk0cebRiVw",
+    "raw_message": "From: amzadfof@gmail.com\nTo: amzadfof@gmail.com\nSubject: Some Subject\n\nSome content.",
+    "from_email": "amzadfof@gmail.com",
+    "from_name": "From Name",
+    "to": [
+    "amzadfof@gmail.com"
+],
+    "async": false,
+    "ip_pool": "Main Pool",
+    "send_at": "2015-08-25",
+    "return_path_domain": null
+}
