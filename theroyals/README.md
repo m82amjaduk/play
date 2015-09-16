@@ -1,4 +1,0 @@
-theroyals
-=========
-
-the royals restaurant 
