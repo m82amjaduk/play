@@ -34,4 +34,9 @@
         var printText = (state) ? 'Checked' : 'Unchecked';
         console.log(printText);
     }
+
+//    function alertThis(state){
+//        var printText = (state) ? 'Checked' : 'Unchecked';
+//        console.log(printText);
+//    }
 </script>
