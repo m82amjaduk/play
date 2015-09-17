@@ -4,7 +4,9 @@
  * User: AMojumder
  * Date: 16/09/2015
  * Time: 14:27
- */ ?>
+ */
+//  http://play.lc/jQCheckBox/clicked.php
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,11 +22,16 @@
 
 <script>
     $('#checkbox').attr('checked', true);
-$('#checkbox').change(function() {
-    if ($(this).is(':checked')) {
-        console.log('Checked');
-    } else {
-        console.log('Unchecked');
+    $('#checkbox').change(function() {
+        if ($(this).is(':checked')) {
+            alertThis(1);
+        } else {
+            alertThis(0);
+        }
+    });
+
+    function alertThis(state){
+        var printText = (state) ? 'Checked' : 'Unchecked';
+        console.log(printText);
     }
-});
 </script>
