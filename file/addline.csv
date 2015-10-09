@@ -1,0 +1,15 @@
+Name, IP,  host, RAM, Task, NS 
+Name, IP,  host, RAM, Task, NS
+S1786, 109.203.123.78,  WH, 4, Lagecy Server, ns1.conosurtek.co.uk
+S1787, 109.203.102.20,  WH, 8, Cwaiter / TG / RW / Tracker, ns1.takeawayguru.com
+NewPlans, -- , -- ,  -- , -- , --
+Test, -- , -- ,  -- , --, --
+S1788,31.220.18.89,host,0.5,"Test Amzad", ns1.ashleyhomeware.com
+S1789, 46.101.22.234, ocean, 0.5, Test Biddut,
+prod, -- , -- ,  -- , --, --
+S1790, 139.162.209.156, lin, 4, cWaiterProd, ns1.cwaiter.co.uk
+S1791, x.x.x.x, lin, 1, RW / TG, ns1.xxxx.com
+S1792, 139.162.193.177, lin, 1, Small Sites, ns1.takeawayprinter.com
+S1793, 91.232.125.222, CH, 1, Tracker, tracker.restaurant-websites.com
+S1794, 109.203.123.78, WH, 1, Email Server,
+S1795, x.x.x.x, lin, 1, FTP Server,
