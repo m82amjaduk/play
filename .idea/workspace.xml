@@ -50,25 +50,12 @@
       <file leaf-file-name="addline.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/file/addline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14066194" vertical-offset="0" max-vertical-offset="846">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.18085106" vertical-offset="0" max-vertical-offset="846">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addline.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/addline.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="34" max-vertical-offset="340">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -806,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file/addline.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="34" max-vertical-offset="340">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2624703" vertical-offset="0" max-vertical-offset="842">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -817,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file/addline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14066194" vertical-offset="0" max-vertical-offset="846">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.18085106" vertical-offset="0" max-vertical-offset="846">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
           </folding>

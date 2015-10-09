@@ -7,7 +7,7 @@
  */
 
 $file = 'addline.csv';
-$header = "Name, IP,  host, RAM, Task, NS \n";
+$header = "Name, IP,  host, RAM, Task, NS \r\n";
 $data = file_get_contents($file);
 file_put_contents($file, $header.$data);
 
